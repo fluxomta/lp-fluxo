@@ -1,7 +1,9 @@
 // src/app/layout.js
 import './globals.css';
 import { Montserrat } from 'next/font/google';
-import Header from '../components/Header';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+
 
 // Configure a fonte Montserrat
 const montserrat = Montserrat({
@@ -20,6 +22,7 @@ export default function RootLayout({ children }) {
         <main className='pt-8 md:pt-20'>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

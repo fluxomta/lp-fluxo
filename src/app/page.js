@@ -2,9 +2,6 @@
 "use client";
 
 import HeroSection from '@components/HeroSection';
-import ProductList from '@components/ProductList';
-import WhiteSection from '@components/WhiteSection';
-import GraySection from '@components/GraySection';
 import FAQAccordion from '@components/FAQAccordion';
 import TextBlock from './TextBlock';
 import TextBlockTwo from './TextBlockTwo';
