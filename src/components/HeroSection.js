@@ -20,7 +20,7 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <div className='w-full p-8 border rounded-md border-secondary-700 bg-primary-700'>
-                    "vai entrar o form do active aqui"
+                    &quot;vai entrar o form do active aqui&quot;
                 </div>
             </div>
         </section>
