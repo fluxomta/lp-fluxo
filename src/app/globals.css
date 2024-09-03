@@ -23,7 +23,7 @@ p {
 }
 
 .yellow {
-    @apply text-secondary-500
+    @apply text-secondary-500;
 }
 
 .yellow-gradient {
@@ -31,5 +31,5 @@ p {
 }
 
 .black-gradient {
-    @apply bg-gradient-to-t from-primary-900 via-primary-500 to-primary-900;
+    @apply bg-gradient-to-b from-primary-900 to-primary-500;
 }

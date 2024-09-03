@@ -1,11 +1,11 @@
-// src/components/HeroSection.js
+// src/components/Indicadores/HeroSection.js
 import Link from 'next/link';
 import Icons from '@/components/Global/Icons';
 
 export default function HeroSection() {
     return (
         <section
-            className="relative text-white bg-black h-auto md:h-[60vh] "
+            className="relative text-white bg-black h-auto md:h-[70vh] "
             style={{
                 backgroundImage: 'url(/images/bg/bg-01.webp)',
                 backgroundSize: 'cover',
@@ -13,7 +13,7 @@ export default function HeroSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-50 bg-primary-700'></div>
-            <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-8 mx-auto">
+            <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">
                         <h1 className="mb-4 text-3xl font-bold text-center md:text-5xl md:text-left">

@@ -22,7 +22,7 @@ export default function ImageAccordion() {
                             objectFit="cover"
                             className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                         />
-                        <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 text-secondary-500">
+                        <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 yellow">
                             MacroFlow
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function ImageAccordion() {
                                 objectFit="cover"
                                 className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                             />
-                            <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 text-secondary-500">
+                            <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 yellow">
                                 {item.label}
                             </div>
                         </div>
@@ -64,7 +64,7 @@ export default function ImageAccordion() {
                                 objectFit="cover"
                                 className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                             />
-                            <div className="absolute flex items-end w-full h-full p-8 font-bold text-white ttext-lg bg-primary-500 bg-opacity-20 text-secondary-500">
+                            <div className="absolute flex items-end w-full h-full p-8 font-bold text-white ttext-lg bg-primary-500 bg-opacity-20 yellow">
                                 MacroFlow
                             </div>
                         </div>
@@ -85,7 +85,7 @@ export default function ImageAccordion() {
                                     objectFit="cover"
                                     className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                                 />
-                                <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 text-secondary-500">
+                                <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 yellow">
                                     {item.label}
                                 </div>
                             </div>
