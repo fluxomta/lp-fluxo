@@ -53,6 +53,19 @@ const Icons = {
             <path strokeLinecap="round" strokeLinejoin="round" d="m9 5 7 7-7 7" />
         </svg>
     ),
+    CheckMark: (props) => (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1}
+            stroke="currentColor"
+            className={props.className}
+            {...props}
+        >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        </svg>
+    ),
 
 };
 

@@ -5,14 +5,14 @@ import Icons from '@/components/Global/Icons';
 export default function HeroSection() {
     return (
         <section
-            className="relative text-white bg-black h-auto md:h-[70vh] "
+            className="relative text-white bg-black h-auto md:h-[60vh] "
             style={{
-                backgroundImage: 'url(/images/bg/bg-01.webp)',
+                backgroundImage: 'url(/images/bg/bg-02.webp)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
         >
-            <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-50 bg-primary-700'></div>
+            <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
             <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">

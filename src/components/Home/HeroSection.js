@@ -5,7 +5,7 @@ export default function HeroSection() {
         <section
             className="relative text-white bg-black h-auto md:h-[50vh]"
             style={{
-                backgroundImage: 'url(/images/bg/bg-01.webp)',
+                backgroundImage: 'url(/images/bg/bg-02.webp)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}

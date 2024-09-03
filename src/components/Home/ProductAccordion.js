@@ -18,8 +18,8 @@ export default function ImageAccordion() {
                         <Image
                             src="/images/product/product-img.webp"
                             alt="Plenaria"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
+                            style={{ objectFit: 'cover' }}
                             className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                         />
                         <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 yellow">
@@ -40,8 +40,8 @@ export default function ImageAccordion() {
                             <Image
                                 src={item.src}
                                 alt={item.label}
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                style={{ objectFit: 'cover' }}
                                 className="transition-all duration-500 ease-out brightness-75 hover:brightness-100"
                             />
                             <div className="absolute flex items-end w-full h-full p-8 text-lg font-bold text-white bg-primary-500 bg-opacity-20 yellow">

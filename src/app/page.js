@@ -1,6 +1,4 @@
 // src/app/page.js
-"use client";
-
 import HeroSection from '@/components/Home/HeroSection';
 import FAQAccordion from '@/components/Home/FAQAccordion';
 import TextBlock from '@/components/Home/TextBlock';
@@ -9,16 +7,48 @@ import ProductAccordion from '@/components/Home/ProductAccordion';
 import AboutSection from '@/components/Home/AboutSection';
 import TextBlockFinal from '@/components/Home/TextBlockFinal';
 
+export const metadata = {
+	robots: 'index, follow',
+	title: 'Fluxo MTA - A sua escola de Traders',
+	description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+	keywords: ['Fluxo', 'Escola de Traders', 'Indicadores Profit', 'Indicadores Nelógica', 'Mercado financeiro'],
+	openGraph: {
+		title: 'Fluxo MTA - A sua escola de Traders',
+		description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+		type: 'website',
+		url: 'https://fluxomta.com',
+		images: [
+			{
+				url: '/images/social/social-share.webp',
+				width: 1917,
+				height: 1024,
+				alt: 'Fluxo MTA - A sua escola de Traders',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Fluxo MTA - A sua escola de Traders',
+		description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+		images: [
+			{
+				url: '/images/social/social-share.webp',
+				alt: 'Fluxo MTA - A sua escola de Traders',
+			},
+		],
+	},
+};
+
 export default function Home() {
-  return (
-    <>
-      <HeroSection />
-      <TextBlock />
-      <TextBlockTwo />
-      <ProductAccordion />
-      <AboutSection />
-      <TextBlockFinal />
-      <FAQAccordion />
-    </>
-  );
+	return (
+		<>
+			<HeroSection />
+			<TextBlock />
+			<TextBlockTwo />
+			<ProductAccordion />
+			<AboutSection />
+			<TextBlockFinal />
+			<FAQAccordion />
+		</>
+	);
 }
