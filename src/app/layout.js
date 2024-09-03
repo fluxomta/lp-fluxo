@@ -1,9 +1,8 @@
 // src/app/layout.js
 import './globals.css';
 import { Montserrat } from 'next/font/google';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
-
+import Header from '@/components/Global/Header';
+import Footer from '@/components/Global/Footer';
 
 // Configure a fonte Montserrat
 const montserrat = Montserrat({
@@ -18,8 +17,7 @@ export default function RootLayout({ children }) {
       <head />
       <body className={montserrat.className}>
         <Header />
-        {/* Ajuste o padding-top para compensar a altura do Header fixo */}
-        <main className='pt-8 md:pt-20'>
+        <main className='pt-16 md:pt-20'>
           {children}
         </main>
         <Footer />

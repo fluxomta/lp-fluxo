@@ -1,27 +1,24 @@
 // src/app/page.js
 "use client";
 
-import HeroSection from '@components/HeroSection';
-import FAQAccordion from '@components/FAQAccordion';
-import TextBlock from './TextBlock';
-import TextBlockTwo from './TextBlockTwo';
-import ProductAccordion from '@/components/ProductAccordion';
-import AboutSection from '@/components/AboutSection';
-import TextBlockFinal from './TextBlockFinal';
-
+import HeroSection from '@/components/Home/HeroSection';
+import FAQAccordion from '@/components/Home/FAQAccordion';
+import TextBlock from '@/components/Home/TextBlock';
+import TextBlockTwo from '@/components/Home/TextBlockTwo';
+import ProductAccordion from '@/components/Home/ProductAccordion';
+import AboutSection from '@/components/Home/AboutSection';
+import TextBlockFinal from '@/components/Home/TextBlockFinal';
 
 export default function Home() {
   return (
     <>
-      <main>
-        <HeroSection />
-        <TextBlock />
-        <TextBlockTwo />
-        <ProductAccordion />
-        <AboutSection />
-        <TextBlockFinal />
-        <FAQAccordion />
-      </main>
+      <HeroSection />
+      <TextBlock />
+      <TextBlockTwo />
+      <ProductAccordion />
+      <AboutSection />
+      <TextBlockFinal />
+      <FAQAccordion />
     </>
   );
 }

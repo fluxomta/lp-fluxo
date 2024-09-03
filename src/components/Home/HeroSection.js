@@ -3,7 +3,7 @@
 export default function HeroSection() {
     return (
         <section
-            className="relative px-8 py-16 text-white bg-black h-auto md:h-[50vh]"
+            className="relative text-white bg-black h-auto md:h-[50vh]"
             style={{
                 backgroundImage: 'url(/images/bg/bg-01.webp)',
                 backgroundSize: 'cover',
@@ -11,7 +11,7 @@ export default function HeroSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-50 bg-primary-700'></div>
-            <div className='relative z-10 max-w-6xl mx-auto'>
+            <div className='relative z-10 max-w-6xl px-4 py-8 mx-auto '>
                 {/* Conteúdo principal */}
                 <div className="max-w-2xl">
                     <h1 className="mb-4 text-4xl font-bold md:text-5xl">A maior escola de Traders da <span className='yellow'>América Latina</span></h1>

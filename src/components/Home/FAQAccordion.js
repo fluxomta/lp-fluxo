@@ -37,8 +37,8 @@ export default function FAQAccordion() {
     };
 
     return (
-        <section className="px-8 py-16 text-white bg-black">
-            <div className="container mx-auto">
+        <section className="text-white bg-primary-900">
+            <div className="container px-8 py-16 mx-auto ">
                 <h2 className="mb-8 text-3xl font-bold">
                     <span className="text-yellow-400">?</span> Ficou com alguma dúvida?
                 </h2>

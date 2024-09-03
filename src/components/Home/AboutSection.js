@@ -3,10 +3,8 @@ import Image from 'next/image';
 
 export default function AboutSection() {
     return (
-        <section
-            className="relative px-8 py-16 text-white bg-primary-500"
-        >
-            <div className='relative z-10 max-w-6xl mx-auto'>
+        <section className="text-white bg-primary-500">
+            <div className='relative z-10 max-w-6xl px-4 py-16 mx-auto'>
                 {/* Conteúdo principal */}
                 <div className='grid max-w-6xl grid-cols-1 mx-auto md:space-x-6 md:grid-cols-2 '>
                     <div className="col-span-1">
