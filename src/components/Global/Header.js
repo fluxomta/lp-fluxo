@@ -91,7 +91,7 @@ export default function Header() {
                         <Link href="/indicadores" onClick={() => setIsDrawerOpen(false)}>
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
-                        <Link href="/conteudos" className="block px-4 py-2 hover:text-secondary-400">
+                        <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
                             LT - O Rastreador de Liquidez
                         </Link>
                         <Link href="/empresas" className="block px-4 py-2 hover:text-secondary-400">
@@ -116,7 +116,7 @@ export default function Header() {
                 onMouseEnter={() => setShowSubmenu(true)}
             >
                 <div className="flex justify-start max-w-6xl mx-auto space-x-6 font-semibold">
-                    <Link href="/conteudos" className="block px-4 py-2 hover:text-secondary-400">
+                    <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
                         LT  <br />O Rastreador de Liquidez
                     </Link>
                     <Link href="/empresas" className="block px-4 py-2 hover:text-secondary-400">

@@ -1,7 +1,9 @@
 // src/app/page.js
 import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
+import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
 import TextBlockWhite from '@/components/RastreadorLiquidez/TextBlockWhite';
+import ZDSection from '@/components/RastreadorLiquidez/ZDSection';
 
 export const metadata = {
     robots: 'index, follow',
@@ -41,6 +43,8 @@ export default function Indicadores() {
             <HeroSection />
             <TextBlockWhite />
             <TextBlockTwo />
+            <TextBlockThree />
+            <ZDSection />
         </>
     );
 }
