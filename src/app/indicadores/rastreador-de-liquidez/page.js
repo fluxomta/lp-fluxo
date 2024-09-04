@@ -1,4 +1,5 @@
 // src/app/page.js
+import PricingPlan from '@/components/Global/PricingPlan';
 import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
 import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
@@ -45,6 +46,7 @@ export default function Indicadores() {
             <TextBlockTwo />
             <TextBlockThree />
             <ZDSection />
+            <PricingPlan />
         </>
     );
 }

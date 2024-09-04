@@ -19,6 +19,13 @@ export default function TextBlockThree() {
                         <p>Funciona em qualquer mercado e ritmo gráfico, oferecendo flexibilidade total nas suas análises.</p>
                     </div>
                 </div>
+                <div className="max-w-4xl px-4 pt-16 mx-auto text-center">
+                    <p className="text-2xl font-bold md:mb-8 md:text-center md:text-3xl">Invista no seu operacional com tecnologia de informação. <span className="yellow">Pare de operar no escuro.</span></p>
+                    <p>Experimente o LT e transforme</p>
+                    <p>suas operações, evitando perdas e maximizando seus lucros.</p>
+                    <p>Invista em um tradesystem eficiente. </p>
+                    <p>Comece agora!</p>
+                </div>
             </div>
         </section>
     );

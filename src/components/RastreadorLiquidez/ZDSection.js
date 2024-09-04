@@ -17,10 +17,10 @@ export default function ZDSection() {
             <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">
-                        <p className="text-3xl font-bold text-center md:text-5xl ">
+                        <p className="text-3xl font-bold text-center md:text-4xl ">
                             Assinando o LT | O Rastreador de Liquidez
                         </p>
-                        <h2 className="mb-6 text-3xl font-bold text-center md:text-5xl yellow">
+                        <h2 className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">
                             receba de bônus o Indicador ZD
                         </h2>
                         <p className="text-lg md:text-2xl md:text-center">
