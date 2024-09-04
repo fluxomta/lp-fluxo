@@ -5,13 +5,13 @@ import Icons from '@/components/Global/Icons';
 
 export default function SpeedFlow() {
     return (
-        <section className="relative text-white bg-primary-500">
+        <section className="relative text-white bg-primary-900">
             <div className='max-w-6xl px-4 py-16 mx-auto'>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                    <div className="relative col-span-2 overflow-hidden bg-black border rounded-md md:col-span-2 border-secondary-700">
+                    <div className="relative col-span-2 overflow-hidden border rounded-md bg-primary-500 md:col-span-2 border-primary-500 hover:border-primary-400 hover:bg-primary-700">
                         <div className='relative z-10 items-center block p-6 md:space-x-6 md:flex'>
                             <div className='flex flex-col justify-between w-full h-full md:w-2/3'>
-                                <h3 className="mb-2 text-3xl font-semibold yellow">SpeedFlow <br /> O Método definitivo para
+                                <h3 className="mb-2 text-3xl font-semibold text-white">SpeedFlow <br /> O Método definitivo para
                                     Análise de Fluxo</h3>
                                 <p className="mb-0.5 text-lg text-white">O Fluxo é mais simples do que parece e com o uso dele você vai elevar seu patamar no mercado financeiro.</p>
 

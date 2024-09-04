@@ -18,11 +18,11 @@ const testimonials = [
 
 export default function TestimonialsSlider() {
     return (
-        <section className="text-white bg-primary-900">
-            <div className='max-w-6xl px-4 pt-16 mx-auto'>
-                <h2 className="mb-4 text-2xl font-bold text-center text-white md:text-4xl md:text-5xl">Eles tem transformado suas vidas no <span className='yellow'>mercado financeiro com nossos produtos.</span></h2>
+        <section className="text-white bg-primary-500">
+            <div className='max-w-6xl px-4 py-4 pt-12 mx-auto'>
+                <h2 className="mb-4 text-2xl font-bold text-center text-white md:text-5xl">Eles tem transformado suas vidas no <span className='yellow'>mercado financeiro com nossos produtos.</span></h2>
             </div>
-            <div className='hidden max-w-6xl px-4 pb-16 mx-auto md:grid'>
+            <div className='hidden max-w-6xl px-4 py-16 mx-auto md:grid'>
                 {/* Layout Masonry para Desktop */}
                 <div className="grid-cols-1 gap-5 md:grid sm:grid-cols-2 lg:grid-cols-3">
                     {testimonials.map((testimonial) => (
@@ -40,8 +40,8 @@ export default function TestimonialsSlider() {
                 </div>
             </div>
             {/* Slider para Mobile */}
-            <div className="max-w-6xl mx-auto md:hidden">
-                <Swiper spaceBetween={10} slidesPerView={1.2} centeredSlides={true} pagination={{ clickable: true }} loop={true}>
+            <div className="max-w-6xl pb-8 mx-auto md:hidden">
+                <Swiper spaceBetween={10} slidesPerView={1.3} centeredSlides={true} pagination={{ clickable: true }} loop={true}>
                     {testimonials.map((testimonial) => (
                         <SwiperSlide key={testimonial.id}>
                             <div className="relative w-full h-[450px] bg-primary-900 rounded-lg shadow-md overflow-hidden border border-secondary-700">
