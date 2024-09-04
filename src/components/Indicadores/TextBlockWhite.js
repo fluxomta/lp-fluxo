@@ -14,32 +14,73 @@ export default function TextBlockWhite() {
                 <p className="mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Sair muito cedo de uma operação é deixar dinheiro na mesa;
                     sair muito tarde é perder dinheiro.</p>
                 <p className='mb-4 text-2xl font-bold md:text-4xl md:text-left yellow'>Usar a ferramenta certa vai:</p>
-                <div class='grid grid-cols-1 md:grid-cols-2'>
-                    <div>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Aumentar seus ganhos
-                        </p>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Reduzir suas perdas
-                        </p>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Fazer uma análise profissional em segundos
-                        </p>
+                <div class='grid grid-cols-1 md:grid-cols-2 md:space-x-6'>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Aumentar seus ganhos
+                                </p>
+                            </div>
+                        </div>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Reduzir suas perdas
+                                </p>
+                            </div>
+                        </div>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Fazer uma análise profissional em segundos
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Encontrar os pontos perfeitos de entrada e saída
-                        </p>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Reduzir sua ansiedade
-                        </p>
-                        <p className='flex items-center text-lg font-semibold'>
-                            <Icons.CheckMark className="w-6 mr-1 yellow" /> Impactar positivamente sua qualidade de vida
-                        </p>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Encontrar os pontos perfeitos de entrada e saída
+                                </p>
+                            </div>
+                        </div>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Reduzir sua ansiedade
+                                </p>
+                            </div>
+                        </div>
+                        <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                            <div className=''>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" />
+                            </div>
+                            <div className=''>
+                                <p className='flex items-center text-lg font-semibold'>
+                                    Impactar positivamente sua qualidade de vida
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <p className='mt-8 text-2xl font-bold md:text-4xl md:text-center'>Por isso nossos indicadores foram pensados para seu operacional, <span className='yellow'>conheça eles!</span></p>
-
             </div>
         </section>
     );
