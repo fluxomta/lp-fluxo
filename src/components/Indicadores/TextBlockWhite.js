@@ -1,6 +1,5 @@
 // src/components/Indicadores/TextBlockWhite.js
 'use client';
-import Link from 'next/link';
 import Icons from '@/components/Global/Icons';
 
 export default function TextBlockWhite() {
