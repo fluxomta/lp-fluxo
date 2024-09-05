@@ -92,23 +92,7 @@ const PricingPlan = () => {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="col-span-1 px-6 py-4 rounded-md bg-primary-900">
-                                <p className="text-2xl font-semibold yellow">MacroFlow</p>
-                                <p className="text-lg font-semibold yellow !-mt-3">O Rastreador de Fluxo</p>
-                                <p>R$ 99,90 Mensal</p>
-                                <div className='block gap-4 md:flex'>
-                                    <Link href="/indicadores">
-                                        <button className="flex items-center justify-center w-full mb-2 md:w-auto group btn ">
-                                            Assine agora <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
-                                        </button>
-                                    </Link>
-                                    <Link href="/indicadores">
-                                        <button className="flex items-center justify-center w-full mb-2 md:w-auto group btn-dark ">
-                                            Saiba Mais <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
-                                        </button>
-                                    </Link>
-                                </div>
-                            </div>
+
                         </>
                     ) : (
                         // Planos Anuais
