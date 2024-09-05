@@ -14,7 +14,7 @@ const PricingPlan = () => {
     };
 
     return (
-        <section className="text-white border-t-2 bg-primary-500 border-secondary-700">
+        <section className="text-white bg-white border-t-2 border-secondary-700">
             <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg ">
                 <div className='max-w-4xl mx-auto text-center'>
                     <h2 className='text-3xl font-bold text-center md:text-4xl '>Assine agora

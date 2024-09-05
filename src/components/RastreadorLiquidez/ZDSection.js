@@ -17,22 +17,25 @@ export default function ZDSection() {
             <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full max-w-4xl mx-auto">
+                        <p className="p-8 text-4xl font-bold text-center border rounded-md md:text-5xl yellow black-gradient border-secondary-700">
+                            Um presente especial para você!
+                        </p>
                         <p className="text-3xl font-bold text-center md:text-4xl ">
                             Assinando o LT | O Rastreador de Liquidez
                         </p>
                         <h2 className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">
-                            receba de bônus o Indicador ZD
+                            receba de bônus o indicador ZD
                         </h2>
                         <p className="text-lg md:text-xl md:text-center">
                             <strong>O Indicador ZD (Zonas de Decisão) é exclusivo para Índice e Dólar</strong>, ele mostra com precisão as regiões mais importantes do mercado.
                         </p>
-                        <p className="!-mb-4 text-lg font-semibold md:text-xl md:text-center yellow">
+                        <p className="!-mb-4 text-lg font-semibold md:text-xl md:text-center ">
                             Dúvida nas entradas e saídas?
                         </p>
                         <p className="text-lg md:text-xl md:text-center">
                             O ZD vai ser seu aliado, o indicador conta com uma taxa de 89% de acerto.
                         </p>
-                        <p className="text-lg md:text-xl md:text-center">É um dos indicadores mais utilizados pelos meus alunos de Day Trade, aumentando de forma considerável suas performances e vou <strong className='yellow'>te oferecer como bônus na assinatura de qualquer indicador do MTA</strong>.</p>
+                        <p className="text-lg md:text-xl md:text-center">É um dos indicadores mais utilizados pelos meus alunos de Day Trade, aumentando de forma considerável suas performances e vou <strong className=''>te oferecer como bônus na assinatura de qualquer indicador do MTA</strong>.</p>
                     </div>
                 </div>
 
