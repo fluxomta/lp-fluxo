@@ -1,5 +1,5 @@
 // src/app/page.js
-import PricingPlan from '@/components/Global/PricingPlan';
+import PricingPlan from '@/components/RastreadorLiquidez/PricingPlan';
 import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
 import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
