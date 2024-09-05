@@ -25,7 +25,7 @@ export default function TextBlockWhite() {
                                 <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Intuituivo</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                O LT ajuda você a reconhecer as regiões mais importantes do mercado com uma simplicidade jamais vista em outras ferramentas, em alguns segundos você já definiu todas as regiões importantes do gráfico.
+                                O LT ajuda você a <strong>reconhecer as regiões mais importantes do mercado com uma simplicidade</strong> jamais vista em outras ferramentas, em alguns segundos você já definiu todas as regiões importantes do gráfico.
                             </p>
                         </div>
                     </div>
