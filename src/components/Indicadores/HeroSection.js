@@ -13,7 +13,7 @@ export default function HeroSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
-            <div className="flex-col justify-between hidden h-full max-w-6xl px-4 py-16 mx-auto md:flex">
+            <div className="flex-col justify-between hidden h-full max-w-6xl px-4 py-12 mx-auto md:flex">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">
                         <h1 className="mb-4 text-3xl font-bold text-center md:text-5xl md:text-left">

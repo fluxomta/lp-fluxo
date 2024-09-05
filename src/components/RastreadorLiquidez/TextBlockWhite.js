@@ -15,7 +15,7 @@ export default function TextBlockWhite() {
                                 <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Identificação de Topos e Fundos em Tempo Real</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                O LT destaca pontos de liquidez importantes, ou seja, você vai conseguir ter um GPS melhorando sua performance.
+                                O LT <strong>destaca pontos de liquidez importantes</strong>, ou seja, você vai conseguir ter um GPS melhorando sua performance.
                             </p>
                         </div>
                     </div>
@@ -35,8 +35,7 @@ export default function TextBlockWhite() {
                                 <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Flexibilidade Total</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                O LT ajuda você a reconhecer as regiões mais importantes do mercado com uma simplicidade jamais vista em outras ferramentas, em alguns segundos você já definiu todas as regiões importantes do gráfico.
-                            </p>
+                                Funciona em <strong>qualquer tempo gráfico e mercado</strong>, seja em ações, opções, ou qualquer outro ativo de sua preferência.                            </p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
@@ -45,7 +44,7 @@ export default function TextBlockWhite() {
                                 <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Precisão na Tomada de Decisão:</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Com o LT, você pode determinar pontos de entrada, alvos e stops com maior certeza, você não vai cair mais em armadilhas do mercado.                                </p>
+                                Com o LT, você pode <strong>determinar pontos de entrada, alvos e stops com maior certeza</strong>, você não vai cair mais em armadilhas do mercado.</p>
                         </div>
                     </div>
                 </div>

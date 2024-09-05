@@ -22,7 +22,7 @@ export default function TestimonialsSlider() {
             <div className='max-w-6xl px-4 py-4 pt-12 mx-auto'>
                 <h2 className="mb-4 text-2xl font-bold text-center text-white md:text-5xl">Eles tem transformado suas vidas no <span className='yellow'>mercado financeiro com nossos produtos.</span></h2>
             </div>
-            <div className='hidden max-w-6xl px-4 py-16 mx-auto md:grid'>
+            <div className='hidden max-w-6xl px-4 py-12 mx-auto md:grid'>
                 {/* Layout Masonry para Desktop */}
                 <div className="grid-cols-1 gap-5 md:grid sm:grid-cols-2 lg:grid-cols-3">
                     {testimonials.map((testimonial) => (
