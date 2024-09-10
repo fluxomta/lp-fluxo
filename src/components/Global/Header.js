@@ -94,10 +94,10 @@ export default function Header() {
                         <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
                             LT - O Rastreador de Liquidez
                         </Link>
-                        <Link href="/empresas" className="block px-4 py-2 hover:text-secondary-400">
-                            TargetVision - O Rastreador de Alvos
+                        <Link href="/indicadores/alvo-R3" className="block px-4 py-2 hover:text-secondary-400">
+                            Alvo R3 - O Rastreador de Alvos
                         </Link>
-                        <Link href="/trader" className="block px-4 py-2 hover:text-secondary-400">
+                        <Link href="/indicadores/fluxo-V6" className="block px-4 py-2 hover:text-secondary-400">
                             Fluxo V6 - O Rastreador de Fluxo
                         </Link>
                     </div>
@@ -117,13 +117,13 @@ export default function Header() {
             >
                 <div className="flex justify-start max-w-6xl mx-auto space-x-6 font-semibold">
                     <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
-                        LT  <br />O Rastreador de Liquidez
+                        LT - O Rastreador de Liquidez
                     </Link>
-                    <Link href="/empresas" className="block px-4 py-2 hover:text-secondary-400">
-                        TargetVision <br /> O Rastreador de Alvos
+                    <Link href="/indicadores/alvo-R3" className="block px-4 py-2 hover:text-secondary-400">
+                        Alvo R3 - O Rastreador de Alvos
                     </Link>
-                    <Link href="/trader" className="block px-4 py-2 hover:text-secondary-400">
-                        Fluxo V6 <br /> O Rastreador de Fluxo
+                    <Link href="/indicadores/fluxo-V6" className="block px-4 py-2 hover:text-secondary-400">
+                        Fluxo V6 - O Rastreador de Fluxo
                     </Link>
                 </div>
             </div >
