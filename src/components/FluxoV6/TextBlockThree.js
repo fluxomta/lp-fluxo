@@ -9,21 +9,21 @@ export default function TextBlockThree() {
                 <h2 className="max-w-3xl mx-auto mb-4 text-2xl font-bold md:mb-8 md:text-center md:text-5xl">Benefícios Comprovados do <span className='yellow'>Rastreador de Alvos - Alvo R3</span></h2>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
                     <div className="col-span-1 px-6 py-4 rounded-md bg-primary-500">
-                        <p className="font-semibold yellow">Precisão em Topos e Fundos</p>
-                        <p>Identifique com exatidão o estágio do movimento de preço, ajudando a maximizar seus ganhos.</p>
+                        <p className="font-semibold yellow">Análise de Fluxo</p>
+                        <p>Identifica a força do fluxo, ajudando a prever a continuidade ou reversão de tendências.</p>
                     </div>
                     <div className="col-span-1 px-6 py-4 rounded-md bg-primary-500">
-                        <p className="font-semibold yellow">Flexibilidade Operacional</p>
-                        <p>Funciona em diversos tempos gráficos e ativos, adaptando-se às suas necessidades.</p>
+                        <p className="font-semibold yellow">Detecção de Intenções</p>
+                        <p>Diferencia movimentos reais de pausas temporárias, proporcionando maior segurança nas decisões.</p>
                     </div>
                     <div className="col-span-1 px-6 py-4 rounded-md bg-primary-500">
-                        <p className="font-semibold yellow">Simplicidade e Integração</p>
-                        <p>Fácil de usar e potencializa resultados quando combinado com outros algoritmos da família Fluxo.</p>
+                        <p className="font-semibold yellow">Regiões Críticas</p>
+                        <p>Destacam-se áreas de alta liquidez que servem como suportes ou resistências fortes, otimizando entradas e saídas.</p>
                     </div>
                 </div>
                 <div className="max-w-4xl px-4 pt-16 mx-auto text-center">
                     <p className="text-2xl font-bold md:mb-8 md:text-center md:text-3xl">Invista no seu operacional com tecnologia de informação. <span className="yellow">Pare de operar no escuro.</span></p>
-                    <p className="mb-6 text-3xl font-bold text-center md:text-3xl ">Experimente o <span className='yellow'>Alvo R3</span> e transforme
+                    <p className="mb-6 text-3xl font-bold text-center md:text-3xl ">Experimente o <span className='yellow'>Fluxo V6</span> e transforme
                         suas operações, evitando perdas e maximizando seus lucros.</p>
                     <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">Invista em um tradesystem eficiente. </p>
                     <div className="relative z-10 flex justify-center w-full mx-auto">

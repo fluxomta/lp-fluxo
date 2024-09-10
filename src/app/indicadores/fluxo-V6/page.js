@@ -1,21 +1,21 @@
 // src/app/page.js
-import PricingPlan from '@/components/AlvoR3/PricingPlan';
-import HeroSection from '@/components/AlvoR3/HeroSection';
-import TextBlockThree from '@/components/AlvoR3/TextBlockThree';
-import TextBlockTwo from '@/components/AlvoR3/TextBlockTwo';
-import TextBlockWhite from '@/components/AlvoR3/TextBlockWhite';
-import ZDSection from '@/components/AlvoR3/ZDSection';
+import PricingPlan from '@/components/FluxoV6/PricingPlan';
+import HeroSection from '@/components/FluxoV6/HeroSection';
+import TextBlockThree from '@/components/FluxoV6/TextBlockThree';
+import TextBlockTwo from '@/components/FluxoV6/TextBlockTwo';
+import TextBlockWhite from '@/components/FluxoV6/TextBlockWhite';
+import ZDSection from '@/components/FluxoV6/ZDSection';
 
 export const metadata = {
     robots: 'index, follow',
-    title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
+    title: 'Fluxo V6 - O Rastreador de Fluxo - Fluxo MTA',
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
+        title: 'Fluxo V6 - O Rastreador de Fluxo - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores/alvo-R3',
+        url: 'https://fluxomta.com/indicadores/fluxo-V6',
         images: [
             {
                 url: '/images/social/social-share.webp',
@@ -27,7 +27,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
+        title: 'Fluxo V6 - O Rastreador de Fluxo - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         images: [
             {

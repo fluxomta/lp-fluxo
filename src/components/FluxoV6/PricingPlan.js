@@ -26,7 +26,7 @@ const PricingPlan = () => {
                     <div className=" md:text-lg  grid md:grid-cols-2 gap-8 mt-12">
                         <div className="bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-90 hover:scale-95 transition-all">
                             <div className="p-6 text-primary-500">
-                                <p className='text-3xl font-bold md:text-4xl'>Alvo R3 <span className='text-2xl font-bold'>O Rastreador de Alvos</span></p>
+                                <p className='text-3xl font-bold md:text-4xl'>Fluxo V6 <span className='text-2xl font-bold'>O Rastreador de Fluxo</span></p>
                                 <p className="mt-8">
                                     <span className="text-4xl font-bold text-slate-900 tracking-tighter">R$79</span>
                                     <span className="text-lg font-medium text-slate-500"> /mensal</span>
@@ -39,7 +39,7 @@ const PricingPlan = () => {
                                 <ul role="list" className="mt-4 space-y-3">
                                     <li className="flex space-x-3">
                                         <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Receba Indicador Alvo R3 + ZD</span>
+                                        <span className="text-lg text-slate-700">Receba Indicador Fluxo V6 + ZD</span>
                                     </li>
                                     <li className="flex space-x-3">
                                         <Icons.Check className="w-8 text-green-400" />

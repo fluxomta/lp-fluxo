@@ -21,10 +21,10 @@ export default function ZDSection() {
                             Um presente especial para você!
                         </p>
                         <p className="text-3xl font-bold text-center md:text-4xl ">
-                            Assinando o LT | O Rastreador de Liquidez
+                            Assinando o Alvo R3 | O Rastreador de Alvos
                         </p>
                         <h2 className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">
-                            receba de bônus o indicador ZD
+                            você recebe de bônus o indicador ZD
                         </h2>
                         <p className="text-lg md:text-xl md:text-center">
                             <strong>O Indicador ZD (Zonas de Decisão) é exclusivo para Índice e Dólar</strong>, ele mostra com precisão as regiões mais importantes do mercado.
