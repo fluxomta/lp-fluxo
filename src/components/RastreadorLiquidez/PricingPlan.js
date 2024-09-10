@@ -15,11 +15,14 @@ const PricingPlan = () => {
 
     return (
         <>
-            <section className="relative text-white black-gradient border-t-2 border-secondary-700">
-                <div className='absolute w-full h-full bg-secondary-500 h-[75%] md:h-[50%] z-0 bottom-0'></div>
+            <section className="relative text-primary-500 border-t-2 border-secondary-700">
+                <div className='absolute w-full h-full bg-secondary-500 h-[75%] md:h-[50%] z-0 top-0'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg  relative z-10">
-                    <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
-                    <p className=' text-2xl font-bold text-center md:text-4xl'>e acesse seu indicador imediatamente</p>
+                    <div className="p-2 text-4xl font-bold text-center  rounded-md md:text-5xl text-primary-500  border-secondary-700">
+                        <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
+                        <p className=' text-2xl font-base text-center md:text-4xl'>você tem duas opções</p>
+                    </div>
+
                     <div className=" md:text-lg  grid md:grid-cols-2 gap-8 mt-12">
                         <div className="bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-90 hover:scale-95 transition-all">
                             <div className="p-6 text-primary-500">
@@ -67,9 +70,7 @@ const PricingPlan = () => {
                                 </p>
                                 <div className='md:flex gap-4'>
                                     <Link href="/assine"
-                                        className="mt-2 block w-full bg-primary-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
-                                    <Link href="/assine"
-                                        className="mt-2 block w-full bg-secondary-500 rounded-md  uppercase py-4 text-lg text-primary-500 font-bold text-center">Conheça mais</Link>
+                                        className="mt-2 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
                                 </div>
                             </div>
                             <div className="pt-6 pb-8 px-6">
