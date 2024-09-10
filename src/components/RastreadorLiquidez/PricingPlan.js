@@ -32,7 +32,7 @@ const PricingPlan = () => {
                                     <span className="text-lg font-medium text-slate-500"> /mensal</span>
                                 </p>
                                 <Link href="/assine"
-                                    className="mt-8 block w-full bg-primary-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
+                                    className="mt-8 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
                             </div>
                             <div className="pt-6 pb-8 px-6">
                                 <h3 className="text-sm font-bold text-slate-900 tracking-wide uppercase">O que esta incluso</h3>
