@@ -20,8 +20,8 @@ const PricingPlan = () => {
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg  relative z-10">
                     <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
                     <p className=' text-2xl font-bold text-center md:text-4xl'>e acesse seu indicador imediatamente</p>
-                    <div className=" md:text-lg  grid md:grid-cols-2 gap-8">
-                        <div className="bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-95 hover:scale-105 transition-all">
+                    <div className=" md:text-lg  grid md:grid-cols-2 gap-8 mt-12">
+                        <div className="bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-90 hover:scale-95 transition-all">
                             <div className="p-6 text-primary-500">
                                 <p className='text-3xl font-bold md:text-4xl'>LT <span className='text-2xl font-bold'>O Rastreador de Liquidez</span></p>
                                 <p className="mt-8">
@@ -54,7 +54,7 @@ const PricingPlan = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="relative bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-100 hover:scale-110 transition-all">
+                        <div className="relative bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-95 hover:scale-105 transition-all">
                             <span className="absolute -top-5 mx-auto left-0 right-0">
                                 <span className=' rounded-full bg-primary-500 py-3 px-4 text-md text-white font-bold '>Pacote promocional </span>
                             </span>
