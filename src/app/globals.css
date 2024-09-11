@@ -33,3 +33,11 @@ p {
 .black-gradient {
     @apply bg-gradient-to-b from-primary-900 to-primary-500;
 }
+
+.black-gradient-2 {
+    @apply bg-gradient-to-b from-primary-700 to-primary-400;
+}
+
+.white-gradient {
+    @apply bg-gradient-to-b from-white to-primary-100;
+}

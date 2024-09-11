@@ -14,13 +14,13 @@ export default function HeroSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
-            <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-12 mx-auto">
-                <div className="relative z-10 flex items-center ">
-                    <div className="w-full">
-                        <p className="mb-4 text-3xl font-bold text-center md:text-5xl yellow">
+            <div className="flex flex-col justify-between h-full max-w-7xl px-4 py-12 mx-auto">
+                <div className="relative z-10 flex items-center mb-8">
+                    <div className="w-full tracking-tighter">
+                        <p className="mb-2 text-3xl font-bold text-center md:text-6xl yellow">
                             Transforme suas operações com o
                         </p>
-                        <h1 className="mb-4 text-3xl font-bold text-center md:text-5xl">
+                        <h1 className="mb-2 text-3xl font-bold text-center md:text-6xl">
                             LT | O Rastreador de Liquidez
                         </h1>
                     </div>
@@ -28,12 +28,12 @@ export default function HeroSection() {
 
                 <div className="w-full max-w-3xl p-1 mx-auto mb-8">
                     <VimeoPlayer
-                        videoId="682116908"
+                        videoId="1008216852"
                         autoplay={false}
                         loop={false}
                         muted={false}
-                        coverImage="https://vumbnail.com/682116908.jpg"
-                        endCoverImage="https://vumbnail.com/682116908.jpg"
+                        coverImage="https://vumbnail.com/1008216852.jpg"
+                        endCoverImage="https://vumbnail.com/1008216852.jpg"
                     />
                 </div>
                 <div className="relative z-10 flex mx-auto">

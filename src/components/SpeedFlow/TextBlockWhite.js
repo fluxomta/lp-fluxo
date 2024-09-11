@@ -7,49 +7,54 @@ export default function TextBlockWhite() {
         <section className="text-white black-gradient border-y border-secondary-700">
             <div className="max-w-6xl px-8 py-12 mx-auto text-lg ms:px-4 md:text-center">
                 <p className="!-mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Por que escolher o </p>
-                <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">Fluxo V6
-                    | Rastreador de Fluxo?</p>
+                <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">Alvo R3 |
+                    O Rastreador de Alvos</p>
                 <div class='grid grid-cols-1 gap-4'>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className='flex flex-col'>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <span><Icons.CheckMark className="mr-1.5 w-7 yellow" /></span>
-                                <strong> Identificação de Fluxo Forte e Fraco:</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Identificação Precisa de Estágios de Preço</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Compreenda se um movimento é sustentado por um fluxo forte ou fraco, ajudando a determinar a continuidade ou reversão de tendências.
+                                Nosso algoritmo ajuda você a identificar com precisão em qual estágio do movimento o preço está, permitindo que você saiba exatamente até onde levar sua posição sem surpresas.
                             </p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <span><Icons.CheckMark className="mr-1.5 w-7 yellow" /></span>
-                                <strong>Detecção de Intenções</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Versatilidade</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Descubra se um movimento de alta ou baixa é real ou apenas uma pausa (pullback) com base na ausência ou presença de fluxo comprador ou vendedor.
+                                Funciona em diversos tempos gráficos e uma ampla gama de ativos, incluindo ações, ou qualquer ativo de sua preferência.
                             </p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <span><Icons.CheckMark className="mr-1.5 w-7 yellow" /></span>
-                                <strong>Regiões de Ancoragem (RDA)</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Preveja o futuro</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Identifique áreas onde os grandes players estão formando suas posições. Essas regiões de extrema liquidez servem como suportes ou resistências muito fortes, proporcionando oportunidades valiosas de entrada e saída.</p>
+                                Baseado em uma sólida base estatística, o Rastreador de Alvos identifica os alvos com maior probabilidade de serem alcançados, desativando os com menor chance. Isso em resumo é mais dinheiro no seu bolso.</p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <span><Icons.CheckMark className="mr-1.5 w-7 yellow" /></span>
-                                <strong>Pontos de Decisão (PD)</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Dinâmica Simples e Intuitiva</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Reconheça regiões de montagem de posição com menor intensidade que podem preceder grandes movimentos.</p>
+                                Fácil de usar, o algoritmo proporciona uma leitura clara e facilitada dos movimentos do mercado, permitindo que até mesmo traders menos experientes possam aproveitar seus benefícios.</p>
+                        </div>
+                    </div>
+                    <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
+                        <div className=''>
+                            <p className='flex items-center w-full text-2xl text-left'>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Convergência com Outros Algoritmos</strong>
+                            </p>
+                            <p className='px-8 text-lg text-left'>
+                                Quando utilizado em conjunto com a família de algoritmos do Fluxo, como o LT, você monta um quebra-cabeça completo para suas análises, potencializando ainda mais seus resultados.</p>
                         </div>
                     </div>
                 </div>

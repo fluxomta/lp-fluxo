@@ -1,23 +1,21 @@
 // src/app/page.js
-import HeroSection from '@/components/Indicadores/HeroSection';
-import TextBlock from '@/components/Indicadores/TextBlock';
-import TextBlockTwo from '@/components/Indicadores/TextBlockTwo';
-import Parceria from '@/components/Indicadores/Parceria';
-import Solucoes from '@/components/Indicadores/Solucoes';
-import SpeedFlow from '@/components/Indicadores/SpeedFlow';
-import TextBlockWhite from '@/components/Indicadores/TextBlockWhite';
-import TestimonialsSlider from '@/components/Indicadores/TestimonialsSlider';
+import PricingPlan from '@/components/SpeedFlow/PricingPlan';
+import HeroSection from '@/components/SpeedFlow/HeroSection';
+import TextBlockThree from '@/components/SpeedFlow/TextBlockThree';
+import TextBlockTwo from '@/components/SpeedFlow/TextBlockTwo';
+import TextBlockWhite from '@/components/SpeedFlow/TextBlockWhite';
+import ZDSection from '@/components/SpeedFlow/ZDSection';
 
 export const metadata = {
     robots: 'index, follow',
-    title: 'SpeedFlow - Fluxo MTA',
+    title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-    keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica', 'SpeedFlow'],
+    keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'SpeedFlow - Fluxo MTA',
+        title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores/speedflow',
+        url: 'https://fluxomta.com/indicadores/alvo-R3',
         images: [
             {
                 url: '/images/social/social-share.webp',
@@ -29,7 +27,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'SpeedFlow - Fluxo MTA',
+        title: 'Alvo R3 - O Rastreador de Alvos - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         images: [
             {
@@ -44,13 +42,11 @@ export default function Indicadores() {
     return (
         <>
             <HeroSection />
-            <Parceria />
             <TextBlockWhite />
-            <Solucoes />
-            <TextBlock />
-            <SpeedFlow />
-            <TestimonialsSlider />
             <TextBlockTwo />
+            <TextBlockThree />
+            <ZDSection />
+            <PricingPlan />
         </>
     );
 }

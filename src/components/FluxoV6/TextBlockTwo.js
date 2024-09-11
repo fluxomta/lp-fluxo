@@ -7,7 +7,7 @@ export default function TextBlockTwo() {
         <section className="text-white bg-primary-500">
             <div className="max-w-6xl px-4 py-16 mx-auto md:text-lg ">
                 <h2 className="max-w-3xl mx-auto mb-4 text-2xl font-bold md:mb-8 md:text-center md:text-5xl">E como funciona na <span className="yellow">prática?</span></h2>
-                <p className="max-w-6xl mx-auto font-semibold text-center">O <span className="font-bold yellow">Rastreador de Alvos - Alvo R3</span> utiliza cores para indicar a intensidade do fluxo:</p>
+                <p className="max-w-6xl mx-auto font-semibold text-center">O <span className="font-bold yellow">Fluxo V6 - O Rastreador de Fluxo</span> utiliza cores para indicar a intensidade do fluxo:</p>
                 {/* Bandas */}
                 <div className="grid max-w-6xl md:grid-cols-2 gap-4 mx-auto">
                     <div className="px-4 py-8 overflow-hidden rounded-md bg-primary-700 border border-primary-400/50">
@@ -35,7 +35,6 @@ export default function TextBlockTwo() {
                         </div>
                     </div>
                 </div>
-                <p className="max-w-3xl mx-auto text-center !mb-0">Essa simbologia permite que você entenda rapidamente a força dos pontos de liquidez e ajuste suas operações de acordo.</p>
             </div>
         </section>
     );

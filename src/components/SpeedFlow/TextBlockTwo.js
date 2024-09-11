@@ -37,6 +37,7 @@ export default function TextBlockTwo() {
                         </div>
                     </div>
                 </div>
+                <p className="max-w-3xl mx-auto text-center !mb-0">Essa simbologia permite que você entenda rapidamente a força dos pontos de liquidez e ajuste suas operações de acordo.</p>
             </div>
         </section>
     );

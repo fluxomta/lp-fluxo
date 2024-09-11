@@ -14,16 +14,16 @@ export default function ZDSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-50 bg-primary-500'></div>
-            <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-12 mx-auto">
+            <div className="flex flex-col justify-between h-full max-w-7xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full max-w-4xl mx-auto">
-                        <p className="p-8 text-4xl font-bold text-center border rounded-md md:text-5xl yellow black-gradient border-secondary-700">
+                        <p className="p-4 text-2xl font-bold text-center border rounded-md md:text-4xl yellow black-gradient border-secondary-700">
                             Um presente especial para você!
                         </p>
-                        <p className="text-3xl font-bold text-center md:text-4xl ">
+                        <p className="text-2xl font-bold text-center md:text-4xl mb-1">
                             Assinando o Fluxo V6
                         </p>
-                        <h2 className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">
+                        <h2 className="mb-6 text-2xl font-bold text-center md:text-4xl yellow">
                             você recebe de bônus o indicador ZD
                         </h2>
                         <p className="text-lg md:text-xl md:text-center">

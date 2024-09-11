@@ -15,94 +15,52 @@ const PricingPlan = () => {
 
     return (
         <>
-            <section className="relative text-primary-500 border-t-2 border-secondary-700">
-                <div className='absolute w-full h-full bg-secondary-500 h-[75%] md:h-[50%] z-0 top-0'></div>
+            <section className="relative text-primary-500 border-t-2 border-secondary-700 bg-white">
+                <div className='absolute w-full h-full bg-secondary-500 h-[45%] md:h-[50%] z-0 top-0'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg  relative z-10">
                     <div className="p-2 text-4xl font-bold text-center  rounded-md md:text-5xl text-primary-500  border-secondary-700">
                         <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
-                        <p className=' text-2xl font-base text-center md:text-4xl'>você tem duas opções</p>
+                        <p className=' text-2xl font-base text-center md:text-4xl'>e acesse seu indicador imediatamente</p>
                     </div>
-
-                    <div className=" md:text-lg  grid md:grid-cols-2 gap-8 mt-12">
-                        <div className="bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-90 hover:scale-95 transition-all">
+                    <div className=" md:text-lg  grid md:grid-cols-2 gap-8 mt-4">
+                        <div className="bg-white border-2 border-secondary-400 rounded-lg shadow-lg md:scale-90 md:hover:scale-95 transition-all">
                             <div className="p-6 text-primary-500">
-                                <p className='text-3xl font-bold md:text-4xl'>LT <span className='text-2xl font-bold'>O Rastreador de Liquidez</span></p>
-                                <p className="mt-8">
-                                    <span className="text-4xl font-bold text-slate-900 tracking-tighter">R$79</span>
-                                    <span className="text-lg font-medium text-slate-500"> /mensal</span>
-                                </p>
+                                <p className='text-3xl font-bold md:text-5xl'>LT <span className='block text-2xl font-bold yellow'>O Rastreador de Liquidez</span></p>
+                                <p className='text-md font-base text-gray-700'>Assine o Indicador LT e tenha acesso imediato com suporte exclusivo. E mais: ganhe o indicador ZD como bônus, totalmente grátis para seu operacional.</p>
+                                <div className='flex items-center justify-center'>
+                                    <p className=" text-center black-gradient p-2 rounded-lg">
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 79</span>
+                                        <span className="text-lg font-base text-secondary-300"> /mensal</span>
+                                    </p>
+                                </div>
                                 <Link href="/assine"
-                                    className="mt-8 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
+                                    className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                             </div>
-                            <div className="pt-6 pb-8 px-6">
-                                <h3 className="text-sm font-bold text-slate-900 tracking-wide uppercase">O que esta incluso</h3>
-                                <ul role="list" className="mt-4 space-y-3">
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Receba Indicador LT + ZD</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Acesso imediato</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Acesso mensal</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Suporte exclusivo</span>
-                                    </li>
 
-                                </ul>
+                            <div className="pb-8 px-6">
+                                <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
                             </div>
                         </div>
-                        <div className="relative bg-white border border-slate-200 rounded-lg shadow-sm divide-y divide-slate-200 scale-95 hover:scale-105 transition-all">
-                            <span className="absolute -top-5 mx-auto left-0 right-0">
-                                <span className=' rounded-full bg-primary-500 py-3 px-4 text-md text-white font-bold '>Pacote promocional </span>
-                            </span>
+                        <div className="bg-white border-2 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                             <div className="p-6 text-primary-500">
-                                <p className='text-3xl font-bold md:text-4xl'>Todos os 4 Indicadores</p>
-                                <p className="mt-8">
-                                    <span className="text-4xl font-bold text-slate-900 tracking-tighter">R$179</span>
-
-                                    <span className="text-lg font-medium text-slate-500"> /mensal</span>
-                                </p>
-                                <div className='md:flex gap-4'>
-                                    <Link href="/assine"
-                                        className="mt-2 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Assine Agora</Link>
+                                <p className='text-3xl font-bold md:text-5xl'>Todos os 4 Indicadores</p>
+                                <p className='text-md font-base text-gray-700'>Assine o Indicador Fluxo V6 e tenha acesso imediato com suporte exclusivo. E mais: ganhe o indicador ZD como bônus, totalmente grátis para seu operacional.</p>
+                                <div className='flex items-center justify-center'>
+                                    <p className=" text-center black-gradient p-2 rounded-lg">
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 179</span>
+                                        <span className="text-lg font-base text-secondary-300"> /mensal</span>
+                                    </p>
                                 </div>
+                                <Link href="/assine"
+                                    className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                             </div>
-                            <div className="pt-6 pb-8 px-6">
-                                <h3 className="text-sm font-bold text-slate-900 tracking-wide uppercase">O que esta incluso</h3>
-                                <ul role="list" className="mt-4 space-y-3">
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Receba os indicadores</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700"><strong>Fluxo V6, Alvo R3, LT e ZD</strong></span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Acesso imediato</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Acesso mensal</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <Icons.Check className="w-8 text-green-400" />
-                                        <span className="text-lg text-slate-700">Suporte exclusivo</span>
-                                    </li>
-
-                                </ul>
+                            <div className="pb-8 px-6">
+                                <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section >
+            </section>
         </>
     );
 };

@@ -21,11 +21,11 @@ export default function TextBlockThree() {
                         <p>Fácil de usar e potencializa resultados quando combinado com outros algoritmos da família Fluxo.</p>
                     </div>
                 </div>
-                <div className="max-w-4xl px-4 pt-16 mx-auto text-center">
-                    <p className="text-2xl font-bold md:mb-8 md:text-center md:text-3xl">Invista no seu operacional com tecnologia de informação. <span className="yellow">Pare de operar no escuro.</span></p>
-                    <p className="mb-6 text-3xl font-bold text-center md:text-3xl ">Experimente o <span className='yellow'>Alvo R3</span> e transforme
+                <div className="max-w-6xl px-4 pt-16 mx-auto text-center">
+                    <p className="text-xl font-bold md:mb-8 md:text-center md:text-3xl">Invista no seu operacional com tecnologia de informação. Pare de operar no escuro.</p>
+                    <p className="mb-6 text-xl font-bold text-center md:text-3xl">Experimente o <span className='yellow'>Alvo R3</span> e transforme
                         suas operações, evitando perdas e maximizando seus lucros.</p>
-                    <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">Invista em um tradesystem eficiente. </p>
+                    <p className="mb-6 text-2xl font-bold text-center md:text-4xl yellow">Invista em um tradesystem eficiente. </p>
                     <div className="relative z-10 flex justify-center w-full mx-auto">
                         <Link href="/indicadores">
                             <button className="flex items-center justify-center w-full group btn md:btn-large">
