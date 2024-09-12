@@ -13,15 +13,13 @@ export default function HeroSection() {
             }}
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
-            <div className="flex flex-col justify-between h-full max-w-7xl px-4 py-12 mx-auto">
+            <div className="flex flex-col justify-between h-full max-w-5xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full hidden md:block">
+                        <Image src="/speedflow.webp" alt="Logo" width={455} height={102} className='mx-auto mt-8' />
                         <h1 className="mb-4 text-3xl font-bold text-center md:text-6xl">
-                            <span className="flex items-center justify-center">
-                                <span className='hidden'>Speedflow</span><Image src="/speedflow.webp" alt="Logo" width={400} height={102} className='-mr-8' />
-                                <span className='mt-3'>é a análise real do fluxo</span>
-                            </span>
-                            na sua máxima potência
+                            <span className='hidden'>Speedflow</span>
+                            <span className='mt-3'>é a análise real do fluxo na sua máxima potência</span>
                         </h1>
                     </div>
                     <div className="w-full block md:hidden">
