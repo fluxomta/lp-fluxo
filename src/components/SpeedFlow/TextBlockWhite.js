@@ -6,55 +6,55 @@ export default function TextBlockWhite() {
     return (
         <section className="text-white black-gradient border-y border-secondary-700">
             <div className="max-w-6xl px-8 py-12 mx-auto text-lg ms:px-4 md:text-center">
-                <p className="!-mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Por que escolher o </p>
-                <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">Alvo R3 |
-                    O Rastreador de Alvos</p>
+                <p className="!-mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Quais as vantagens do </p>
+                <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">SpeedFlow</p>
+                <p className='text-2xl text-left'>O método SpeedFlow é perfeito para a sua análise de mercado e com ele, você vai com certeza, alcançar um novo patamar de leitura de mercado. </p>
                 <div class='grid grid-cols-1 gap-4'>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className='flex flex-col'>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Identificação Precisa de Estágios de Preço</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Simplicidade poderosa</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Nosso algoritmo ajuda você a identificar com precisão em qual estágio do movimento o preço está, permitindo que você saiba exatamente até onde levar sua posição sem surpresas.
+                                Diga adeus à complicação nas suas análises. Com o SpeedFlow, suas entradas se tornam claras e objetivas.
                             </p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Versatilidade</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Direção certeira</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Funciona em diversos tempos gráficos e uma ampla gama de ativos, incluindo ações, ou qualquer ativo de sua preferência.
+                                Entenda facilmente para onde o mercado está indo, eliminando dúvidas e maximizando seus lucros.
                             </p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Preveja o futuro</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Velocidade na leitura do fluxo</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Baseado em uma sólida base estatística, o Rastreador de Alvos identifica os alvos com maior probabilidade de serem alcançados, desativando os com menor chance. Isso em resumo é mais dinheiro no seu bolso.</p>
+                                Não perca mais oportunidades e evite armadilhas. O SpeedFlow acelera sua tomada de decisão.</p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Dinâmica Simples e Intuitiva</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Testado e aprovado</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Fácil de usar, o algoritmo proporciona uma leitura clara e facilitada dos movimentos do mercado, permitindo que até mesmo traders menos experientes possam aproveitar seus benefícios.</p>
+                                Centenas de traders confiam no SpeedFlow todos os dias para operar com confiança.</p>
                         </div>
                     </div>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className=''>
                             <p className='flex items-center w-full text-2xl text-left'>
-                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Convergência com Outros Algoritmos</strong>
+                                <Icons.CheckMark className="mr-1.5 w-7 yellow" /><strong>Suporte especializado</strong>
                             </p>
                             <p className='px-8 text-lg text-left'>
-                                Quando utilizado em conjunto com a família de algoritmos do Fluxo, como o LT, você monta um quebra-cabeça completo para suas análises, potencializando ainda mais seus resultados.</p>
+                                Conte com uma comunidade ativa de profissionais prontos para ajudar em qualquer dúvida que surgir.</p>
                         </div>
                     </div>
                 </div>

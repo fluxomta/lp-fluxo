@@ -1,6 +1,7 @@
 // src/app/page.js
 import PricingPlan from '@/components/RastreadorLiquidez/PricingPlan';
 import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
+import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
 import TextBlockWhite from '@/components/RastreadorLiquidez/TextBlockWhite';
@@ -42,7 +43,7 @@ export default function Indicadores() {
     return (
         <>
             <HeroSection />
-            <TextBlockWhite />
+            <Parceria />
             <TextBlockTwo />
             <TextBlockThree />
             <ZDSection />

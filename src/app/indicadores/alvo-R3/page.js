@@ -1,6 +1,7 @@
 // src/app/page.js
 import PricingPlan from '@/components/AlvoR3/PricingPlan';
 import HeroSection from '@/components/AlvoR3/HeroSection';
+import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/AlvoR3/TextBlockThree';
 import TextBlockTwo from '@/components/AlvoR3/TextBlockTwo';
 import TextBlockWhite from '@/components/AlvoR3/TextBlockWhite';
@@ -42,6 +43,7 @@ export default function Indicadores() {
     return (
         <>
             <HeroSection />
+            <Parceria />
             <TextBlockWhite />
             <TextBlockTwo />
             <TextBlockThree />

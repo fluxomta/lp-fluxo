@@ -1,6 +1,4 @@
 // src/components/RastreadorLiquidez/ZDSection.js
-import Link from 'next/link';
-import Icons from '@/components/Global/Icons';
 import VimeoPlayer from '@/components/Global/VideoPlayer';
 
 export default function ZDSection() {

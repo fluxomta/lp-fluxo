@@ -1,6 +1,7 @@
 // src/app/page.js
 import PricingPlan from '@/components/FluxoV6/PricingPlan';
 import HeroSection from '@/components/FluxoV6/HeroSection';
+import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/FluxoV6/TextBlockThree';
 import TextBlockTwo from '@/components/FluxoV6/TextBlockTwo';
 import TextBlockWhite from '@/components/FluxoV6/TextBlockWhite';
@@ -42,6 +43,7 @@ export default function Indicadores() {
     return (
         <>
             <HeroSection />
+            <Parceria />
             <TextBlockWhite />
             <TextBlockTwo />
             <TextBlockThree />
