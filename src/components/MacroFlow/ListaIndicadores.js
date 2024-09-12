@@ -17,13 +17,6 @@ export default function ListaIndicadores() {
                 <p className="mb-6 text-2xl font-base md:text-center md:text-3xl md:-mb-1">Com esta <strong>poderosa caixa de ferramentas</strong>, você terá uma visão de mercado precisa como um raio X, operando apenas nos trades certos, como um verdadeiro Sniper.</p>
                 <p className="mb-6 text-2xl font-base md:text-center md:text-3xl ">Mas lembre-se, com grandes poderes vêm </p>
                 <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow uppercase">Grandes responsabilidades </p>
-                <div className='grid gap-4 max-w-5xl mx-auto mb-12 p-8 '>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full'>
-                            <Image src="/images/icons/icone-03.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                    </div>
-                </div>
             </div>
         </section>
     );

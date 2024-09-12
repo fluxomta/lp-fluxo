@@ -20,7 +20,7 @@ const PricingPlan = () => {
                                 <p className='text-md font-base text-gray-700'>Assine o Indicador <strong>Alvo R3</strong> e tenha acesso imediato com suporte exclusivo. E mais: <strong>ganhe o indicador ZD como bônus</strong>, totalmente grátis para seu operacional.</p>
                                 <div className='flex items-center justify-center'>
                                     <p className=" text-center black-gradient p-2 rounded-lg">
-                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 79</span>
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 99</span>
                                         <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                     </p>
                                 </div>
@@ -38,7 +38,7 @@ const PricingPlan = () => {
                                 <p className='text-md font-base text-gray-700'>Assine o Pacote dos Indicadores <strong>Fluxo V6</strong>, <strong>Alvo R3</strong> e <strong>QUANTUM LT</strong> e tenha acesso imediato com suporte exclusivo. E mais: <strong>ganhe o indicador ZD como bônus</strong>, totalmente grátis para seu operacional.</p>
                                 <div className='flex items-center justify-center'>
                                     <p className=" text-center black-gradient p-2 rounded-lg">
-                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 179</span>
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 249</span>
                                         <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                     </p>
                                 </div>

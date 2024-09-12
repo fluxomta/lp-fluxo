@@ -20,7 +20,7 @@ const PricingPlan = () => {
                             <p className='text-md font-base text-gray-700'>Assine o <strong>SpeedFlow Light</strong> e receba os indicadores <strong>MacroFlow</strong>, <strong>Fluxo V6</strong>, <strong>QUANTUM LT</strong> e <strong>ZD</strong> e tenha acesso imediato com suporte exclusivo. E mais: receba o nosso <strong>Curso de Fluxo como bônus</strong>, totalmente grátis para refinar seu operacional.</p>
                             <div className='flex items-center justify-center'>
                                 <p className=" text-center black-gradient p-2 rounded-lg">
-                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 279</span>
+                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 289</span>
                                     <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                 </p>
                             </div>
@@ -38,7 +38,7 @@ const PricingPlan = () => {
                             <p className='text-md font-base text-gray-700'>Assine o <strong>SpeedFlow Elite</strong> e receba os indicadores <strong>MacroFlow</strong>, <strong>Fluxo V6</strong>, <strong>QUANTUM LT</strong>, <strong>Alvo R3</strong> e <strong>ZD + Comunidade SpeedFlow<span className='text-secondary-700'>*</span></strong> e tenha acesso imediato com suporte exclusivo. E mais: receba o nosso <strong>Curso de Fluxo como bônus</strong>, totalmente grátis para refinar seu operacional.</p>
                             <div className='flex items-center justify-center'>
                                 <p className=" text-center black-gradient p-2 rounded-lg">
-                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 349</span>
+                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 379</span>
                                     <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                 </p>
                             </div>
@@ -56,7 +56,7 @@ const PricingPlan = () => {
                             <p className='text-md font-base text-gray-700'>Assine o <strong>SpeedFlow Elite Semestral e garanta 6 meses de acesso</strong> Receba os indicadores <strong>MacroFlow</strong>, <strong>Fluxo V6</strong>, <strong>QUANTUM LT</strong>, <strong>Alvo R3</strong> e <strong>ZD + Comunidade SpeedFlow<span className='text-secondary-700'>*</span></strong> com um excelente desconto, e tenha acesso imediato com suporte exclusivo. E mais: receba o nosso <strong>Curso de Fluxo como bônus</strong>, totalmente grátis para refinar seu operacional.</p>
                             <div className='flex items-center justify-center'>
                                 <p className=" text-center black-gradient p-2 rounded-lg">
-                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 1.899</span>
+                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 1.997</span>
                                     <span className="text-lg font-base text-secondary-300"> /Semestral</span>
                                 </p>
                             </div>
