@@ -2,15 +2,8 @@
 "use client"; // Adicione esta linha
 
 import Link from 'next/link';
-import React, { useState } from 'react';
 
 const PricingPlan = () => {
-    const [isAnnual, setIsAnnual] = useState(true);
-
-    const togglePlan = () => {
-        setIsAnnual(!isAnnual);
-    };
-
     return (
         <>
             <section className="relative text-primary-500 border-t-2 border-secondary-700 bg-white">
