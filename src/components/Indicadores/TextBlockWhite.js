@@ -13,7 +13,7 @@ export default function TextBlockWhite() {
                 <p className="mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Sair muito cedo de uma operação é deixar dinheiro na mesa;
                     sair muito tarde é perder dinheiro.</p>
                 <p className='mb-4 text-2xl font-bold md:text-4xl md:text-left yellow'>Usar a ferramenta certa vai:</p>
-                <div class='grid grid-cols-1 md:grid-cols-2 md:space-x-6'>
+                <div className='grid grid-cols-1 md:grid-cols-2 md:space-x-6'>
                     <div className='flex flex-col'>
                         <div className='flex items-center px-2 mb-2 border rounded-md border-secondary-700 black-gradient'>
                             <div className=''>

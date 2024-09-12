@@ -9,7 +9,7 @@ export default function TextBlockWhite() {
                 <p className="!-mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Por que escolher o </p>
                 <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">Fluxo V6
                     | Rastreador de Fluxo?</p>
-                <div class='grid grid-cols-1 gap-4'>
+                <div className='grid grid-cols-1 gap-4'>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className='flex flex-col'>
                             <p className='flex items-center w-full text-2xl text-left'>

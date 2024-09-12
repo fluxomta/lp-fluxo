@@ -40,8 +40,8 @@ const PricingPlan = () => {
                         </div>
                         <div className="bg-white border-2 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                             <div className="p-6 text-primary-500">
-                                <p className='text-3xl font-bold md:text-5xl'>Todos os 4 Indicadores</p>
-                                <p className='text-md font-base text-gray-700'>Assine o Indicador Fluxo V6 e tenha acesso imediato com suporte exclusivo. E mais: ganhe o indicador ZD como bônus, totalmente grátis para seu operacional.</p>
+                                <p className='text-3xl font-bold md:text-5xl'>Todos os <br />4 Indicadores</p>
+                                <p className='text-md font-base text-gray-700'>Assine o Pacote dos Indicadores <strong>Fluxo V6</strong>, <strong>Alvo R3</strong> e <strong>LT</strong> e tenha acesso imediato com suporte exclusivo. E mais: <strong>ganhe o indicador ZD como bônus</strong>, totalmente grátis para seu operacional.</p>
                                 <div className='flex items-center justify-center'>
                                     <p className=" text-center black-gradient p-2 rounded-lg">
                                         <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 179</span>

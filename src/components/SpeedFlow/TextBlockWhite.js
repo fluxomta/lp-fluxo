@@ -9,7 +9,7 @@ export default function TextBlockWhite() {
                 <p className="!-mb-4 text-2xl font-semibold md:text-3xl md:text-left ">Quais as vantagens do </p>
                 <p className="mb-2 text-3xl font-semibold md:text-4xl md:text-left yellow">SpeedFlow</p>
                 <p className='text-2xl text-left'>O método SpeedFlow é perfeito para a sua análise de mercado e com ele, você vai com certeza, alcançar um novo patamar de leitura de mercado. </p>
-                <div class='grid grid-cols-1 gap-4'>
+                <div className='grid grid-cols-1 gap-4'>
                     <div className='flex items-start p-4 mb-2 border rounded-md border-secondary-700 black-gradient'>
                         <div className='flex flex-col'>
                             <p className='flex items-center w-full text-2xl text-left'>
