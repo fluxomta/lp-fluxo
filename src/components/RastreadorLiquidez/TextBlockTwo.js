@@ -7,7 +7,7 @@ export default function TextBlockTwo() {
         <section className="text-white bg-primary-500">
             <div className="max-w-6xl px-4 py-16 mx-auto md:text-lg ">
                 <h2 className="max-w-3xl mx-auto mb-4 text-2xl font-bold md:mb-8 md:text-center md:text-5xl">E como funciona na <span className="yellow">prática?</span></h2>
-                <p className="max-w-3xl mx-auto text-center">O <span className="font-semibold yellow">LT identifica pontos de liquidez relevantes no gráfico,</span> destacando topos e fundos que são cruciais para suas operações.</p>
+                <p className="max-w-3xl mx-auto text-center">O <span className="font-semibold yellow">QUANTUM LT identifica pontos de liquidez relevantes no gráfico,</span> destacando topos e fundos que são cruciais para suas operações.</p>
                 <div className="grid max-w-3xl grid-cols-1 gap-4 mx-auto">
                     <div className="px-4 py-8 overflow-hidden text-center rounded-md bg-primary-700 border border-primary-400/50">
                         <div className="flex flex-col ">

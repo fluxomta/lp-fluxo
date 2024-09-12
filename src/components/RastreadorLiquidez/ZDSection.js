@@ -19,7 +19,7 @@ export default function ZDSection() {
                             Um presente especial para você!
                         </p>
                         <p className="text-2xl font-bold text-center md:text-4xl mb-1">
-                            Assinando o LT | O Rastreador de Liquidez
+                            Assinando o QUANTUM LT | O Rastreador de Liquidez
                         </p>
                         <h2 className="mb-6 text-2xl font-bold text-center md:text-4xl yellow">
                             você recebe de bônus o indicador ZD

@@ -92,7 +92,7 @@ export default function Header() {
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
                         <Link href="/indicadores/rastreador-de-liquidez" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">LT - O Rastreador de Liquidez</span>
+                            <span className="block font-semibold">QUANTUM LT - O Rastreador de Liquidez</span>
                         </Link>
                         <Link href="/indicadores/alvo-R3" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Alvo R3 - O Rastreador de Alvos</span>
@@ -117,7 +117,7 @@ export default function Header() {
             >
                 <div className="flex justify-start max-w-6xl mx-auto space-x-6 font-semibold">
                     <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
-                        LT - O Rastreador de Liquidez
+                        QUANTUM LT - O Rastreador de Liquidez
                     </Link>
                     <Link href="/indicadores/alvo-R3" className="block px-4 py-2 hover:text-secondary-400">
                         Alvo R3 - O Rastreador de Alvos

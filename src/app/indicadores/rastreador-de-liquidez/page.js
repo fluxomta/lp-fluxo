@@ -9,11 +9,11 @@ import ZDSection from '@/components/RastreadorLiquidez/ZDSection';
 
 export const metadata = {
     robots: 'index, follow',
-    title: 'LT O Rastreador de Liquidez - Fluxo MTA',
+    title: 'QUANTUM LT | O Rastreador de Liquidez - Fluxo MTA',
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'LT O Rastreador de Liquidez - Fluxo MTA',
+        title: 'QUANTUM LT | O Rastreador de Liquidez - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
         url: 'https://fluxomta.com/indicadores/rastreador-de-liquidez',

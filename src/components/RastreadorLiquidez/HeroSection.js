@@ -21,7 +21,7 @@ export default function HeroSection() {
                             Transforme suas operações com o
                         </p>
                         <h1 className="mb-2 text-3xl font-bold text-center md:text-6xl">
-                            LT | O Rastreador de Liquidez
+                            QUANTUM LT | O Rastreador de Liquidez
                         </h1>
                     </div>
                 </div>
