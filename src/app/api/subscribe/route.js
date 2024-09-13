@@ -6,10 +6,10 @@ export async function POST(req) {
 
     // Mapeamento de tags para IDs de listas no ActiveCampaign
     const tagToListMap = {
-        daytrade3: 10, // Substitua '1' pelo ID da lista para "Opero todos os dias"
-        daytrade2: 10, // Substitua '2' pelo ID da lista para "Opero quase todos os dias"
-        daytrade1: 8, // Substitua '3' pelo ID da lista para "Já operei, mas parei por um tempo"
-        daytrade0: 9, // Substitua '4' pelo ID da lista para "Não opero ainda, mas quero começar"
+        daytrade3: 14,
+        daytrade2: 14,
+        daytrade1: 14,
+        daytrade0: 14,
     };
 
     const listId = tagToListMap[dayTrade];
