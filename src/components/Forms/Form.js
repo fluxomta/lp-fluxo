@@ -2,16 +2,17 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation'; // Importa o hook useRouter
+import { useRouter, usePathname } from 'next/navigation'; // Importa o hook usePathname
 import TextInput from '@components/Forms/TextInput';
-import PhoneInput from '@components/Forms//PhoneInput';
-import SelectInput from '@components/Forms//SelectInput';
-import SubmitButton from '@components/Forms//SubmitButton';
-import Message from '@components/Forms//Message';
-import LgpdText from '@components/Forms//LgpdText';
+import PhoneInput from '@components/Forms/PhoneInput';
+import SelectInput from '@components/Forms/SelectInput';
+import SubmitButton from '@components/Forms/SubmitButton';
+import Message from '@components/Forms/Message';
+import LgpdText from '@components/Forms/LgpdText';
 
 const Form = () => {
     const router = useRouter(); // Inicializa o hook useRouter
+    const pathname = usePathname(); // Obtém o caminho atual
 
     const [formData, setFormData] = useState({
         fullName: '',
@@ -50,11 +51,10 @@ const Form = () => {
                     dayTrade: '',
                 });
 
-                // Obtém a URL atual usando o window.location.pathname
-                const currentPath = window.location.pathname;
+                // Obtenha o caminho completo e adicione o redirecionamento correto
+                const currentPath = window.location.origin + pathname; // Use window.location.origin para obter o domínio completo
+                router.push(`${currentPath}/obrigado`); // Construa uma URL completa para redirecionar
 
-                // Redireciona para a página de "Obrigado" baseada na URL atual
-                router.push(`${currentPath}/obrigado`);
             } else {
                 setStatusMessage('Erro ao enviar inscrição.');
                 setMessageType('error');

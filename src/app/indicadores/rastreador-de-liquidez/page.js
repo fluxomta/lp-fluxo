@@ -6,6 +6,7 @@ import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
 import ZDSection from '@/components/RastreadorLiquidez/ZDSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
+import TextBlockWhite from '@/components/RastreadorLiquidez/TextBlockWhite';
 
 export const metadata = {
     robots: 'index, follow',
@@ -44,6 +45,7 @@ export default function Indicadores() {
         <>
             <HeroSection />
             <Parceria />
+            <TextBlockWhite />
             <TextBlockTwo />
             <TextBlockThree />
             <ZDSection />
