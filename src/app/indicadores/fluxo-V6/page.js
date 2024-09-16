@@ -6,6 +6,7 @@ import TextBlockThree from '@/components/FluxoV6/TextBlockThree';
 import TextBlockTwo from '@/components/FluxoV6/TextBlockTwo';
 import TextBlockWhite from '@/components/FluxoV6/TextBlockWhite';
 import ZDSection from '@/components/FluxoV6/ZDSection';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -49,6 +50,7 @@ export default function Indicadores() {
             <TextBlockThree />
             <ZDSection />
             <PricingPlan />
+            <FAQAccordion />
         </>
     );
 }

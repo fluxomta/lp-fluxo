@@ -4,24 +4,24 @@ import { useState } from 'react';
 
 const faqData = [
     {
-        question: "Como abrir uma conta na XP Investimentos?",
-        answer: "Para abrir uma conta na XP Investimentos, você deve acessar o site oficial e seguir o passo a passo do formulário de abertura de conta.",
+        question: "Terei quanto tempo de acesso ao indicador.",
+        answer: "O ciclo de faturamento do indicador é contado do primeiro dia até o dia final do mês, você sempre vai pagar proporcional a quantos dias faltam para acabar o mês e terá esse tempo de acesso.Por exemplo, se pagar no dia 10, você paga o proporcional e o indicador funciona até o último dia do mês atual.",
     },
     {
-        question: "Como funciona a assessoria na XP?",
-        answer: "A assessoria na XP oferece suporte personalizado para seus investimentos, ajudando a escolher as melhores opções de acordo com seu perfil e objetivos.",
+        question: "Quais as formas de pagamento?",
+        answer: "Cartão, ou PIX via atendimento Whatsapp",
     },
     {
-        question: "Como entrar em contato com a XP?",
-        answer: "Você pode entrar em contato com a XP através do telefone, email, ou pelo chat disponível no site oficial.",
+        question: "Para quem são os indicadores?",
+        answer: "Para todos aqueles que querem avançar no mercado tendo a sua disposição ferramentas que realmente geram resultados.",
     },
     {
-        question: "Quanto custa para investir na XP?",
-        answer: "Os custos para investir na XP variam de acordo com o tipo de investimento escolhido. Consulte o site para mais detalhes sobre as taxas e custos envolvidos.",
+        question: "E se eu comprar e não for pra mim?",
+        answer: "Você tem 7 dias garantidos por lei para o arrependimento da compra.",
     },
     {
-        question: "O que é a XP Inc.?",
-        answer: "A XP Inc. é a holding que controla diversas empresas de serviços financeiros, incluindo a XP Investimentos, e atua no mercado financeiro oferecendo uma ampla gama de produtos e serviços.",
+        question: "E se eu quiser fazer a mentoria MTA, tenho desconto?",
+        answer: "Sim, os assinantes dos indicadores tem desconto na assinatura dos nossos planos de mentoria, chame no Whatsapp e solicite seu cupom.",
     },
 ];
 

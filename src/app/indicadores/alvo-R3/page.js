@@ -6,6 +6,7 @@ import TextBlockThree from '@/components/AlvoR3/TextBlockThree';
 import TextBlockTwo from '@/components/AlvoR3/TextBlockTwo';
 import TextBlockWhite from '@/components/AlvoR3/TextBlockWhite';
 import ZDSection from '@/components/AlvoR3/ZDSection';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -49,6 +50,7 @@ export default function Indicadores() {
             <TextBlockThree />
             <ZDSection />
             <PricingPlan />
+            <FAQAccordion />
         </>
     );
 }

@@ -7,7 +7,7 @@ import Icons from '@/components/Global/Icons';
 const PricingPlan = () => {
     return (
         <>
-            <section className="relative text-primary-500 border-t-2 border-secondary-700 bg-white">
+            <section className="relative text-primary-500 border-t-2 border-secondary-700 bg-white z-50" id="assine">
                 <div className='absolute w-full bg-secondary-500 h-[45%] md:h-[50%] z-0 top-0'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg  relative z-10">
                     <div className="p-2 text-4xl font-bold text-center  rounded-md md:text-5xl text-primary-500  border-secondary-700">

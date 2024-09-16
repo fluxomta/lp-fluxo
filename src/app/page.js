@@ -1,6 +1,6 @@
 // src/app/page.js
 import HeroSection from '@/components/Home/HeroSection';
-import FAQAccordion from '@/components/Home/FAQAccordion';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 import TextBlock from '@/components/Home/TextBlock';
 import TextBlockTwo from '@/components/Home/TextBlockTwo';
 import ProductAccordion from '@/components/Home/ProductAccordion';

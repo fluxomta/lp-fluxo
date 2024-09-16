@@ -8,6 +8,7 @@ import FormInscricao from '@/components/MacroFlow/FormInscricao';
 import ListaIndicadores from '@/components/MacroFlow/ListaIndicadores';
 import ZDSection from '@/components/MacroFlow/ZDSection';
 import TextBlockOne from '@/components/MacroFlow/TextBlockOne';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -53,6 +54,7 @@ export default function Indicadores() {
             <FormInscricao />
             <TextBlockThree />
             <PricingPlan />
+            <FAQAccordion />
         </>
     );
 }

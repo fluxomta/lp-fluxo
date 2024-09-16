@@ -4,8 +4,8 @@ import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
 import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
 import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
-import TextBlockWhite from '@/components/RastreadorLiquidez/TextBlockWhite';
 import ZDSection from '@/components/RastreadorLiquidez/ZDSection';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -48,6 +48,7 @@ export default function Indicadores() {
             <TextBlockThree />
             <ZDSection />
             <PricingPlan />
+            <FAQAccordion />
         </>
     );
 }

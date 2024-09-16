@@ -46,7 +46,7 @@ export default function HeroSection() {
                     />
                 </div>
                 <div className="relative z-10 flex mx-auto">
-                    <Link href="/indicadores">
+                    <Link href="#assine">
                         <button className="flex items-center justify-center w-full group btn md:btn-large">
                             Quero Acelerar meus Resultados <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                         </button>

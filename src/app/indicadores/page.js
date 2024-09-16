@@ -7,6 +7,7 @@ import Solucoes from '@/components/Indicadores/Solucoes';
 import SpeedFlow from '@/components/Indicadores/SpeedFlow';
 import TextBlockWhite from '@/components/Indicadores/TextBlockWhite';
 import TestimonialsSlider from '@/components/Indicadores/TestimonialsSlider';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -51,6 +52,7 @@ export default function Indicadores() {
             <SpeedFlow />
             <TestimonialsSlider />
             <TextBlockTwo />
+            <FAQAccordion />
         </>
     );
 }

@@ -6,6 +6,7 @@ import TextBlockThree from '@/components/SpeedFlow/TextBlockThree';
 import TextBlockWhite from '@/components/SpeedFlow/TextBlockWhite';
 import FormInscricao from '@/components/SpeedFlow/FormInscricao';
 import ListaIndicadores from '@/components/SpeedFlow/ListaIndicadores';
+import FAQAccordion from '@/components/Global/FAQAccordion';
 
 export const metadata = {
     robots: 'index, follow',
@@ -49,6 +50,7 @@ export default function Indicadores() {
             <FormInscricao />
             <TextBlockThree />
             <PricingPlan />
+            <FAQAccordion />
         </>
     );
 }
