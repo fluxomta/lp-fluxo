@@ -10,7 +10,7 @@ export default function TextBlockThree() {
 
                     <p className="mb-6 text-2xl font-base text-center md:text-3xl ">Experimente o <span className='yellow'>MacroFlow</span> e transforme
                         suas operações, evitando perdas e maximizando seus lucros.</p>
-                    <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">Invista em um tradesystem eficiente. </p>
+                    <p className="mb-6 text-3xl font-bold text-center md:text-4xl ">Invista em um tradesystem eficiente. </p>
                     <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow">Comece agora! </p>
                 </div>
             </div>

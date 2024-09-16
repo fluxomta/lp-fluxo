@@ -17,10 +17,10 @@ export default function HeroSection() {
             <div className="flex flex-col justify-between h-full max-w-7xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center mb-8">
                     <div className="w-full tracking-tighter">
-                        <p className="mb-2 text-3xl font-bold text-center md:text-6xl yellow">
+                        <p className="mb-2 text-3xl font-bold text-center md:text-5xl yellow">
                             Você no controle total do seu trade
                         </p>
-                        <h1 className="mb-2 text-3xl font-bold text-center md:text-6xl">
+                        <h1 className="mb-2 text-3xl font-bold text-center md:text-5xl">
                             Alvo R3 | O Rastreador de Alvos
                         </h1>
                     </div>

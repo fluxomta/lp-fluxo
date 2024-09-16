@@ -1,7 +1,7 @@
 // src/app/page.js
 import PricingPlan from '@/components/SpeedFlow/PricingPlan';
 import HeroSection from '@/components/SpeedFlow/HeroSection';
-import Parceria from '@/components/SpeedFlow/Parceria';
+import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/SpeedFlow/TextBlockThree';
 import TextBlockWhite from '@/components/SpeedFlow/TextBlockWhite';
 import FormInscricao from '@/components/SpeedFlow/FormInscricao';

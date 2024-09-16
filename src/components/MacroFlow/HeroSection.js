@@ -1,4 +1,6 @@
 // src/components/RastreadorLiquidez/HeroSection.js
+import Link from 'next/link';
+import Icons from '@/components/Global/Icons';
 import VimeoPlayer from '@/components/Global/VideoPlayer';
 
 export default function HeroSection() {
@@ -15,13 +17,13 @@ export default function HeroSection() {
             <div className="flex flex-col justify-between h-full max-w-6xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">
-                        <h1 className="mb-4 text-3xl font-normal text-center md:text-6xl">
-                            <span className='mt-3'><span className='yellow block'><strong>MacroFlow</strong>, opere como um Sniper</span> o fluxo real e <strong>gratuito</strong> em suas mãos</span>
+                        <h1 className="mb-8 text-3xl font-normal text-center md:text-6xl">
+                            <span className='mt-3 semibold'><span className='yellow block'>MacroFlow, opere como um Sniper</span> o fluxo real e <strong>gratuito</strong> em suas mãos</span>
                         </h1>
                     </div>
                 </div>
 
-                <div className="w-full max-w-5xl p-1 mx-auto mb-8">
+                <div className="w-full max-w-3xl p-1 mx-auto mb-8">
                     <VimeoPlayer
                         videoId="682116908"
                         autoplay={false}
@@ -30,6 +32,13 @@ export default function HeroSection() {
                         coverImage="https://vumbnail.com/682116908.jpg"
                         endCoverImage="https://vumbnail.com/682116908.jpg"
                     />
+                </div>
+                <div className="relative z-10 flex mx-auto">
+                    <Link href="/indicadores">
+                        <button className="flex items-center justify-center w-full group btn md:btn-large">
+                            Quero Acelerar meus Resultados <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
+                        </button>
+                    </Link>
                 </div>
             </div>
         </section >

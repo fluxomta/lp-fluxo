@@ -17,12 +17,7 @@ export default function Home() {
     return (
         <>
             <section
-                className="relative text-white bg-black h-auto md:min-h-[60vh] "
-                style={{
-                    backgroundImage: 'url(/images/bg/bg-02.webp)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
+                className="relative text-white black-gradient h-auto md:min-h-[60vh] "
             >
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10">
@@ -30,7 +25,7 @@ export default function Home() {
                         Chega de ter dúvidas no mercado financeiro, eu vou
                         te ensinar de <strong>graça</strong> como ganhar <strong>dinheiro de verdade</strong> com o <span className='yellow font-bold'>SpeedFlow</span>
                     </h1>
-                    <div className="max-w-6xl pb-8 mx-auto ">
+                    <div className="max-w-4xl pb-8 mx-auto ">
                         <Swiper
                             spaceBetween={10}
                             slidesPerView={1.3} // Valor padrão, será substituído pelos breakpoints abaixo
@@ -54,7 +49,7 @@ export default function Home() {
                         >
                             {aulas.map((aula) => (
                                 <SwiperSlide key={aula.id}>
-                                    <div className="relative w-full h-[180px] bg-primary-900 rounded-lg shadow-md overflow-hidden border border-secondary-700">
+                                    <div className="relative max-w-5xl h-[200px]  rounded-lg shadow-md overflow-hidden">
                                         <Image
                                             src={aula.src}
                                             alt={aula.message}

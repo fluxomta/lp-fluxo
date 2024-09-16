@@ -1,7 +1,7 @@
 // src/app/page.js
 import PricingPlan from '@/components/MacroFlow/PricingPlan';
 import HeroSection from '@/components/MacroFlow/HeroSection';
-import Parceria from '@/components/MacroFlow/Parceria';
+import Parceria from '@/components/Global/Parceria';
 import TextBlockThree from '@/components/MacroFlow/TextBlockThree';
 import TextBlockWhite from '@/components/MacroFlow/TextBlockWhite';
 import FormInscricao from '@/components/MacroFlow/FormInscricao';

@@ -59,8 +59,6 @@ export default function ListaIndicadores() {
                     <p className="text-3xl font-bold  md:text-4xl yellow uppercase">+ Comunidade</p>
                     <Image src="/speedflow.webp" alt="Logo" width={250} height={250} className='ml-4 -mt-5' />
                 </div>
-
-                <p className='px-3 col-span-2 text-sm'>A <span className='yellow'>comunidade SpeedFlow</span> é um grupo exclusivo onde os participantes operam junto com um time de profissionais que compartilham insights diários sobre o mercado e os principais indicadores. Ao participar, você tem acesso a informações valiosas que ajudam a tomar decisões mais assertivas nas suas operações. Quer maximizar seus resultados e operar ao lado de experts? Então, você precisa fazer parte da comunidade SpeedFlow!</p>
             </div>
         </section >
     );

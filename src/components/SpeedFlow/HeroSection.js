@@ -1,5 +1,7 @@
 // src/components/RastreadorLiquidez/HeroSection.js
 import Image from 'next/image';
+import Link from 'next/link';
+import Icons from '@/components/Global/Icons';
 import VimeoPlayer from '@/components/Global/VideoPlayer';
 
 export default function HeroSection() {
@@ -17,9 +19,9 @@ export default function HeroSection() {
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full hidden md:block">
                         <Image src="/speedflow.webp" alt="Logo" width={455} height={102} className='mx-auto mt-8' />
-                        <h1 className="mb-4 text-3xl font-bold text-center md:text-6xl">
+                        <h1 className="mb-4 text-3xl font-bold text-center md:text-5xl">
                             <span className='hidden'>Speedflow</span>
-                            <span className='mt-3'>é a análise real do fluxo na sua máxima potência</span>
+                            <span className='mt-3'>Aprenda a operar como os grandes tubarões com o fluxo real</span>
                         </h1>
                     </div>
                     <div className="w-full block md:hidden">
@@ -33,7 +35,7 @@ export default function HeroSection() {
                     </div>
                 </div>
 
-                <div className="w-full max-w-5xl p-1 mx-auto mb-8">
+                <div className="w-full max-w-3xl p-1 mx-auto mb-8">
                     <VimeoPlayer
                         videoId="682116908"
                         autoplay={false}
@@ -42,6 +44,13 @@ export default function HeroSection() {
                         coverImage="https://vumbnail.com/682116908.jpg"
                         endCoverImage="https://vumbnail.com/682116908.jpg"
                     />
+                </div>
+                <div className="relative z-10 flex mx-auto">
+                    <Link href="/indicadores">
+                        <button className="flex items-center justify-center w-full group btn md:btn-large">
+                            Quero Acelerar meus Resultados <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
+                        </button>
+                    </Link>
                 </div>
             </div>
         </section >

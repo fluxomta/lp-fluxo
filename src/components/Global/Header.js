@@ -34,7 +34,7 @@ export default function Header() {
         <div className="fixed z-50 w-full h-16 md:h-20">
             {/* Cabeçalho */}
             <header className="relative z-20 w-full h-full bg-primary-500">
-                <div className='flex items-center justify-between max-w-6xl p-4 mx-auto text-white'>
+                <div className='flex items-center h-full justify-between max-w-6xl p-4 mx-auto text-white'>
                     {/* Logotipo com Link para a Home */}
                     <div className="flex items-center">
                         <Link href="/">
@@ -57,19 +57,6 @@ export default function Header() {
                                 </button>
                             </Link>
                         </nav>
-
-                        <div className="hidden space-x-4 lg:block">
-                            <Link href="/abrir-conta">
-                                <button className="btn">
-                                    Abra sua conta
-                                </button>
-                            </Link>
-                            <Link href="/abrir-conta">
-                                <button className="btn-dark">
-                                    Assine Agora
-                                </button>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </header>
@@ -92,13 +79,13 @@ export default function Header() {
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
                         <Link href="/indicadores/rastreador-de-liquidez" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">QUANTUM LT - O Rastreador de Liquidez</span>
+                            <span className="block font-semibold">Quantum LT</span>
                         </Link>
                         <Link href="/indicadores/alvo-R3" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Alvo R3 - O Rastreador de Alvos</span>
+                            <span className="block font-semibold">Alvo R3 </span>
                         </Link>
                         <Link href="/indicadores/fluxo-V6" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Fluxo V6 - O Rastreador de Fluxo </span>
+                            <span className="block font-semibold">Fluxo V6</span>
                         </Link>
                         <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">SpeedFlow </span>
@@ -107,12 +94,6 @@ export default function Header() {
                             <span className="block font-semibold">Macroflow </span>
                         </Link>
                     </div>
-                    <Link href="/abrir-conta" className="text-center btn">
-                        Abra sua conta
-                    </Link>
-                    <Link href="/abrir-conta" className="text-center btn-dark">
-                        Assine Agora
-                    </Link>
                 </nav>
             </div >
             {/* DesktopMenu */}
@@ -123,13 +104,13 @@ export default function Header() {
             >
                 <div className="flex justify-start max-w-6xl mx-auto space-x-6 font-semibold">
                     <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
-                        QUANTUM LT - O Rastreador de Liquidez
+                        Quantum LT
                     </Link>
                     <Link href="/indicadores/alvo-R3" className="block px-4 py-2 hover:text-secondary-400">
-                        Alvo R3 - O Rastreador de Alvos
+                        Alvo R3
                     </Link>
                     <Link href="/indicadores/fluxo-V6" className="block px-4 py-2 hover:text-secondary-400">
-                        Fluxo V6 - O Rastreador de Fluxo
+                        Fluxo V6
                     </Link>
                     <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
                         SpeedFlow

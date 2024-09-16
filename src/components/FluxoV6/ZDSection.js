@@ -23,7 +23,7 @@ export default function ZDSection() {
                         <p className="text-2xl font-bold text-center md:text-4xl mb-1">
                             Assinando o Fluxo V6
                         </p>
-                        <h2 className="mb-6 text-2xl font-bold text-center md:text-4xl yellow">
+                        <h2 className="mb-6 text-2xl font-bold text-center md:text-4xl">
                             você recebe de bônus o indicador ZD
                         </h2>
                         <p className="text-lg md:text-xl md:text-center">

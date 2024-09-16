@@ -17,11 +17,11 @@ export default function HeroSection() {
             <div className="flex flex-col justify-between h-full max-w-7xl px-4 py-12 mx-auto">
                 <div className="relative z-10 flex items-center mb-8">
                     <div className="w-full tracking-tighter">
-                        <p className="mb-2 text-3xl font-bold text-center md:text-6xl yellow">
+                        <p className="mb-2 text-3xl font-bold text-center md:text-5xl yellow">
                             Transforme suas operações com o
                         </p>
-                        <h1 className="mb-2 text-3xl font-bold text-center md:text-6xl">
-                            QUANTUM LT | O Rastreador de Liquidez
+                        <h1 className="mb-2 text-3xl font-bold text-center md:text-5xl">
+                            Quantum LT | O Rastreador de Liquidez
                         </h1>
                     </div>
                 </div>

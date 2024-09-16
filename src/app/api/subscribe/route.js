@@ -12,7 +12,15 @@ export async function POST(req) {
         daytrade0: 14,
     };
 
+    const automationIdMap = {
+        daytrade3: '30',
+        daytrade2: '30',
+        daytrade1: '30',
+        daytrade0: '30',
+    };
+
     const listId = tagToListMap[dayTrade];
+    const automationId = automationIdMap[dayTrade];
 
     try {
         // Verifique se o contato já existe no ActiveCampaign
@@ -89,6 +97,25 @@ export async function POST(req) {
                 },
             }
         );
+
+        // Adicione o contato à automação
+        if (automationId) {
+            await axios.post(
+                `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contactAutomations`,
+                {
+                    contactAutomation: {
+                        contact: contactId,
+                        automation: automationId,
+                    },
+                },
+                {
+                    headers: {
+                        'Api-Token': process.env.ACTIVE_CAMPAIGN_API_KEY,
+                        'Content-Type': 'application/json',
+                    },
+                }
+            );
+        }
 
         return new Response(
             JSON.stringify({ message: 'Inscrição realizada com sucesso!' }),
