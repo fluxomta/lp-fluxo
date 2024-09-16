@@ -13,6 +13,7 @@ const testimonials = [
     { id: 6, name: "Cliente 6", message: "Depoimento incrível do cliente 6!", src: '/images/depoimentos/depoimento-06.webp' },
     { id: 7, name: "Cliente 7", message: "Depoimento incrível do cliente 7!", src: '/images/depoimentos/depoimento-07.webp' },
     { id: 8, name: "Cliente 8", message: "Depoimento incrível do cliente 8!", src: '/images/depoimentos/depoimento-08.webp' },
+    { id: 8, name: "Cliente 9", message: "Depoimento incrível do cliente 8!", src: '/images/depoimentos/depoimento-09.webp' },
 
 ];
 

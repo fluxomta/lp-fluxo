@@ -14,42 +14,35 @@ export default function ListaIndicadores() {
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
             <div className="relative max-w-5xl px-4 py-12 mx-auto z-10">
                 <p className="text-2xl font-bold md:-mb-1 md:text-center md:text-4xl">Se você já possui uma estratégia de operação,
-                    o SpeedFlow vai melhorar ela ainda mais. </p>
-                <p className="mb-6 text-2xl font-base md:text-center md:text-3xl md:-mb-1">Mas se ainda não tem um operacional, não se preocupe:
-                    <span className='block'>o Speed Flow é a solução que você procura.</span>
-                </p>
-                <p className="mb-6 text-2xl font-base md:text-center md:text-3xl ">Este método revolucionário simplifica sua análise de mercado e garante que você alcance</p>
-                <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow uppercase">um novo patamar de leitura </p>
-                <div className='grid gap-4 max-w-5xl mx-auto mb-12 md:grid-cols-5 p-8 shadow-xl backdrop-blur-md'>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full'>
-                            <Image src="/images/icons/icone-01.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                        <p className='w-full  text-center text-lg font-bold uppercase'>LT</p>
+                    o SpeedFlow vai melhorar ela ainda mais.</p>
+                <p className="mb-6 text-2xl font-base md:text-center md:text-3xl md:-mb-1">Mas se ainda não tem um operacional, não se preocupe
+                    o Speed Flow é a solução que você procura.</p>
+                <p className="mb-6 text-2xl font-base md:text-center md:text-3xl ">Este método revolucionário simplifica sua análise de mercado e garante que você alcance um novo patamar de leitura</p>
+                <p className="mb-6 text-3xl font-bold text-center md:text-4xl yellow uppercase">SPEEDFLOW utiliza as ferramentas </p>
+                <div className='grid gap-4 max-w-6xl mx-auto mb-12 md:grid-cols-2 shadow-xl backdrop-blur-md'>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>Quantum LT</h2>
+                        <p className='relative'>LT é o mapa perfeito do mercado, destacando pontos cruciais para operações mais lucrativas. Evite armadilhas, encontre entradas e saídas ideais, e faça análises profundas em segundos.</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full'>
-                            <Image src="/images/icons/icone-02.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                        <p className='w-full  text-center text-lg font-bold uppercase'>Fluxo V6</p>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>Alvo R3</h2>
+                        <p className='relative'>O Alvo R3 revela o segredo dos grandes fundos, traçando automaticamente os alvos perfeitos. Pare de perder oportunidades e opere com soluções em futuros, ações e opções, com a tecnologia TradeVision ao seu lado.</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full'>
-                            <Image src="/images/icons/icone-03.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                        <p className='w-full  text-center text-lg font-bold uppercase'>MacroFlow</p>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>Fluxo V6</h2>
+                        <p className='relative'>O Fluxo V6 oferece leitura rápida de fluxo, regras de coloração simples e navegação segura nas regiões de manipulação. Aumente seus lucros e opere com confiança.</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full'>
-                            <Image src="/images/icons/icone-04.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                        <p className='w-full  text-center text-lg font-bold uppercase'>Alvo R3</p>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>ZD</h2>
+                        <p className='relative'>O Indicador ZD (Zonas de Decisão) é exclusivo para Índice e Dólar, destacando as regiões mais importantes do mercado com 89% de acerto. Um dos favoritos dos meus alunos de Day Trade, ele melhorou o desempenho e vem como bônus na assinatura de qualquer indicador do MTA.</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center'>
-                        <span className='w-full text-center'>
-                            <Image src="/images/icons/icone-05.webp" alt="Logo" width={250} height={250} className='mx-auto' />
-                        </span>
-                        <p className='w-full  text-center text-lg font-bold uppercase'>ZD</p>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>MacroFlow</h2>
+                        <p className='relative'>MacroFlow é o indicador mais avançado do mercado, unindo 8 ferramentas em uma para detectar posições de grandes players e prever movimentos com precisão. Tome decisões assertivas e domine o fluxo real em qualquer ativo.</p>
+                    </div>
+                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                        <h2 className='relative font-semibold yellow text-3xl'>SpeedFlow</h2>
+                        <p className='relative'>O SpeedFlow é um método gratuito que simplifica o uso do fluxo no mercado financeiro. Aprenda como os verdadeiros vencedores operam, ganhe mais confiança e precisão, e eleve seu nível de atuação. Comece agora e transforme sua trajetória no mercado.</p>
                     </div>
                 </div>
                 <div className='hidden md:block'>
@@ -59,6 +52,7 @@ export default function ListaIndicadores() {
                     <p className="text-3xl font-bold  md:text-4xl yellow uppercase">+ Comunidade</p>
                     <Image src="/speedflow.webp" alt="Logo" width={250} height={250} className='ml-4 -mt-5' />
                 </div>
+                <p className='text-2xl font-semibold text-white text-center'>Aprenda fluxo, melhore suas operações, ajuste seus alvos e aumente sua precisão no mercado com o <span className='yellow'>SpeedFlow, nosso pacote de indicadores indispensável para seu operacional.</span> </p>
             </div>
         </section >
     );

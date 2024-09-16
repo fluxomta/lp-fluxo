@@ -19,7 +19,7 @@ export const metadata = {
         url: 'https://fluxomta.com/indicadores/alvo-R3',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: 'images/social/social-share.webp',
                 width: 1917,
                 height: 1024,
                 alt: 'Fluxo MTA - A sua escola de Traders',
@@ -32,7 +32,7 @@ export const metadata = {
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: 'images/social/social-share.webp',
                 alt: 'Fluxo MTA - A sua escola de Traders',
             },
         ],

@@ -37,12 +37,12 @@ export default function HeroSection() {
 
                 <div className="w-full max-w-3xl p-1 mx-auto mb-8">
                     <VimeoPlayer
-                        videoId="682116908"
+                        videoId="1009981366"
                         autoplay={false}
                         loop={false}
                         muted={false}
-                        coverImage="https://vumbnail.com/682116908.jpg"
-                        endCoverImage="https://vumbnail.com/682116908.jpg"
+                        coverImage="https://vumbnail.com/1009981366.jpg"
+                        endCoverImage="https://vumbnail.com/1009981366.jpg"
                     />
                 </div>
                 <div className="relative z-10 flex mx-auto">

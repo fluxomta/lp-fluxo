@@ -21,7 +21,7 @@ export default function Home() {
             >
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10">
-                    <h1 className="mb-4  mx-auto text-3xl font-base text-left md:text-3xl">
+                    <h1 className="mb-4 max-w-3xl text-3xl font-base text-left md:text-3xl">
                         Chega de ter dúvidas no mercado financeiro, eu vou
                         te ensinar de <strong>graça</strong> como ganhar <strong>dinheiro de verdade</strong> com o <span className='yellow font-bold'>SpeedFlow</span>
                     </h1>
@@ -55,7 +55,7 @@ export default function Home() {
                                             alt={aula.message}
                                             fill
                                             style={{ objectFit: 'contain' }}
-                                            className="transition-all ease-out h-fullduration-500 brightness-75 hover:brightness-100"
+                                            className="transition-all ease-out h-full duration-500"
                                         />
                                     </div>
                                 </SwiperSlide>
