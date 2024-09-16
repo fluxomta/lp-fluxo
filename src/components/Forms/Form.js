@@ -3,12 +3,12 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation'; // Importa o hook useRouter
-import TextInput from './TextInput';
-import PhoneInput from './PhoneInput';
-import SelectInput from './SelectInput';
-import SubmitButton from './SubmitButton';
-import Message from './Message';
-import LgpdText from './LgpdText';
+import TextInput from '@components/Forms/TextInput';
+import PhoneInput from '@components/Forms//PhoneInput';
+import SelectInput from '@components/Forms//SelectInput';
+import SubmitButton from '@components/Forms//SubmitButton';
+import Message from '@components/Forms//Message';
+import LgpdText from '@components/Forms//LgpdText';
 
 const Form = () => {
     const router = useRouter(); // Inicializa o hook useRouter
