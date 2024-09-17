@@ -27,7 +27,7 @@ export default function TextBlockThree() {
                         suas operações, evitando perdas e maximizando seus lucros.</p>
                     <p className="mb-6 text-2xl font-bold text-center md:text-4xl ">Invista em um tradesystem eficiente. </p>
                     <div className="relative z-10 flex justify-center w-full mx-auto">
-                        <Link href="/indicadores">
+                        <Link href="#assine">
                             <button className="flex items-center justify-center w-full group btn md:btn-large">
                                 Comece Agora! <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                             </button>

@@ -12,7 +12,7 @@ export default function TextBlockTwo() {
                 <p className="mb-4 text-2xl md:text-3xl md:text-center yellow">Invista em tecnologia e inteligência na informação.</p>
                 <p className="mb-4 text-2xl font-bold md:text-3xl md:text-center yellow">Comece Agora!</p>
 
-                <Link href="/indicadores">
+                <Link href="#assine">
                     <button className="flex items-center justify-center group btn-dark-large !text-left w-full">
                         Conheça o SpeedFlow <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                     </button>
