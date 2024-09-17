@@ -59,7 +59,7 @@ export default function FormInscricao() {
                     </Swiper>
                 </div>
                 <div className="relative z-10 flex items-center justify-center mx-auto mt-8">
-                    <Link href="/lps/speedflow">
+                    <Link href="#assine">
                         <button className="flex items-center justify-center w-full group btn md:btn-large">
                             Quero Agora Mesmo <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                         </button>

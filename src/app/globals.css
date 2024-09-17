@@ -45,3 +45,7 @@ p {
 .white-gradient {
     @apply bg-gradient-to-b from-white to-primary-100;
 }
+
+.gradient-yellow-text{
+    @apply bg-gradient-to-l from-secondary-500 via-secondary-300 to-secondary-500 text-transparent bg-clip-text ;
+}

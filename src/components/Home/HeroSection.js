@@ -15,7 +15,7 @@ export default function HeroSection() {
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-50 bg-primary-700'></div>
             <div className='relative z-10 max-w-6xl px-4 py-12 mx-auto '>
                 {/* Conteúdo principal */}
-                <div className="max-w-2xl">
+                <div className="max-w-2xl mx-auto text-center">
                     <h1 className="mb-4 text-4xl font-bold md:text-5xl">A maior escola de Traders da <span className='yellow'>América Latina</span></h1>
                     <p className="mb-8 text-lg">
                         Cadastre seu email para <span className='font-semibold yellow'>aprender investimento de graça</span>

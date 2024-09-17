@@ -36,13 +36,9 @@ export default function ListaIndicadores() {
                         <h2 className='relative font-semibold yellow text-3xl'>ZD</h2>
                         <p className='relative'>O Indicador ZD (Zonas de Decisão) é exclusivo para Índice e Dólar, destacando as regiões mais importantes do mercado com 89% de acerto. Um dos favoritos dos meus alunos de Day Trade, ele melhorou o desempenho e vem como bônus na assinatura de qualquer indicador do MTA.</p>
                     </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
+                    <div className='rounded-md bg-primary-500 col-span-2 border border-secondary-500/25 p-4'>
                         <h2 className='relative font-semibold yellow text-3xl'>MacroFlow</h2>
                         <p className='relative'>MacroFlow é o indicador mais avançado do mercado, unindo 8 ferramentas em uma para detectar posições de grandes players e prever movimentos com precisão. Tome decisões assertivas e domine o fluxo real em qualquer ativo.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>SpeedFlow</h2>
-                        <p className='relative'>O SpeedFlow é um método gratuito que simplifica o uso do fluxo no mercado financeiro. Aprenda como os verdadeiros vencedores operam, ganhe mais confiança e precisão, e eleve seu nível de atuação. Comece agora e transforme sua trajetória no mercado.</p>
                     </div>
                 </div>
                 <div className='hidden md:block'>
