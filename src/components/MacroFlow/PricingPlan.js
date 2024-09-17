@@ -129,7 +129,7 @@ const PricingPlan = () => {
                         </div>
                     </div>
                     {/* SEMESTRAL */}
-                    <div className="bg-white border-2 col-span-1 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
+                    <div className="bg-white border-2 col-span-2 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                         <div className="p-6 text-primary-500">
                             <p className='text-3xl font-bold md:text-5xl'>SpeedFlow <span className='block text-2xl font-bold yellow'>Elite Semestral</span></p>
                             <div className='flex items-center justify-center'>
