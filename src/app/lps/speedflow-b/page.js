@@ -1,6 +1,6 @@
 'use client';
 
-import Form from '@/app/lps/speedflow/Form';
+import Form from '@/app/lps/speedflow-b/Form';
 import Parceria from '@/components/Global/Parceria';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -63,8 +63,8 @@ export default function Home() {
                             ))}
                         </Swiper>
                     </div>
-                    <h2 className="mb-8  text-center mx-auto text-3xl font-semibold  md:text-3xl">
-                        Cadastre seu email para aprender o método exclusivo
+                    <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
+                        Cadastre-se agora e <span className='yellow'>vire sua chave no mercado financeiro</span>
                     </h2>
                     <Form />
                 </div>
