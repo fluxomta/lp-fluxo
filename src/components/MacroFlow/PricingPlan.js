@@ -91,8 +91,8 @@ const PricingPlan = () => {
                                 </p>
                             </div>
                             <div className=' md:grid-cols-2 gap-2 hidden md:grid'>
-                                <ul className='col-span-2 '>
-                                    <li className='flex items-center border-b py-2 font-bold text-xl'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow <span className='text-secondary-700'>*</span></li>
+                                <ul className='col-span-2 text-center bg-secondary-500'>
+                                    <li className='flex items-center border-b py-2 font-bold text-2xl justify-center w-full'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow <span className='text-secondary-700 ml-1'>*</span></li>
                                 </ul>
                                 <ul className='col-span-1 '>
                                     <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
@@ -110,15 +110,15 @@ const PricingPlan = () => {
                             </div>
                             <div className='grid md:hidden'>
                                 <ul>
-                                    <li className='flex items-center border-b py-2 font-bold text-xl'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Fluxo V6</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Alvo R3</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Quantum LT</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>ZD</strong>(bonus)</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Curso de Fluxo</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
+                                    <li className=' bg-secondary-500 p-2 flex items-center border-b py-2 font-bold text-xl rounded-t-md'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Fluxo V6</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Alvo R3</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Quantum LT</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>ZD</strong>(bonus)</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Curso de Fluxo</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
                             <Link href="/assine"
@@ -129,7 +129,7 @@ const PricingPlan = () => {
                         </div>
                     </div>
                     {/* SEMESTRAL */}
-                    <div className="bg-white border-2 col-span-2 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
+                    <div className="bg-white border-2 col-span-2 md:col-span-1 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                         <div className="p-6 text-primary-500">
                             <p className='text-3xl font-bold md:text-5xl'>SpeedFlow <span className='block text-2xl font-bold yellow'>Elite Semestral</span></p>
                             <div className='flex items-center justify-center'>
@@ -139,8 +139,8 @@ const PricingPlan = () => {
                                 </p>
                             </div>
                             <div className=' md:grid-cols-2 gap-2 hidden md:grid'>
-                                <ul className='col-span-2 '>
-                                    <li className='flex items-center border-b py-2 font-bold text-xl'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow <span className='text-secondary-700'>*</span></li>
+                                <ul className='col-span-2 text-center bg-secondary-500'>
+                                    <li className='flex items-center border-b py-2 font-bold text-2xl justify-center w-full'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow <span className='text-secondary-700 ml-1'>*</span></li>
                                 </ul>
                                 <ul className='col-span-1 '>
                                     <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
@@ -158,15 +158,15 @@ const PricingPlan = () => {
                             </div>
                             <div className='grid md:hidden'>
                                 <ul>
-                                    <li className='flex items-center border-b py-2 font-bold text-xl'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Fluxo V6</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Alvo R3</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Quantum LT</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>ZD</strong>(bonus)</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Curso de Fluxo</strong></li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
-                                    <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
+                                    <li className=' bg-secondary-500 p-2 flex items-center border-b py-2 font-bold text-xl rounded-t-md'><Icons.Check className="w-7 mr-1 text-primary-700  rounded-full " />Comunidade SpeedFlow</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>MacroFlow</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Fluxo V6</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Alvo R3</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Quantum LT</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>ZD</strong>(bonus)</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" /><strong className='ml-1'>Curso de Fluxo</strong></li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
+                                    <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
                             <Link href="/assine"
