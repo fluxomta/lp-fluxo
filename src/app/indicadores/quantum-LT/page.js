@@ -1,12 +1,12 @@
 // src/app/page.js
-import PricingPlan from '@/components/RastreadorLiquidez/PricingPlan';
-import HeroSection from '@/components/RastreadorLiquidez/HeroSection';
+import PricingPlan from '@/components/QuantumLT/PricingPlan';
+import HeroSection from '@/components/QuantumLT/HeroSection';
 import Parceria from '@/components/Global/Parceria';
-import TextBlockThree from '@/components/RastreadorLiquidez/TextBlockThree';
-import TextBlockTwo from '@/components/RastreadorLiquidez/TextBlockTwo';
-import ZDSection from '@/components/RastreadorLiquidez/ZDSection';
+import TextBlockThree from '@/components/QuantumLT/TextBlockThree';
+import TextBlockTwo from '@/components/QuantumLT/TextBlockTwo';
+import ZDSection from '@/components/QuantumLT/ZDSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
-import TextBlockWhite from '@/components/RastreadorLiquidez/TextBlockWhite';
+import TextBlockWhite from '@/components/QuantumLT/TextBlockWhite';
 
 export const metadata = {
     robots: 'index, follow',

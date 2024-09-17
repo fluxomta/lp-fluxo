@@ -41,12 +41,12 @@ export default function ZDSection() {
 
                 <div className="w-full max-w-3xl p-1 mx-auto ">
                     <VimeoPlayer
-                        videoId="682116908"
+                        videoId="1010343883"
                         autoplay={false}
                         loop={false}
                         muted={false}
-                        coverImage="https://vumbnail.com/682116908.jpg"
-                        endCoverImage="https://vumbnail.com/682116908.jpg"
+                        coverImage="https://vumbnail.com/1010343883.jpg"
+                        endCoverImage="https://vumbnail.com/1010343883.jpg"
                     />
                 </div>
             </div>

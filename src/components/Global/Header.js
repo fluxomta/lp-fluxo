@@ -78,7 +78,7 @@ export default function Header() {
                         <Link href="/indicadores" onClick={() => setIsDrawerOpen(false)}>
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
-                        <Link href="/indicadores/rastreador-de-liquidez" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
+                        <Link href="/indicadores/quantum-LT" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Quantum LT</span>
                         </Link>
                         <Link href="/indicadores/alvo-R3" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
@@ -103,7 +103,7 @@ export default function Header() {
                 onMouseEnter={() => setShowSubmenu(true)}
             >
                 <div className="flex justify-start max-w-6xl mx-auto space-x-6 font-semibold">
-                    <Link href="/indicadores/rastreador-de-liquidez" className="block px-4 py-2 hover:text-secondary-400">
+                    <Link href="/indicadores/quantum-LT" className="block px-4 py-2 hover:text-secondary-400">
                         Quantum LT
                     </Link>
                     <Link href="/indicadores/alvo-R3" className="block px-4 py-2 hover:text-secondary-400">
