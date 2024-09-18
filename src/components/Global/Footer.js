@@ -18,7 +18,7 @@ export default function Footer() {
             <footer className="relative py-6 text-white bg-primary-500">
 
                 {/* Precisa de Ajuda? */}
-                <div className='rounded-full bg-[#0B6056] text-white p-2 fixed right-0 m-8 bottom-10 z-30 scale-95 hover:scale-105 transition-all duration-300'>
+                <div className='hidden md:block rounded-full bg-[#0B6056] text-white p-2 fixed right-0 m-8 bottom-10 z-30 scale-95 hover:scale-105 transition-all duration-300'>
                     <Link className="flex gap-2 items-center font-semibold" href="https://wa.me/55554196578795?text=Ol%C3%A1%2C+Estou+com+duvidas+sobre+o+Fluxo+MTA">
                         <Icons.Whatsapp className="w-8 text-white" /> Precisa de Ajuda?
                     </Link>
