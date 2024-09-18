@@ -1,7 +1,5 @@
 // src/app/page.js
 
-import Link from "next/link";
-
 export const metadata = {
     robots: 'index, follow',
     title: 'Termos de Uso - Fluxo MTA',
@@ -34,7 +32,7 @@ export const metadata = {
     },
 };
 
-export default function Politicas() {
+export default function Termos() {
     return (
         <>
             <section className="relative flex flex-col text-primary-500 border-t-2 border-secondary-700 bg-white md:min-h-[75vh] flex items-start">
