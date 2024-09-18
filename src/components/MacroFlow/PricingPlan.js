@@ -30,7 +30,7 @@ const PricingPlan = () => {
                                 <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
                                 <li className='flex items-center  py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                             </ul>
-                            <Link href="/assine"
+                            <Link href="https://assine.fluxomta.com/?add-to-cart=93"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
@@ -73,7 +73,7 @@ const PricingPlan = () => {
                                     <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
-                            <Link href="/assine"
+                            <Link href="https://assine.fluxomta.com/?add-to-cart=88"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
@@ -121,7 +121,7 @@ const PricingPlan = () => {
                                     <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
-                            <Link href="/assine"
+                            <Link href="https://assine.fluxomta.com/?add-to-cart=89"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
@@ -169,7 +169,7 @@ const PricingPlan = () => {
                                     <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
-                            <Link href="/assine"
+                            <Link href="https://assine.fluxomta.com/?add-to-cart=90"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
