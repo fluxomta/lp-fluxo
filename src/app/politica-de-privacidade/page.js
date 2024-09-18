@@ -4,14 +4,14 @@ import Link from "next/link";
 
 export const metadata = {
     robots: 'index, follow',
-    title: 'Indicadores - Fluxo MTA',
+    title: 'Política de Privacidade - Fluxo MTA',
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'Indicadores - Fluxo MTA',
+        title: 'Política de Privacidade - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores',
+        url: 'https://fluxomta.com/politica-de-privacidade',
         images: [
             {
                 url: '/images/social/social-share.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Indicadores - Fluxo MTA',
+        title: 'Política de Privacidade - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         images: [
             {
