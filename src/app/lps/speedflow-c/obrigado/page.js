@@ -18,7 +18,7 @@ export default function Home() {
                 </p>
                 <Link
                     href="https://www.instagram.com/tonydocall"
-                    class="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#1c92d2] via-[#1c92d2] to-[#7dc5d3] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
+                    className="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#1c92d2] via-[#1c92d2] to-[#7dc5d3] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
                     <Icons.Telegram className="w-12 mr-4" />
                     Clique aqui para entrar no Telegram
                 </Link>
@@ -28,7 +28,7 @@ export default function Home() {
                 </p>
                 <Link
                     href="https://www.instagram.com/tonydocall"
-                    class="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
+                    className="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
                     <Icons.Instagram className="w-12 mr-4" />
                     Clique aqui para seguir no Instagram
                 </Link>

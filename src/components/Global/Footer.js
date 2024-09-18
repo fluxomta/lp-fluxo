@@ -29,7 +29,7 @@ export default function Footer() {
                         <Link href="/suporte" className="py-2 hover:underline">
                             Suporte
                         </Link>
-                        <Link href="/privacidade" className="py-2 hover:underline">
+                        <Link href="/politica-de-privacidade" className="py-2 hover:underline">
                             Política de Privacidade
                         </Link>
                         <Link href="/termos" className="py-2 hover:underline">
