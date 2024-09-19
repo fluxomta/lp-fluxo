@@ -33,10 +33,6 @@ const PricingPlan = () => {
                             <Link href="https://assine.fluxomta.com/?add-to-cart=85"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
-
-                        <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
-                        </div>
                     </div>
                     <div className="bg-white border-2 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                         <div className="p-6 text-primary-500">
@@ -71,9 +67,6 @@ const PricingPlan = () => {
                             </div>
                             <Link href="https://assine.fluxomta.com/?add-to-cart=92"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
-                        </div>
-                        <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
                         </div>
                     </div>
                 </div>

@@ -87,11 +87,11 @@ export default function Header() {
                         <Link href="/indicadores/fluxo-V6" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Fluxo V6</span>
                         </Link>
-                        <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">SpeedFlow </span>
-                        </Link>
                         <Link href="/indicadores/macroflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Macroflow </span>
+                        </Link>
+                        <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
+                            <span className="block font-semibold">SpeedFlow </span>
                         </Link>
                     </div>
                 </nav>
@@ -112,11 +112,11 @@ export default function Header() {
                     <Link href="/indicadores/fluxo-V6" className="block px-4 py-2 hover:text-secondary-400">
                         Fluxo V6
                     </Link>
-                    <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
-                        SpeedFlow
-                    </Link>
                     <Link href="/indicadores/macroflow" className="block px-4 py-2 hover:text-secondary-400">
                         Macroflow
+                    </Link>
+                    <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
+                        SpeedFlow
                     </Link>
                 </div>
             </div >

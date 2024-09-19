@@ -33,9 +33,6 @@ const PricingPlan = () => {
                             <Link href="https://assine.fluxomta.com/?add-to-cart=93"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
-                        <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
-                        </div>
                     </div>
                     {/* Light */}
                     <div className="bg-white border-2 col-span-2 md:col-span-1 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
@@ -75,9 +72,6 @@ const PricingPlan = () => {
                             </div>
                             <Link href="https://assine.fluxomta.com/?add-to-cart=88"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
-                        </div>
-                        <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
                         </div>
                     </div>
                     {/* ELITE */}
@@ -123,9 +117,6 @@ const PricingPlan = () => {
                             </div>
                             <Link href="https://assine.fluxomta.com/?add-to-cart=89"
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
-                        </div>
-                        <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
                         </div>
                     </div>
                     {/* SEMESTRAL */}
