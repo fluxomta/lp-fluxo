@@ -6,15 +6,15 @@ export async function POST(req) {
 
     // Mapeamento de tags para IDs de listas no ActiveCampaign
     const tagToListMap = {
-        daytrade17: 17,
-        daytrade17: 17,
+        daytrade17_1: 17, // Chave única
+        daytrade17_2: 17, // Chave única
         daytrade16: 16,
         daytrade15: 15,
     };
 
     const automationIdMap = {
-        daytrade17: '33',
-        daytrade17: '33',
+        daytrade17_1: '33', // Chave única
+        daytrade17_2: '33', // Chave única
         daytrade16: '32',
         daytrade15: '31',
     };
