@@ -106,10 +106,10 @@ const Form = () => {
                         value={formData.dayTrade}
                         onChange={handleChange}
                         options={[
-                            { value: 'daytrade3', label: 'Opero todos os dias' },
-                            { value: 'daytrade2', label: 'Opero quase todos os dias' },
-                            { value: 'daytrade1', label: 'Já operei, mas parei por um tempo' },
-                            { value: 'daytrade0', label: 'Não opero ainda, mas quero começar' },
+                            { value: 'daytrade17', label: 'Opero todos os dias' },
+                            { value: 'daytrade17', label: 'Opero quase todos os dias' },
+                            { value: 'daytrade16', label: 'Já operei, mas parei por um tempo' },
+                            { value: 'daytrade15', label: 'Não opero ainda, mas quero começar' },
                         ]}
                         required
                     />
