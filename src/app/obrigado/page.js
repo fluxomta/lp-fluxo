@@ -1,6 +1,38 @@
 import Icons from "@/components/Global/Icons";
 import Link from "next/link";
 
+export const metadata = {
+    robots: 'index, follow',
+    title: 'Obrigado por se inscrever!',
+    description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+    keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
+    openGraph: {
+        title: 'Indicadores - Fluxo MTA',
+        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        type: 'website',
+        url: 'https://fluxomta.com/indicadores',
+        images: [
+            {
+                url: '/images/social/social-share.webp',
+                width: 1917,
+                height: 1024,
+                alt: 'Fluxo MTA - A sua escola de Traders',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Obrigado por se inscrever!',
+        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        images: [
+            {
+                url: '/images/social/social-share.webp',
+                alt: 'Fluxo MTA - A sua escola de Traders',
+            },
+        ],
+    },
+};
+
 export default function Home() {
     return (
         <section className="relative text-white border-t-2 border-secondary-700 black-gradient md:min-h-[75vh] flex items-center">
@@ -9,7 +41,7 @@ export default function Home() {
                     Obrigado por se inscrever no <span className="yellow block">Curso Gratuito de Fluxo - SpeedFlow!</span>
                 </h1>
                 <p className="text-lg md:text-xl mb-8">
-                    📧 <strong>Verifique seu email:</strong> Enviamos o acesso às aulas para o seu email.<br />
+                    📧 <strong>Verifique seu email:</strong> Dentro de alguns minutos você receberá o acesso às aulas para o seu email.<br />
                     Se não encontrar, confira a pasta de spam.
                 </p>
                 <p className="text-lg md:text-xl mb-4">
