@@ -1,17 +1,7 @@
 'use client';
 
-import Form from '@/app/lps/speedflow-b/Form';
+import Form from '@/components/Forms/Form';
 import Parceria from '@/components/Global/Parceria';
-import Image from 'next/image';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-
-const aulas = [
-    { id: 1, name: "Aula 1", message: "Miniatura da Aula 1!", src: '/images/aulas/thumb-curso-01.png' },
-    { id: 2, name: "Aula 2", message: "Miniatura da Aula 2!", src: '/images/aulas/thumb-curso-02.png' },
-    { id: 3, name: "Aula 3", message: "Miniatura da Aula 3!", src: '/images/aulas/thumb-curso-03.png' },
-    { id: 4, name: "Aula 4", message: "Miniatura da Aaula 4!", src: '/images/aulas/thumb-curso-04.png' },
-];
 
 export default function Home() {
     return (

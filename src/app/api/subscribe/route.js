@@ -2,9 +2,9 @@
 import axios from 'axios';
 
 export async function POST(req) {
-    console.log('Recebendo requisição...'); // Log para verificar a chegada da requisição
+    // console.log('Recebendo requisição...'); // Log para verificar a chegada da requisição
     const { email, fullName, phoneNumber, dayTrade } = await req.json();
-    console.log('Dados recebidos:', { email, fullName, phoneNumber, dayTrade }); // Log dos dados recebidos
+    // console.log('Dados recebidos:', { email, fullName, phoneNumber, dayTrade }); // Log dos dados recebidos
 
     const tagToListMap = {
         daytrade17_1: 17,
@@ -39,7 +39,7 @@ export async function POST(req) {
 
         if (searchContactResponse.data.contacts.length > 0) {
             contactId = searchContactResponse.data.contacts[0].id;
-            console.log('Contato existente encontrado:', contactId); // Log do contato existente
+            // console.log('Contato existente encontrado:', contactId); // Log do contato existente
 
             // Atualizar contato existente
             await axios.put(
@@ -60,7 +60,7 @@ export async function POST(req) {
                 }
             );
         } else {
-            console.log('Criando novo contato...'); // Log para criação de novo contato
+            // console.log('Criando novo contato...'); // Log para criação de novo contato
             const createContactResponse = await axios.post(
                 `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contacts`,
                 {
@@ -82,7 +82,7 @@ export async function POST(req) {
             contactId = createContactResponse.data.contact.id;
         }
 
-        console.log(`Adicionando contato ${contactId} à lista ${listId}`);
+        // console.log(`Adicionando contato ${contactId} à lista ${listId}`);
 
         // Associe o contato à lista correta
         const listResponse = await axios.post(
@@ -102,7 +102,7 @@ export async function POST(req) {
             }
         );
 
-        console.log('Resposta da API ao adicionar contato à lista:', listResponse.data);
+        // console.log('Resposta da API ao adicionar contato à lista:', listResponse.data);
 
         // Adicione o contato à automação
         if (automationId) {
@@ -122,7 +122,7 @@ export async function POST(req) {
                 }
             );
 
-            console.log('Resposta da API ao adicionar contato à automação:', automationResponse.data);
+            // console.log('Resposta da API ao adicionar contato à automação:', automationResponse.data);
         }
 
         return new Response(

@@ -6,6 +6,7 @@ import Icons from "@/components/Global/Icons";
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import Form from "../Forms/Form";
 
 const aulas = [
     { id: 1, name: "Aula 1", message: "Miniatura da Aula 1!", src: '/images/aulas/thumb-curso-01.png' },
@@ -19,7 +20,7 @@ export default function FormInscricao() {
         <section
             className="relative text-white bg-primary-500">
             <div className="max-w-7xl px-4 py-12 mx-auto md:text-center">
-                <p className="mb-6 text-2xl font-bold text-center md:text-3xl ">Assine agora mesmo o SpeedFlow e <span className="yellow block">receba gratuito o meu Curso de Fluxo!</span></p>
+                <p className="mb-6 text-2xl text-center md:text-3xl ">Caso você ainda não tenha assistido o <strong className="yellow">Curso Gratuito de Fluxo</strong>,<br /> que eu elaborei para mostra o método <strong><span className="yellow ">SpeedFlow</span> - essa ferramenta poderosa,<br /> aqui está sua oportunidade</strong>, assista e vire sua chave no <strong>Mercado Financeiro</strong>.</p>
 
                 <div className="max-w-4xl pb-8 mx-auto ">
                     <Swiper
@@ -58,14 +59,10 @@ export default function FormInscricao() {
                         ))}
                     </Swiper>
                 </div>
-                <div className="relative z-10 flex items-center justify-center mx-auto mt-8">
-                    <Link href="#assine">
-                        <button className="flex items-center justify-center w-full group btn md:btn-large">
-                            Quero Agora Mesmo <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
-                        </button>
-                    </Link>
+                <div className="relative z-10 flex items-center justify-center mx-auto">
+                    <Form />
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import Form from '@/app/lps/speedflow-b/Form';
+import Form from '@/components/Forms/Form';
 import Parceria from '@/components/Global/Parceria';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
