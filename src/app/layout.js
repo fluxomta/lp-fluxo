@@ -3,7 +3,8 @@ import './globals.css';
 import { Montserrat } from 'next/font/google';
 import Header from '@/components/Global/Header';
 import Footer from '@/components/Global/Footer';
-import GoogleTagManager from '@/components/Global/GoogleTagManager'; // Importa o novo componente de GTM
+import GoogleTagManager from '@/components/Global/GoogleTagManager';
+import BodyClassManager from '@/components/Global/BodyClassManager';
 
 export const metadata = {
   metadataBase: new URL('https://fluxomta.com'),
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={montserrat.className}>
-        {/* Adiciona o Google Tag Manager Client Component */}
+        <BodyClassManager baseClass={montserrat.className} />
         <GoogleTagManager />
         <Header />
         <main className="pt-16 md:pt-20 bg-primary-500">{children}</main>

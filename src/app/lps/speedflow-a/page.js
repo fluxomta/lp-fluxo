@@ -59,7 +59,7 @@ export default function Home() {
                 </div>
             </section>
             <Parceria />
-            <div className=" text-white max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10">
+            <div className=" text-white max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10" id="assine">
                 <h1 className="mb-4 max-w-5xl mx-auto text-3xl font-bold text-center md:text-4xl text-white">
                     Chega de ter dúvidas no mercado financeiro, eu vou
                     te <span className='yellow'>ensinar de graça como ganhar dinheiro</span> de verdade com o SpeedFlow

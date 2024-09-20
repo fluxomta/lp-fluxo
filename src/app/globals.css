@@ -49,3 +49,8 @@ p {
 .gradient-yellow-text{
     @apply bg-gradient-to-l from-secondary-500 via-secondary-300 to-secondary-500 text-transparent bg-clip-text ;
 }
+
+.lps #suporte-box,
+.lps #whatsapp{
+    @apply hidden;
+}
