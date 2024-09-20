@@ -2,7 +2,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation'; // Importa o hook usePathname
+import { useRouter, usePathname } from 'next/navigation';
 import TextInput from '@components/Forms/TextInput';
 import PhoneInput from '@components/Forms/PhoneInput';
 import SelectInput from '@components/Forms/SelectInput';
@@ -10,9 +10,9 @@ import SubmitButton from '@components/Forms/SubmitButton';
 import Message from '@components/Forms/Message';
 import LgpdText from '@components/Forms/LgpdText';
 
-const Form = () => {
-    const router = useRouter(); // Inicializa o hook useRouter
-    const pathname = usePathname(); // Obtém o caminho atual
+const Form = ({ label = "Enviar" }) => { // Aceita a prop `label` e define um valor padrão
+    const router = useRouter();
+    const pathname = usePathname();
 
     const [formData, setFormData] = useState({
         fullName: '',
@@ -30,7 +30,6 @@ const Form = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // console.log('Formulário enviado:', formData); // Log dos dados do formulário
         setStatusMessage('Enviando...');
         setMessageType('success');
 
@@ -43,8 +42,6 @@ const Form = () => {
                 body: JSON.stringify(formData),
             });
 
-            // console.log('Resposta da API:', response); // Log da resposta da API
-
             if (response.ok) {
                 setStatusMessage('Inscrição realizada com sucesso!');
                 setFormData({
@@ -54,8 +51,8 @@ const Form = () => {
                     dayTrade: '',
                 });
 
-                const currentPath = window.location.origin + pathname; // Use window.location.origin para obter o domínio completo
-                router.push(`${currentPath}/obrigado`); // Construa uma URL completa para redirecionar
+                const currentPath = window.location.origin + pathname;
+                router.push(`${currentPath}/obrigado`);
 
             } else {
                 setStatusMessage('Erro ao enviar inscrição.');
@@ -117,7 +114,7 @@ const Form = () => {
                     />
                 </div>
                 <div className='col-span-5 text-center max-w-2xl mx-auto'>
-                    <SubmitButton label="Aprenda grátis agora" />
+                    <SubmitButton label={label} /> {/* Usa a prop `label` aqui */}
                 </div>
             </form>
             {statusMessage && <Message message={statusMessage} type={messageType} />}

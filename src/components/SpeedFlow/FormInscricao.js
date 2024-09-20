@@ -60,7 +60,7 @@ export default function FormInscricao() {
                     </Swiper>
                 </div>
                 <div className="relative z-10 flex items-center justify-center mx-auto">
-                    <Form />
+                    <Form label="Aprenda grátis agora" />
                 </div>
             </div>
         </section >

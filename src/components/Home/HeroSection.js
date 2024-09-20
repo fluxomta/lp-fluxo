@@ -22,7 +22,7 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <div className='w-full mb-8'>
-                    <Form />
+                    <Form label="Aprenda grátis agora" />
                 </div>
             </div>
         </section>
