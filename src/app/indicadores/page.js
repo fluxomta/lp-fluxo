@@ -49,6 +49,7 @@ export default function Indicadores() {
             <TextBlockWhite />
             <Solucoes />
             <TextBlock />
+            <SpeedFlow />
             <TestimonialsSlider />
             <TextBlockTwo />
             <FAQAccordion />
