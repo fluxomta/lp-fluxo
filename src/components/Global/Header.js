@@ -56,6 +56,9 @@ export default function Header() {
                                     Indicadores
                                 </button>
                             </Link>
+                            <Link target='_blank' href="https://dashboard.fluxomta.com/login" className=" btn">
+                                Login
+                            </Link>
                         </nav>
                     </div>
                 </div>
@@ -78,6 +81,7 @@ export default function Header() {
                         <Link href="/indicadores" onClick={() => setIsDrawerOpen(false)}>
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
+
                         <Link href="/indicadores/quantum-LT" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Quantum LT</span>
                         </Link>
@@ -93,7 +97,11 @@ export default function Header() {
                         <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">SpeedFlow </span>
                         </Link>
+
                     </div>
+                    <Link target='_blank' href="https://dashboard.fluxomta.com/login" className="mt-8 btn flex items-center">
+                        Login <Icons.AngleRight className="w-6" />
+                    </Link>
                 </nav>
             </div >
             {/* DesktopMenu */}
@@ -118,6 +126,7 @@ export default function Header() {
                     <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
                         SpeedFlow
                     </Link>
+
                 </div>
             </div >
         </div >

@@ -2,19 +2,20 @@
 import axios from 'axios';
 
 export async function POST(req) {
+    console.log('Recebendo requisição...'); // Log para verificar a chegada da requisição
     const { email, fullName, phoneNumber, dayTrade } = await req.json();
+    console.log('Dados recebidos:', { email, fullName, phoneNumber, dayTrade }); // Log dos dados recebidos
 
-    // Mapeamento de tags para IDs de listas no ActiveCampaign
     const tagToListMap = {
-        daytrade17_1: 17, // Chave única
-        daytrade17_2: 17, // Chave única
+        daytrade17_1: 17,
+        daytrade17_2: 17,
         daytrade16: 16,
         daytrade15: 15,
     };
 
     const automationIdMap = {
-        daytrade17_1: '33', // Chave única
-        daytrade17_2: '33', // Chave única
+        daytrade17_1: '33',
+        daytrade17_2: '33',
         daytrade16: '32',
         daytrade15: '31',
     };
@@ -37,9 +38,10 @@ export async function POST(req) {
         let contactId;
 
         if (searchContactResponse.data.contacts.length > 0) {
-            // O contato já existe, atualize as informações
             contactId = searchContactResponse.data.contacts[0].id;
+            console.log('Contato existente encontrado:', contactId); // Log do contato existente
 
+            // Atualizar contato existente
             await axios.put(
                 `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contacts/${contactId}`,
                 {
@@ -58,7 +60,7 @@ export async function POST(req) {
                 }
             );
         } else {
-            // O contato não existe, crie um novo contato
+            console.log('Criando novo contato...'); // Log para criação de novo contato
             const createContactResponse = await axios.post(
                 `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contacts`,
                 {
@@ -80,8 +82,10 @@ export async function POST(req) {
             contactId = createContactResponse.data.contact.id;
         }
 
+        console.log(`Adicionando contato ${contactId} à lista ${listId}`);
+
         // Associe o contato à lista correta
-        await axios.post(
+        const listResponse = await axios.post(
             `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contactLists`,
             {
                 contactList: {
@@ -98,9 +102,11 @@ export async function POST(req) {
             }
         );
 
+        console.log('Resposta da API ao adicionar contato à lista:', listResponse.data);
+
         // Adicione o contato à automação
         if (automationId) {
-            await axios.post(
+            const automationResponse = await axios.post(
                 `${process.env.ACTIVE_CAMPAIGN_API_URL}/api/3/contactAutomations`,
                 {
                     contactAutomation: {
@@ -115,6 +121,8 @@ export async function POST(req) {
                     },
                 }
             );
+
+            console.log('Resposta da API ao adicionar contato à automação:', automationResponse.data);
         }
 
         return new Response(

@@ -30,6 +30,7 @@ const Form = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        console.log('Formulário enviado:', formData); // Log dos dados do formulário
         setStatusMessage('Enviando...');
         setMessageType('success');
 
@@ -42,6 +43,8 @@ const Form = () => {
                 body: JSON.stringify(formData),
             });
 
+            console.log('Resposta da API:', response); // Log da resposta da API
+
             if (response.ok) {
                 setStatusMessage('Inscrição realizada com sucesso!');
                 setFormData({
@@ -51,9 +54,9 @@ const Form = () => {
                     dayTrade: '',
                 });
 
-                // Obtenha o caminho completo e adicione o redirecionamento correto
-                const currentPath = window.location.origin + pathname; // Use window.location.origin para obter o domínio completo
-                router.push(`${currentPath}/obrigado`); // Construa uma URL completa para redirecionar
+                // Comentando o redirecionamento para permitir que você veja os logs
+                // const currentPath = window.location.origin + pathname; // Use window.location.origin para obter o domínio completo
+                // router.push(`${currentPath}/obrigado`); // Construa uma URL completa para redirecionar
 
             } else {
                 setStatusMessage('Erro ao enviar inscrição.');
