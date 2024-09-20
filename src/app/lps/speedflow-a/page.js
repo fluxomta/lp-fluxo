@@ -32,9 +32,8 @@ export default function Home() {
                             <h1 className="mb-4 text-2xl font-bold text-center md:text-6xl">
                                 <span className="flex flex-col items-center justify-center">
                                     <Image src="/speedflow.webp" alt="Logo" width={300} height={102} className='-mr-8' />
-                                    <span className=''>é a análise real do fluxo</span>
+                                    <span className='mt-3'>Aprenda a operar como os grandes tubarões com o fluxo real</span>
                                 </span>
-                                na sua máxima potência
                             </h1>
                         </div>
                     </div>
@@ -60,11 +59,10 @@ export default function Home() {
             </section>
             <Parceria />
             <div className=" text-white max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10" id="assine">
-                <h1 className="mb-4 max-w-5xl mx-auto text-3xl font-bold text-center md:text-4xl text-white">
-                    Chega de ter dúvidas no mercado financeiro, eu vou
-                    te <span className='yellow'>ensinar de graça como ganhar dinheiro</span> de verdade com o SpeedFlow
+                <h1 className="mb-4 max-w-5xl mx-auto text-2xl font-bold md:text-center md:text-4xl text-white">
+                    Chega de ter dúvidas no mercado financeiro, eu vou te <span className='yellow'>ensinar de graça como ganhar dinheiro</span> de verdade com o SpeedFlow
                 </h1>
-                <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
+                <h2 className="mb-8 md:text-center mx-auto text-2xl md:text-3xl md:mt-12">
                     Vire sua chave no mercado gratuitamente.
                 </h2>
                 <Form label="Quero meu curso de fluxo" />

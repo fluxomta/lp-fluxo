@@ -64,7 +64,7 @@ export default function SimpleCardGrid() {
 
                     </div>
                     <div className='col-span-2'>
-                        <Link href="/indicadores">
+                        <Link href="/indicadores/speedflow">
                             <button className="flex items-center justify-center group btn-dark !text-left w-full">
                                 Conhecer o SpeedFlow <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                             </button>

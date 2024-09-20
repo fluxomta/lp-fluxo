@@ -22,9 +22,8 @@ export default function Home() {
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="max-w-6xl px-4 py-12 mx-auto md:text-lg relative z-10">
 
-                    <h1 className="mb-4 max-w-5xl mx-auto text-3xl font-bold text-center md:text-4xl text-white">
-                        Chega de ter dúvidas no mercado financeiro, eu vou
-                        te <span className='yellow'>ensinar de graça como ganhar dinheiro</span> de verdade com o SpeedFlow
+                    <h1 className="mb-4 max-w-5xl mx-auto text-2xl font-bold md:text-center md:text-4xl text-white">
+                        Chega de ter dúvidas no mercado financeiro, eu vou te <span className='yellow'>ensinar de graça como ganhar dinheiro</span> de verdade com o SpeedFlow
                     </h1>
                     <div className="max-w-4xl pb-8 mx-auto ">
                         <Swiper
@@ -63,7 +62,7 @@ export default function Home() {
                             ))}
                         </Swiper>
                     </div>
-                    <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
+                    <h2 className="mb-8  md:text-center mx-auto text-2xl md:text-3xl md:mt-12">
                         Cadastre-se agora e <span className='yellow'>vire sua chave no mercado financeiro</span>
                     </h2>
                     <Form label="Aprenda grátis agora" />

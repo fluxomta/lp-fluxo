@@ -28,9 +28,8 @@ export default function HeroSection() {
                         <h1 className="mb-4 text-2xl font-bold text-center md:text-6xl">
                             <span className="flex flex-col items-center justify-center">
                                 <Image src="/speedflow.webp" alt="Logo" width={300} height={102} className='-mr-8' />
-                                <span className=''>é a análise real do fluxo</span>
+                                <span className=''>Aprenda a operar como os grandes tubarões com o fluxo real</span>
                             </span>
-                            na sua máxima potência
                         </h1>
                     </div>
                 </div>

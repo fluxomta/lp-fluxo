@@ -164,7 +164,6 @@ const PricingPlan = () => {
                                 className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada 6 Meses. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
 
                         </div>
                     </div>

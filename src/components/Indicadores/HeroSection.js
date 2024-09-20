@@ -29,7 +29,7 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <div className="relative z-10 flex mx-auto">
-                    <Link href="/indicadores">
+                    <Link href="/indicadores/speedflow">
                         <button className="flex items-center justify-center w-full group btn-dark md:btn-dark-large">
                             Quero Acelerar meus Resultados <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                         </button>
@@ -52,7 +52,7 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <div className="relative z-10 flex mx-auto mt-8">
-                    <Link href="/indicadores">
+                    <Link href="/indicadores/speedflow">
                         <button className="flex items-center justify-center w-full group btn-dark md:btn-dark-large">
                             Quero Acelerar meus Resultados <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                         </button>
