@@ -18,7 +18,7 @@ export default function HeroSection() {
                 <div className="relative z-10 flex items-center ">
                     <div className="w-full">
                         <h1 className="mb-8 text-3xl font-bold text-center md:text-6xl">
-                            <span className='mt-3'><span className='yellow block'>MacroFlow, opere como um Sniper</span> o fluxo real e <strong>gratuito</strong> em suas mãos</span>
+                            <span className='mt-3'><span className='yellow block'>MacroFlow, opere como um Sniper</span> o fluxo real em suas mãos</span>
                         </h1>
                     </div>
                 </div>
