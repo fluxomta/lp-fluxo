@@ -39,7 +39,7 @@ const PricingPlan = () => {
                             <p className='text-3xl font-bold md:text-5xl'>Todos os <br />4 Indicadores</p>
                             <div className='flex items-center justify-center'>
                                 <p className=" text-center black-gradient p-2 rounded-lg">
-                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 249</span>
+                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 229</span>
                                     <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                 </p>
                             </div>
