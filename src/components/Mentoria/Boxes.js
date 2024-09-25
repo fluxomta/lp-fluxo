@@ -12,13 +12,13 @@ export default function Boxes() {
 
     return (
         <section className="text-white bg-primary-700">
-            <div className='relative z-10 max-w-6xl pt-16 pb-12 mx-auto'>
+            <div className='relative z-10 max-w-6xl px-4 pt-16 pb-12 mx-auto'>
                 <h2 className="mb-4 text-xl font-semibold text-white md:text-center md:text-3xl">
                     Tudo que você precisa para ser um profissional do mercado
                 </h2>
 
                 <div className="flex mt-4 md:mt-8">
-                    <div className="rounded-md border border-primary-300/35 w-full grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
                                 Estudo organizado da <span className="gradient-yellow-text font-bold">teoria</span>
