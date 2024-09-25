@@ -10,7 +10,9 @@ const BodyClassManager = ({ baseClass }) => {
 
     useEffect(() => {
         const pathParts = pathname.split('/').filter(Boolean);
-        const classNames = clsx(baseClass, ...pathParts);
+        const isHome = pathParts.length === 0; // Verifica se é a raiz (home)
+
+        const classNames = clsx(baseClass, isHome ? 'home' : '', ...pathParts);
 
         document.body.className = classNames; // Define as classes do body
 

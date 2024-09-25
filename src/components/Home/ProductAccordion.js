@@ -3,40 +3,92 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+const testimonials = [
+    { id: 1, name: "img 1", message: "Depoimento incrível do cliente 1!", src: '/images/Home/img-01.webp' },
+    { id: 2, name: "img 2", message: "Depoimento incrível do cliente 2!", src: '/images/Home/img-02.webp' },
+    { id: 3, name: "img 3", message: "Depoimento incrível do cliente 3!", src: '/images/Home/img-03.webp' },
+    { id: 4, name: "img 4", message: "Depoimento incrível do cliente 4!", src: '/images/Home/img-02.webp' },
+    { id: 5, name: "img 5", message: "Depoimento incrível do cliente 5!", src: '/images/Home/img-01.webp' },
+    { id: 6, name: "img 6", message: "Depoimento incrível do cliente 6!", src: '/images/Home/img-03.webp' },
+    { id: 7, name: "img 7", message: "Depoimento incrível do cliente 7!", src: '/images/Home/img-01.webp' },
+    { id: 8, name: "img 8", message: "Depoimento incrível do cliente 8!", src: '/images/Home/img-02.webp' },
+    { id: 9, name: "img 9", message: "Depoimento incrível do cliente 9!", src: '/images/Home/img-03.webp' },
+    { id: 10, name: "img 10", message: "Depoimento incrível do cliente 10!", src: '/images/Home/img-02.webp' },
+    { id: 11, name: "img 1", message: "Depoimento incrível do cliente 1!", src: '/images/Home/img-01.webp' },
+    { id: 12, name: "img 2", message: "Depoimento incrível do cliente 2!", src: '/images/Home/img-03.webp' },
+    { id: 13, name: "img 3", message: "Depoimento incrível do cliente 3!", src: '/images/Home/img-01.webp' },
+    { id: 14, name: "img 4", message: "Depoimento incrível do cliente 4!", src: '/images/Home/img-02.webp' },
+    { id: 15, name: "img 5", message: "Depoimento incrível do cliente 5!", src: '/images/Home/img-03.webp' },
+    { id: 16, name: "img 6", message: "Depoimento incrível do cliente 6!", src: '/images/Home/img-02.webp' },
+    { id: 17, name: "img 7", message: "Depoimento incrível do cliente 7!", src: '/images/Home/img-01.webp' },
+    { id: 18, name: "img 8", message: "Depoimento incrível do cliente 8!", src: '/images/Home/img-03.webp' },
+    { id: 19, name: "img 9", message: "Depoimento incrível do cliente 9!", src: '/images/Home/img-01.webp' },
+    { id: 20, name: "img 10", message: "Depoimento incrível do cliente 10!", src: '/images/Home/img-02.webp' },
+];
 
 export default function ImageAccordion() {
     return (
-        <section className="text-white bg-primary-900">
-            <div className='max-w-6xl px-4 pt-16 pb-8 mx-auto '>
-                <h2 className="mb-4 text-2xl font-bold text-white md:text-center md:text-5xl">Conheça do <span className='yellow'>Zero ao Fluxo</span></h2>
-                <p className="mb-4 text-lg md:font-bold md:text-3xl md:text-center">Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.</p>
-
-                <div className='grid gap-4 max-w-6xl mx-auto mb-12 md:grid-cols-2'>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>Quantum LT</h2>
-                        <p className='relative'>LT é o mapa perfeito do mercado, destacando pontos cruciais para operações mais lucrativas. Evite armadilhas, encontre entradas e saídas ideais, e faça análises profundas em segundos.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>Alvo R3</h2>
-                        <p className='relative'>O Alvo R3 revela o segredo dos grandes fundos, traçando automaticamente os alvos perfeitos. Pare de perder oportunidades e opere com soluções em futuros, ações e opções, com a tecnologia TradeVision ao seu lado.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>Fluxo V6</h2>
-                        <p className='relative'>O Fluxo V6 oferece leitura rápida de fluxo, regras de coloração simples e navegação segura nas regiões de manipulação. Aumente seus lucros e opere com confiança.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>ZD</h2>
-                        <p className='relative'>O Indicador ZD (Zonas de Decisão) é exclusivo para Índice e Dólar, destacando as regiões mais importantes do mercado com 89% de acerto. Um dos favoritos dos meus alunos de Day Trade, ele melhorou o desempenho e vem como bônus na assinatura de qualquer indicador do MTA.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>MacroFlow</h2>
-                        <p className='relative'>MacroFlow é o indicador mais avançado do mercado, unindo 8 ferramentas em uma para detectar posições de grandes players e prever movimentos com precisão. Tome decisões assertivas e domine o fluxo real em qualquer ativo.</p>
-                    </div>
-                    <div className='rounded-md bg-primary-500 border border-secondary-500/25 p-4'>
-                        <h2 className='relative font-semibold yellow text-3xl'>SpeedFlow</h2>
-                        <p className='relative'>O SpeedFlow é um método gratuito que simplifica o uso do fluxo no mercado financeiro. Aprenda como os verdadeiros vencedores operam, ganhe mais confiança e precisão, e eleve seu nível de atuação. Comece agora e transforme sua trajetória no mercado.</p>
-                    </div>
-                </div>
+        <section className="text-white bg-primary-900 hidden">
+            <div className='max-w-6xl px-4 pt-16 pb-8 mx-auto'>
+                <h2 className="mb-4 text-2xl font-bold text-white md:text-center md:text-5xl">
+                    Conheça do <span className='yellow'>Zero ao Fluxo</span>
+                </h2>
+                <p className="mb-4 text-lg md:font-bold md:text-3xl md:text-center">
+                    Tudo que você precisa para se tornar um Trader Profissional.
+                    Comece Agora e Transforme sua Carreira!
+                </p>
+            </div>
+            <div className='pb-16 mx-auto'>
+                <Swiper
+                    spaceBetween={20}
+                    loop={true}
+                    autoplay={{
+                        delay: 0,
+                        disableOnInteraction: false,
+                    }}
+                    speed={5000}
+                    modules={[Autoplay, Pagination, Navigation]}
+                    className="mySwiper"
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 3,
+                        },
+                        480: {
+                            slidesPerView: 4,
+                        },
+                        768: {
+                            slidesPerView: 5,
+                        },
+                        1024: {
+                            slidesPerView: 6,
+                        },
+                        1280: {
+                            slidesPerView: 8,
+                        },
+                        1536: {
+                            slidesPerView: 10,
+                        },
+                    }}
+                >
+                    {testimonials.map((testimonial) => (
+                        <SwiperSlide key={testimonial.id}>
+                            <div className="relative w-full bg-primary-900 rounded-lg shadow-md overflow-hidden border border-secondary-500/35">
+                                <Image
+                                    width={272}
+                                    height={482}
+                                    src={testimonial.src}
+                                    alt={testimonial.message}
+                                    className="transition-all ease-linear h-full brightness-75 hover:brightness-100"
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
             </div>
         </section>
     );

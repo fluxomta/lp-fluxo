@@ -4,8 +4,8 @@
 
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
 p {
     @apply my-4;
 }
@@ -39,18 +39,22 @@ p {
 }
 
 .black-gradient-2 {
-    @apply bg-gradient-to-b from-primary-700 to-primary-400;
+    @apply bg-gradient-to-b from-primary-500 to-primary-700;
 }
 
 .white-gradient {
     @apply bg-gradient-to-b from-white to-primary-100;
 }
 
-.gradient-yellow-text{
-    @apply bg-gradient-to-l from-secondary-500 via-secondary-300 to-secondary-500 text-transparent bg-clip-text ;
+.gradient-yellow-text {
+    @apply bg-gradient-to-l from-secondary-500 via-secondary-300 to-secondary-500 text-transparent bg-clip-text;
 }
 
-.lps #suporte-box,
-.lps #whatsapp{
-    @apply hidden;
+.mySwiper .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+
+.mySwiper .swiper-slide {
+    transition-duration: 5000ms !important;
 }

@@ -3,9 +3,12 @@ import HeroSection from '@/components/Home/HeroSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
 import TextBlock from '@/components/Home/TextBlock';
 import TextBlockTwo from '@/components/Home/TextBlockTwo';
-import ProductAccordion from '@/components/Home/ProductAccordion';
+import ImageAccordion from '@/components/Home/ProductAccordion';
 import AboutSection from '@/components/Home/AboutSection';
 import TextBlockFinal from '@/components/Home/TextBlockFinal';
+import Parceria from '@/components/Global/Parceria';
+import VideoSection from '@/components/Mentoria/VideoSection';
+import TestimonialsSlider from '@/components/Home/TestimonialsSlider';
 
 export const metadata = {
 	robots: 'index, follow',
@@ -43,9 +46,12 @@ export default function Home() {
 	return (
 		<>
 			<HeroSection />
+			<Parceria />
+			<VideoSection />
 			<TextBlock />
 			<TextBlockTwo />
-			<ProductAccordion />
+			<ImageAccordion />
+			<TestimonialsSlider />
 			<AboutSection />
 			<TextBlockFinal />
 			<FAQAccordion />
