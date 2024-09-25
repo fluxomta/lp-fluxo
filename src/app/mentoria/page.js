@@ -3,9 +3,10 @@ import HeroSection from '@/components/Mentoria/HeroSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
 import TextBlock from '@/components/Mentoria/TextBlock';
 import TextBlockTwo from '@/components/Mentoria/TextBlockTwo';
-import ProductAccordion from '@/components/Mentoria/ProductAccordion';
-import AboutSection from '@/components/Mentoria/AboutSection';
+import ListaPrincipios from '@/components/Mentoria/ListaPrincipios';
+import ListaFundamentos from '@/components/Mentoria/ListaFundamentos';
 import TextBlockFinal from '@/components/Mentoria/TextBlockFinal';
+import Boxes from '@/components/Mentoria/Boxes';
 
 export const metadata = {
     robots: 'index, follow',
@@ -45,8 +46,9 @@ export default function Mentoria() {
             <HeroSection />
             <TextBlock />
             <TextBlockTwo />
-            <ProductAccordion />
-            <AboutSection />
+            <ListaPrincipios />
+            <ListaFundamentos />
+            <Boxes />
             <TextBlockFinal />
             <FAQAccordion />
         </>
