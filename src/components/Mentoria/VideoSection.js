@@ -9,7 +9,7 @@ export default function VideoSection() {
             className="relative text-white bg-primary-500 h-auto md:min-h-[40vh] flex items-center"
 
         >
-            <div className="w-full max-w-5xl p-1 mx-auto mb-8">
+            <div className="w-full max-w-5xl px-8 py-12 mx-auto mb-8">
                 <VimeoPlayer
                     videoId="1008216601"
                     autoplay={false}
