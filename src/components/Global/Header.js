@@ -94,9 +94,9 @@ export default function Header() {
                         <Link href="/indicadores/macroflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">Macroflow </span>
                         </Link>
-                        <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
+                        {/* <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
                             <span className="block font-semibold">SpeedFlow </span>
-                        </Link>
+                        </Link> */}
 
                     </div>
                     <Link target='_blank' href="https://dashboard.fluxomta.com/login" className="mt-8 btn flex items-center">
@@ -123,9 +123,9 @@ export default function Header() {
                     <Link href="/indicadores/macroflow" className="block px-4 py-2 hover:text-secondary-400">
                         Macroflow
                     </Link>
-                    <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
+                    {/* <Link href="/indicadores/speedflow" className="block px-4 py-2 hover:text-secondary-400">
                         SpeedFlow
-                    </Link>
+                    </Link> */}
 
                 </div>
             </div >
