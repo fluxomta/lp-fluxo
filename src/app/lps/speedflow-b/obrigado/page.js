@@ -41,11 +41,11 @@ export default function Home() {
                     Obrigado por se inscrever no <span className="yellow block">Curso Gratuito de Fluxo - SpeedFlow!</span>
                 </h1>
                 <p className="text-lg md:text-xl mb-8">
-                    📧 <strong>Verifique seu email:</strong> Dentro de alguns minutos você receberá o acesso às aulas para o seu email.<br />
-                    Se não encontrar, confira a pasta de spam.
+                    📧 <strong>Verifique seu email:</strong><br />  Em alguns minutos você vai receber um email com seu acesso. Fique de olho no Spam.
                 </p>
                 <p className="text-lg md:text-xl mb-4">
-                    📲 <strong>Entre no nosso canal do Telegram:</strong><br />
+                    📲 Canal onde ensino todos os dias minhas estratégias.
+                    <br />
                     Receba análises diárias e tudo sobre Day Trade.
                 </p>
                 <Link
@@ -53,16 +53,6 @@ export default function Home() {
                     className="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#1c92d2] via-[#1c92d2] to-[#7dc5d3] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
                     <Icons.Telegram className="w-12 mr-4" />
                     Clique aqui para entrar no Telegram
-                </Link>
-                <p className="text-lg md:text-xl mb-4">
-                    ✨ <strong>Siga-nos no Instagram</strong><br />
-                    para dicas e novidades sobre o mercado financeiro.
-                </p>
-                <Link
-                    href="https://www.instagram.com/tonydocall"
-                    className="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
-                    <Icons.Instagram className="w-12 mr-4" />
-                    Clique aqui para seguir no Instagram
                 </Link>
 
                 <p className="text-lg md:text-2xl">
