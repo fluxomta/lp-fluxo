@@ -2,7 +2,7 @@ import Icons from "@/components/Global/Icons";
 import Link from "next/link";
 
 export const metadata = {
-    robots: 'index, follow',
+    robots: 'noindex, nofollow',
     title: 'Obrigado por se inscrever!',
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
