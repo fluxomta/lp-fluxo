@@ -1,4 +1,7 @@
-// src/app/page.js
+// src/app/mentoria/page.js
+"use client";  // Keep this directive for client-side behavior
+
+import { useState, useEffect } from 'react';
 import HeroSection from '@/components/Mentoria/HeroSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
 import TextBlock from '@/components/Mentoria/TextBlock';
@@ -9,39 +12,32 @@ import TextBlockFinal from '@/components/Mentoria/TextBlockFinal';
 import Boxes from '@/components/Mentoria/Boxes';
 import BgGlobe from '@/components/Mentoria/BgGlobe';
 
-export const metadata = {
-    robots: 'index, follow',
-    title: 'Mentoria',
-    description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-    keywords: ['Fluxo', 'Escola de Traders', 'Indicadores Profit', 'Indicadores Nelógica', 'Mercado financeiro'],
-    openGraph: {
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-        type: 'website',
-        url: 'https://fluxomta.com',
-        images: [
-            {
-                url: '/images/social/social-share.webp',
-                width: 1917,
-                height: 1024,
-                alt: 'Fluxo MTA - A sua escola de Traders',
-            },
-        ],
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-        images: [
-            {
-                url: '/images/social/social-share.webp',
-                alt: 'Fluxo MTA - A sua escola de Traders',
-            },
-        ],
-    },
-};
-
 export default function Mentoria() {
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+    useEffect(() => {
+        const authenticateUser = () => {
+            const username = window.prompt('Digite seu usuário:');
+            const password = window.prompt('Digite sua senha:');
+
+            const hardcodedUser = 'ana';
+            const hardcodedPassword = 'morango';
+
+            if (username === hardcodedUser && password === hardcodedPassword) {
+                setIsAuthenticated(true);
+                alert('Login bem-sucedido!');
+            } else {
+                alert('Usuário ou senha incorretos.');
+            }
+        };
+
+        authenticateUser();
+    }, []);
+
+    if (!isAuthenticated) {
+        return <p>Autenticando...</p>;
+    }
+
     return (
         <>
             <HeroSection />
