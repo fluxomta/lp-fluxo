@@ -7,6 +7,7 @@ import ListaPrincipios from '@/components/Mentoria/ListaPrincipios';
 import ListaFundamentos from '@/components/Mentoria/ListaFundamentos';
 import TextBlockFinal from '@/components/Mentoria/TextBlockFinal';
 import Boxes from '@/components/Mentoria/Boxes';
+import BgGlobe from '@/components/Mentoria/BgGlobe';
 
 export const metadata = {
     robots: 'index, follow',
@@ -44,6 +45,7 @@ export default function Mentoria() {
     return (
         <>
             <HeroSection />
+            <BgGlobe />
             <TextBlock />
             <TextBlockTwo />
             <ListaPrincipios />

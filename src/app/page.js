@@ -1,8 +1,8 @@
 // src/app/page.js
 import HeroSection from '@/components/Home/HeroSection';
 import TextBlock from '@/components/Home/TextBlock';
-import TextBlockTwo from '@/components/Home/TextBlockTwo';
-import ImageAccordion from '@/components/Home/ProductAccordion';
+import ProductList from '@/components/Home/ProductList';
+import ImageAccordion from '@/components/Home/ImageAccordion';
 import AboutSection from '@/components/Home/AboutSection';
 import TextBlockFinal from '@/components/Home/TextBlockFinal';
 import VideoSection from '@/components/Mentoria/VideoSection';
@@ -44,6 +44,7 @@ export default function Home() {
 		<>
 			<HeroSection />
 			<VideoSection />
+			<ProductList />
 			<ImageAccordion />
 			<AboutSection />
 			<TextBlockFinal />

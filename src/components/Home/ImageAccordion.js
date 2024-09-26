@@ -18,7 +18,7 @@ const testimonials = [
 
 export default function ImageAccordion() {
     return (
-        <section className="text-white bg-primary-900 ">
+        <section className="text-white bg-primary-900 hidden">
             <div className='max-w-6xl px-4 pt-16 pb-8 mx-auto'>
                 <h2 className="mb-4 text-2xl font-bold text-white md:text-center md:text-5xl">
                     Conheça do <span className='gradient-yellow-text'>Zero ao Fluxo</span>
