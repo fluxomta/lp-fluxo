@@ -44,8 +44,6 @@ export default function Home() {
 		<>
 			<HeroSection />
 			<VideoSection />
-			<TextBlock />
-			<TextBlockTwo />
 			<ImageAccordion />
 			<AboutSection />
 			<TextBlockFinal />
