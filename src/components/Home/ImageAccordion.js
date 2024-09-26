@@ -9,16 +9,16 @@ import 'swiper/css/autoplay';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const testimonials = [
-    { id: 1, name: "img 1", message: "Feature 1!", src: '/images/Home/feature-01.webp' },
-    { id: 2, name: "img 2", message: "Feature 2!", src: '/images/Home/feature-02.webp' },
-    { id: 3, name: "img 3", message: "Feature 3!", src: '/images/Home/feature-03.webp' },
-    { id: 4, name: "img 4", message: "Feature 4!", src: '/images/Home/feature-04.webp' },
+    { id: 1, name: "img 1", message: "Feature 1!", src: '/images/Home/A_Teoria_do_mercado_1.webp' },
+    { id: 2, name: "img 2", message: "Feature 2!", src: '/images/Home/A_Teoria_do_mercado_2.webp' },
+    { id: 3, name: "img 3", message: "Feature 3!", src: '/images/Home/A_Teoria_do_mercado_3.webp' },
+    { id: 4, name: "img 4", message: "Feature 4!", src: '/images/Home/A_Teoria_do_mercado_4.webp' },
 
 ];
 
 export default function ImageAccordion() {
     return (
-        <section className="text-white bg-primary-900 hidden">
+        <section className="text-white bg-primary-900">
             <div className='max-w-6xl px-4 pt-16 pb-8 mx-auto'>
                 <h2 className="mb-4 text-2xl font-bold text-white md:text-center md:text-5xl">
                     Conheça do <span className='gradient-yellow-text'>Zero ao Fluxo</span>
