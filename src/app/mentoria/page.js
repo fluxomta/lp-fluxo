@@ -4,13 +4,14 @@
 import { useState, useEffect } from 'react';
 import HeroSection from '@/components/Mentoria/HeroSection';
 import FAQAccordion from '@/components/Global/FAQAccordion';
-import TextBlock from '@/components/Mentoria/TextBlock';
-import TextBlockTwo from '@/components/Mentoria/TextBlockTwo';
-import ListaPrincipios from '@/components/Mentoria/ListaPrincipios';
-import ListaFundamentos from '@/components/Mentoria/ListaFundamentos';
+import PrincipiosSlider from '@/components/Mentoria/PrincipiosSlider';
+import ConsistenciaSlider from '@/components/Mentoria/ConsistenciaSlider';
+import ContextoSlide from '@/components/Mentoria/ContextoSlider';
 import TextBlockFinal from '@/components/Mentoria/TextBlockFinal';
 import Boxes from '@/components/Mentoria/Boxes';
 import BgGlobe from '@/components/Mentoria/BgGlobe';
+import AboutSection from '@/components/Mentoria/AboutSection';
+import TestimonialsSlider from '@/components/Mentoria/TestimonialsSlider';
 
 export default function Mentoria() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -42,11 +43,12 @@ export default function Mentoria() {
         <>
             <HeroSection />
             <BgGlobe />
-            <TextBlock />
-            <TextBlockTwo />
-            <ListaPrincipios />
-            <ListaFundamentos />
+            <PrincipiosSlider />
+            <ConsistenciaSlider />
+            <ContextoSlide />
             <Boxes />
+            <AboutSection />
+            <TestimonialsSlider />
             <TextBlockFinal />
             <FAQAccordion />
         </>

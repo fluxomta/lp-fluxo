@@ -2,13 +2,14 @@
 
 export default function TextBlock() {
     return (
-        <section className="text-white bg-primary-900">
-            <div className="max-w-3xl px-8 py-16 mx-auto text-lg md:text-center">
-                <h2 className="mb-4 text-2xl font-bold md:text-4xl md:text-center ">Nossa missão é <span className='yellow'>capacitar Traders a alcance de sucesso</span></h2>
-                <p>Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.</p>
-                <p>O Fluxo MTA foi idealizado para proporcionar educação de alta qualidade e suporte contínuo, garantindo que cada trader tenha os recursos necessários para alcançar seus objetivos dentro do Mercado Financeiro.</p>
-                <h2 className="mb-4 text-2xl font-bold md:text-3xl md:text-center">Por isso o Fluxo é <span className='yellow'>feito para você!</span></h2>
-            </div>
-        </section>
+        <>
+            <section className="text-white bg-primary-900">
+                <div className="max-w-6xl px-8 py-16 mx-auto text-lg md:text-center">
+                    <h2 className="mb-4 text-2xl font-bold md:text-4xl md:text-center ">Metodologia de Camadas do <span className="yellow">Estratégicas</span></h2>
+                    <p className="text-xl !mb-0">Você não precisa saber tudo pra começar a ganhar: aprende um pouco, ganha um pouco.</p>
+                    <p className="text-xl !mt-1">Aprofunda mais um pouco, ganha mais um pouco. O ciclo é infinito, até você se tornar um trader completo. </p>
+                </div>
+            </section>
+        </>
     );
 }
