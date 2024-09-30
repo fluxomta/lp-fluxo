@@ -10,7 +10,7 @@ import SubmitButton from '@components/Forms/SubmitButton';
 import Message from '@components/Forms/Message';
 import LgpdText from '@components/Forms/LgpdText';
 
-const Form = ({ label = "Enviar" }) => { // Aceita a prop `label` e define um valor padrão
+const FormMentoria = ({ label = "Enviar" }) => {
     const router = useRouter();
     const pathname = usePathname();
 
@@ -34,7 +34,7 @@ const Form = ({ label = "Enviar" }) => { // Aceita a prop `label` e define um va
         setMessageType('success');
 
         try {
-            const response = await fetch('/api/subscribe', {
+            const response = await fetch('/api/mentoria', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -125,4 +125,4 @@ const Form = ({ label = "Enviar" }) => { // Aceita a prop `label` e define um va
     );
 };
 
-export default Form;
+export default FormMentoria;

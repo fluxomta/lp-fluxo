@@ -12,12 +12,12 @@ export default function AboutSection() {
                         <p className="mb-8 text-2xl font-semibold yellow">
                             Victor Garcia | Tony do Call
                         </p>
-                        <p>Victor Garcia é idealizador do projeto e mentor de investimento, está no mercado desde 2010.</p>
-                        <p>O Campeão Brasileiro de Poker aliou toda sua visão estratégica em um operacional exclusivo focado em resultados.</p>
-                        <p>Hoje Victor Garcia forma traders profissionais, contando com uma comunidade de imenso valor e um time de especialistas de sucesso no Mercado Financeiro.</p>
+                        <p>Aprenda com quem desenvolveu o método SIMPLIFICADO deixando o mercado simples e objetivo.</p>
+                        <p>Victor Garcia é mentor de investimento e está no mercado desde 2010. O Campeão Brasileiro de Poker aliou toda sua visão estratégica em um operacional exclusivo focado em resultados.</p>
+                        <p>Hoje forma traders profissionais contando com uma comunidade de imenso valor.</p>
 
                         <blockquote className='pl-2 text-xl font-semibold border-l-2 border-secondary-700'>
-                            “O Fluxo MTA, a escola, é a realização de um sonho em transformar e impactar a vida de pessoas através do mercado financeiro.”
+                            “O Fluxo simplificado é uma virada de chave para quem está no mercado financeiro. Ele chegou para transformar as operações como um método comprovado por resultados e testes que impressionam.”
                             <p className='!font-normal block yellow'>Victor Garcia</p>
                         </blockquote>
 

@@ -24,7 +24,7 @@ export default function BgGlobe() {
                         </p>
                     </div>
                     <div className="col-span-1 row-start-3 col-start-1 px-6 py-4 rounded-md bg-primary-700/75">
-                        <p><strong>Ganha</strong> Aplicando o método, em pouco tempo você colhe resultados e tem confiança para aumentar suas posições e conquistar seus objetivos no mercado.
+                        <p><strong>Ganha</strong><br /> Aplicando o método, em pouco tempo você colhe resultados e tem confiança para aumentar suas posições e conquistar seus objetivos no mercado.
                         </p>
                     </div>
                 </div>

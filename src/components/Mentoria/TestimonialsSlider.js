@@ -18,7 +18,14 @@ const testimonials = [
     { id: 6, name: "Cliente 6", message: "Depoimento incrível do cliente 6!", src: '/images/depoimentos/depoimento-06.webp' },
     { id: 7, name: "Cliente 7", message: "Depoimento incrível do cliente 7!", src: '/images/depoimentos/depoimento-07.webp' },
     { id: 8, name: "Cliente 8", message: "Depoimento incrível do cliente 8!", src: '/images/depoimentos/depoimento-08.webp' },
-    { id: 8, name: "Cliente 9", message: "Depoimento incrível do cliente 8!", src: '/images/depoimentos/depoimento-09.webp' },
+    { id: 9, name: "Cliente 9", message: "Depoimento incrível do cliente 9!", src: '/images/depoimentos/depoimento-09.webp' },
+    { id: 10, name: "Cliente 10", message: "Depoimento incrível do cliente 10!", src: '/images/depoimentos/depoimento-10.webp' },
+    { id: 11, name: "Cliente 11", message: "Depoimento incrível do cliente 11!", src: '/images/depoimentos/depoimento-11.webp' },
+    { id: 12, name: "Cliente 12", message: "Depoimento incrível do cliente 12!", src: '/images/depoimentos/depoimento-12.webp' },
+    { id: 13, name: "Cliente 13", message: "Depoimento incrível do cliente 13!", src: '/images/depoimentos/depoimento-13.webp' },
+    { id: 14, name: "Cliente 14", message: "Depoimento incrível do cliente 14!", src: '/images/depoimentos/depoimento-14.webp' },
+    { id: 15, name: "Cliente 15", message: "Depoimento incrível do cliente 15!", src: '/images/depoimentos/depoimento-15.webp' },
+    { id: 16, name: "Cliente 16", message: "Depoimento incrível do cliente 16!", src: '/images/depoimentos/depoimento-16.webp' },
 
 ];
 

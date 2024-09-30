@@ -53,12 +53,12 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">Estudo organizado</span> da teoria: <br />
                                 Aprenda no seu tempo
                             </h2>
-                            <p>Conhecimento dividido por camadas para você fazer dinheiro desde os níveis mais baixos. Aulas práticas e objetivas para otimizar seu tempo e ter controle total do seu processo.
+                            <p>Conhecimento dividido por camadas para você fazer dinheiro desde os níveis mais baixos. <strong>Aulas práticas e objetivas para otimizar seu tempo e ter controle total do seu processo.</strong>
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref1} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref1}
                                 initial={{ opacity: 0, x: 100 }}
                                 animate={inView1 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -71,15 +71,15 @@ export default function Boxes() {
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden ">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-2">
                             <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">15 indicadores</span> Exclusivos: <br />
+                                <span className="gradient-yellow-text font-bold">15 INDICADORES</span> Exclusivos: <br />
                                 o poder nas suas mãos
                             </h2>
-                            <p>No método você conta com ferramentas poderosas de análise do fluxo real, são mais de 15 indicadores exclusivos e uma plataforma essencial para leitura refinada O Macroflow.
+                            <p>No método você conta com ferramentas poderosas de análise do fluxo real, são mais de <strong>15 indicadores exclusivos e uma plataforma essencial para leitura refinada O Macroflow.</strong>
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref2} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref2}
                                 initial={{ opacity: 0, x: -100 }}
                                 animate={inView2 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -95,12 +95,12 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">Plataforma</span> Otimizada: <br />
                                 acesso em qualquer hora e lugar
                             </h2>
-                            <p>Plataforma online de ponta com recursos essenciais e  acessível pelo celular. Evolua rapidamente com um sistema integrado entre a prática e a execução.
+                            <p>Plataforma online de ponta com recursos essenciais e  acessível pelo celular. Evolua rapidamente com <strong>um sistema integrado entre a prática e a execução</strong>.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref3} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref3}
                                 initial={{ opacity: 0, x: 100 }}
                                 animate={inView3 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -116,12 +116,12 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">Aulas práticas</span> ao vivo: <br />
                                 evolua mais rápido
                             </h2>
-                            <p>Aula ao vivo toda semana respondendo as suas dúvidas, revisando o mercado e mostrando a execução de forma prática para você evoluir mais rápido.
+                            <p><strong>Aula ao vivo com a comunidade</strong>, revisando o mercado e mostrando a execução de forma prática para você evoluir mais rápido.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref4} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref4}
                                 initial={{ opacity: 0, x: -100 }}
                                 animate={inView4 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -137,12 +137,12 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">Backtesting</span> e análise dinâmica: <br />
                                 evolua mais rápido
                             </h2>
-                            <p>Backtesting focado em minimizar suas perdas, para você poder ganhar de forma consistente no mercado enfrentando as oscilações e lucrando de forma eficiente.
+                            <p><strong>Backtesting focado em minimizar suas perdas</strong>, para você poder ganhar de forma consistente no mercado enfrentando as oscilações e lucrando de forma eficiente.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref5} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref5}
                                 initial={{ opacity: 0, x: 100 }}
                                 animate={inView5 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -155,15 +155,15 @@ export default function Boxes() {
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
                             <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Estratégia</span> de foco em true points: <br />
+                                <span className="gradient-yellow-text font-bold">Estratégia</span> de foco em true points:
                                 evolua mais rápido
                             </h2>
-                            <p>Estratégias simplificadas conforme cada região e Desafios do Mercado. Uma receita de análise de contexto onde o movimento realmente importa, para você explorar o mercado e tirar vantagem disso.
+                            <p>Estratégias simplificadas conforme cada região e Desafios do Mercado. <strong>Uma receita de análise de contexto onde o movimento realmente importa</strong>, para você explorar o mercado e tirar vantagem disso.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref6} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref6}
                                 initial={{ opacity: 0, x: -100 }}
                                 animate={inView6 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -176,15 +176,15 @@ export default function Boxes() {
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Comunidade:</span><br />
+                                <span className="gradient-yellow-text font-bold">Comunidade:</span>
                                 aprenda com quem vive do mercado
                             </h2>
-                            <p>O melhor ambiente para se conectar com profissionais, compartilhar e evoluir mais rápido. Quase 500 traders com o mesmo objetivo, operando e trocando experiências todos os dias.
+                            <p>O melhor <strong>ambiente para se conectar com profissionais, compartilhar e evoluir mais rápido.</strong> Quase 500 traders com o mesmo objetivo, operando e trocando experiências todos os dias.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref7} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref7}
                                 initial={{ opacity: 0, x: 100 }}
                                 animate={inView7 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
@@ -200,12 +200,12 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">+ de 150 aulas </span><br />
                                 e conteúdos extra
                             </h2>
-                            <p>São centenas de horas de material para você avançar de forma consistente na sua jornada com o Fluxo Simplificado.
+                            <p>São <strong>centenas de horas de material para você avançar</strong> de forma consistente na sua jornada com o Fluxo Simplificado.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-8">
                             <motion.div
-                                ref={ref8} // Referência para monitorar quando o elemento entra na viewport
+                                ref={ref8}
                                 initial={{ opacity: 0, x: -100 }} // Começa fora da tela à esquerda (x negativo)
                                 animate={inView8 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
