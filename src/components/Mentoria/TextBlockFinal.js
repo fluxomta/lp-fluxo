@@ -5,7 +5,7 @@ import Icons from '@/components/Global/Icons';
 export default function TextBlockFinal() {
     return (
         <section
-            className="relative min-h-[80vh] text-white"
+            className="relative min-h-[80vh] text-white hidden"
             style={{
                 backgroundImage: 'url(/images/bg/bg-pricing.webp)',
                 backgroundSize: 'cover',

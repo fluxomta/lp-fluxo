@@ -47,7 +47,7 @@ export default function Boxes() {
 
                 <div className="flex flex-col gap-8 mt-4 md:mt-8">
                     {/* Item01 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Estudo organizado</span> da teoria: <br />
@@ -63,12 +63,12 @@ export default function Boxes() {
                                 animate={inView1 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-1.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item02 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 ">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden ">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-2">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">15 indicadores</span> Exclusivos: <br />
@@ -84,12 +84,12 @@ export default function Boxes() {
                                 animate={inView2 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-2.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item03 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Plataforma</span> Otimizada: <br />
@@ -105,12 +105,12 @@ export default function Boxes() {
                                 animate={inView3 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-3.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item04 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Aulas práticas</span> ao vivo: <br />
@@ -126,12 +126,12 @@ export default function Boxes() {
                                 animate={inView4 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-4.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item05 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Backtesting</span> e análise dinâmica: <br />
@@ -147,12 +147,12 @@ export default function Boxes() {
                                 animate={inView5 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-5.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item06 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Estratégia</span> de foco em true points: <br />
@@ -168,12 +168,12 @@ export default function Boxes() {
                                 animate={inView6 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-6.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item07 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Comunidade:</span><br />
@@ -189,12 +189,12 @@ export default function Boxes() {
                                 animate={inView7 ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-7.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
                     {/* Item08 */}
-                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2">
+                    <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
                         <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
                             <h2 className="text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">+ de 150 aulas </span><br />
@@ -210,7 +210,7 @@ export default function Boxes() {
                                 animate={inView8 ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                                 transition={{ duration: 1, delay: 0.3 }} // Adicionando um delay de 0.3 segundos
                             >
-                                <Image src="/images/features/features-01.webp" alt="Features" className="rounded-md" width={700} height={375} />
+                                <Image src="/images/features/features-8.webp" alt="Features" className="rounded-md" width={700} height={375} />
                             </motion.div>
                         </div>
                     </div>
