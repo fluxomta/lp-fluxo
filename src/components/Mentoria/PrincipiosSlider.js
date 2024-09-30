@@ -8,39 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-export const metadata = {
-    robots: 'index, follow',
-    title: 'Mentoria',
-    description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-    keywords: ['Fluxo', 'Escola de Traders', 'Indicadores Profit', 'Indicadores Nelógica', 'Mercado financeiro'],
-    openGraph: {
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-        type: 'website',
-        url: 'https://fluxomta.com',
-        images: [
-            {
-                url: '/images/social/social-share.webp',
-                width: 1917,
-                height: 1024,
-                alt: 'Fluxo MTA - A sua escola de Traders',
-            },
-        ],
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-        images: [
-            {
-                url: '/images/social/social-share.webp',
-                alt: 'Fluxo MTA - A sua escola de Traders',
-            },
-        ],
-    },
-};
-
-
 const modulos = [
     { id: 1, name: "img 1", message: "Módulo 1!", src: '/images/mentoria/thumb-1.webp' },
     { id: 2, name: "img 2", message: "Módulo 2!", src: '/images/mentoria/thumb-2.webp' },

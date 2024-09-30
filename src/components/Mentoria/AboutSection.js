@@ -23,7 +23,7 @@ export default function AboutSection() {
 
                     </div>
                     <div className="flex items-center justify-end col-span-1">
-                        <Image src="/profile.webp" alt="Victor Garcia" className="rounded-md" width={384} height={443} />
+                        <Image src="/profile-2.webp" alt="Victor Garcia" className="rounded-md" width={384} height={443} />
                     </div>
                 </div>
             </div>
