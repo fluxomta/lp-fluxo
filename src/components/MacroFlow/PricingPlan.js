@@ -13,7 +13,7 @@ const PricingPlan = () => {
                     <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
                     <p className=' text-2xl font-base text-center md:text-4xl'>e acesse o método e indicadores imediatamente</p>
                 </div>
-                <div className=" md:text-lg grid md:grid-cols-4 gap-8 mt-4">
+                <div className=" md:text-lg grid md:grid-cols-2 gap-8 mt-4">
                     {/* MacroFlow */}
                     <div className="bg-white border-2 col-span-2 md:col-span-1 border-secondary-400 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
                         <div className="p-6 text-primary-500">
