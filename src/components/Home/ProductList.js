@@ -6,7 +6,6 @@ export default function ProductList() {
     return (
         <section className="text-white bg-primary-900">
             <div className='max-w-6xl px-4 pt-16 pb-8 mx-auto '>
-                <h2 className="mb-4 text-2xl font-bold text-white md:text-center md:text-5xl">Conheça do <span className='yellow'>Zero ao Fluxo</span></h2>
                 <p className="mb-4 text-lg md:font-bold md:text-3xl md:text-center">Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.</p>
 
                 <div className='grid gap-4 max-w-6xl mx-auto mb-12 md:grid-cols-2'>

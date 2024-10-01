@@ -48,8 +48,8 @@ export default function Home() {
 			{/* <VideoSection /> */}
 			<TextBlock />
 			<TextBlockTwo />
-			<ProductList />
 			<ImageAccordion />
+			<ProductList />
 			<AboutSection />
 			<TextBlockFinal />
 		</>

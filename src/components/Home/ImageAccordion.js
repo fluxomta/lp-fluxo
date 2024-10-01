@@ -32,7 +32,7 @@ export default function ImageAccordion() {
                     Conheça do <span className='gradient-yellow-text'>Zero ao Fluxo</span>
                 </h2>
                 <p className="mb-4 text-lg md:font-bold md:text-3xl md:text-center">
-                    Tudo que você precisa para se tornar um Trader Profissional.
+                    Tudo que você precisa para se tornar um Trader Profissional.<br className='hidden md:block' />
                     Comece Agora e Transforme sua Carreira!
                 </p>
             </div>
