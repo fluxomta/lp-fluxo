@@ -14,8 +14,8 @@ export default function HeroSection() {
         >
             <div className='relative z-10 max-w-6xl px-4 py-12 mx-auto flex flex-col'>
                 {/* Conteúdo principal */}
-                <div className="max-w-5xl mx-auto text-center">
-                    <h1 className="mb-4 text-4xl font-bold md:text-7xl">A referência nº 1 em <span className="yellow">Educação de Traders</span> da América Latina</h1>
+                <div className="max-w-6xl mx-auto text-center">
+                    <h1 className="mb-4 text-4xl font-bold md:text-7xl">A Escola nº 1 em <span className="yellow">Educação de Traders</span> da América Latina</h1>
                     <p className="mb-8 text-3xl mt-8">
                         Sua jornada rumo ao <strong>sucesso começa aqui</strong>
                     </p>

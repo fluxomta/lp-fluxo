@@ -58,7 +58,7 @@ export default function Mentoria() {
             <TestimonialsSlider />
             <YouTubeSwiper />
             <TextBlockFinal />
-            <FAQAccordion />
+            {/* <FAQAccordion /> */}
         </>
     );
 }
