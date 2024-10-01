@@ -22,16 +22,16 @@ export default function HeroSection() {
                 </div>
                 <div className="w-full max-w-4xl p-1 mx-auto mb-8 mt-8">
                     <VimeoPlayer
-                        videoId="1014516216"
+                        videoId="1014552927"
                         autoplay={false}
                         loop={false}
                         muted={false}
-                        coverImage="https://vumbnail.com/1014516216.jpg"
-                        endCoverImage="https://vumbnail.com/1014516216.jpg"
+                        coverImage="https://vumbnail.com/1014552927.jpg"
+                        endCoverImage="https://vumbnail.com/1014552927.jpg"
                     />
                 </div>
                 <div className="relative z-10 flex mx-auto">
-                    <Link href="#assine">
+                    <Link href="#inscreva-se">
                         <button className="flex items-center justify-center w-full group btn md:btn-large">
                             Quero Ganhar no mercado <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
                         </button>

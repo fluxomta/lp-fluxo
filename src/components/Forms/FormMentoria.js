@@ -105,10 +105,10 @@ const FormMentoria = ({ label = "Enviar" }) => {
                         value={formData.dayTrade}
                         onChange={handleChange}
                         options={[
-                            { value: 'daytrade17_1', label: 'Opero todos os dias' },
-                            { value: 'daytrade17_2', label: 'Opero quase todos os dias' },
-                            { value: 'daytrade16', label: 'Já operei, mas parei por um tempo' },
-                            { value: 'daytrade15', label: 'Não opero ainda, mas quero começar' },
+                            { value: 'opcao_01', label: 'Opero todos os dias' },
+                            { value: 'opcao_02', label: 'Opero quase todos os dias' },
+                            { value: 'opcao_03', label: 'Já operei, mas parei por um tempo' },
+                            { value: 'opcao_04', label: 'Não opero ainda, mas quero começar' },
                         ]}
                         required
                     />

@@ -38,10 +38,11 @@ export default function Home() {
         <section className="relative text-white border-t-2 border-secondary-700 black-gradient md:min-h-[75vh] flex items-center">
             <div className="max-w-6xl px-6 py-12 mx-auto text-center relative z-10">
                 <h1 className="text-3xl md:text-4xl font-bold mb-6">
-                    Obrigado por se inscrever no <span className="yellow block">Curso Gratuito de Fluxo - SpeedFlow!</span>
+                    Obrigado por se inscrever na <span className="yellow block">Mentoria Método Fluxo simplificado 3.0
+                    </span>
                 </h1>
                 <p className="text-lg md:text-xl mb-8">
-                    📧 <strong>Verifique seu email:</strong><br />  Em alguns minutos você vai receber um email com seu acesso. Fique de olho no Spam.
+                    📧 <strong>Verifique seu email:</strong><br />  Em alguns minutos você vai receber um email de confirmação de inscrição. Fique de olho no Spam.
                 </p>
                 <p className="text-lg md:text-xl mb-4">
                     📲 Canal onde ensino todos os dias minhas estratégias.

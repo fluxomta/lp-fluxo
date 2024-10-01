@@ -10,7 +10,7 @@ export default function FormInscricao() {
     return (
         <section
             className="relative text-white bg-primary-500 group">
-            <FormMentoria label="Aprenda grátis agora" />
+            <FormMentoria label="Entrar na Lista de espera" />
         </section >
     );
 }
