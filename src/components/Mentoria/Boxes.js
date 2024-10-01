@@ -71,7 +71,7 @@ export default function Boxes() {
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden ">
                         <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center order-2">
                             <h2 className="text-2xl md:text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">15 INDICADORES</span> Exclusivos: <br className='hidden md:block' />
+                                <span className="gradient-yellow-text font-bold">15 Indicadores</span> Exclusivos: <br className='hidden md:block' />
                                 o poder nas suas mãos
                             </h2>
                             <p>No método você conta com ferramentas poderosas de análise do fluxo real, são mais de <strong>15 indicadores exclusivos e uma plataforma essencial para leitura refinada O Macroflow.</strong>
@@ -116,7 +116,7 @@ export default function Boxes() {
                                 <span className="gradient-yellow-text font-bold">Aulas práticas</span> ao vivo: <br className='hidden md:block' />
                                 evolua mais rápido
                             </h2>
-                            <p><strong>Aula ao vivo com a comunidade</strong>, revisando o mercado e mostrando a execução de forma prática para você evoluir mais rápido.
+                            <p><strong>Aula ao vivo com a comunidade </strong>, revisando o mercado e mostrando a execução de forma prática para você evoluir mais rápido.
                             </p>
                         </div>
                         <div className="bg-primary-700 p-0 md:p-8">

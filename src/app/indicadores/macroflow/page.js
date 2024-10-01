@@ -54,7 +54,6 @@ export default function Indicadores() {
             <FormInscricao />
             <TextBlockThree />
             <PricingPlan />
-            <FAQAccordion />
         </>
     );
 }
