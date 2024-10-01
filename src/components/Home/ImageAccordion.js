@@ -9,10 +9,18 @@ import 'swiper/css/autoplay';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const testimonials = [
-    { id: 1, name: "img 1", message: "Feature 1!", src: '/images/Home/A_Teoria_do_mercado_1.webp' },
-    { id: 2, name: "img 2", message: "Feature 2!", src: '/images/Home/A_Teoria_do_mercado_2.webp' },
-    { id: 3, name: "img 3", message: "Feature 3!", src: '/images/Home/A_Teoria_do_mercado_3.webp' },
-    { id: 4, name: "img 4", message: "Feature 4!", src: '/images/Home/A_Teoria_do_mercado_4.webp' },
+    { id: 1, name: "Fluxo Simplificado", message: "Fluxo Simplificado", src: '/images/Home/home-01.webp' },
+    { id: 2, name: "SpeedFlow", message: "SpeedFlow", src: '/images/Home/home-02.webp' },
+    { id: 3, name: "MacroFlow", message: "MacroFlow", src: '/images/Home/home-03.webp' },
+    { id: 4, name: "Quantum LT", message: "Quantum LT", src: '/images/Home/home-04.webp' },
+    { id: 5, name: "Alvo R3", message: "Alvo R3", src: '/images/Home/home-05.webp' },
+    { id: 6, name: "Fluxo V6", message: "Fluxo V6", src: '/images/Home/home-06.webp' },
+    { id: 7, name: "Fluxo Simplificado", message: "Fluxo Simplificado", src: '/images/Home/home-01.webp' },
+    { id: 8, name: "SpeedFlow", message: "SpeedFlow", src: '/images/Home/home-02.webp' },
+    { id: 9, name: "MacroFlow", message: "MacroFlow", src: '/images/Home/home-03.webp' },
+    { id: 10, name: "Quantum LT", message: "Quantum LT", src: '/images/Home/home-04.webp' },
+    { id: 11, name: "Alvo R3", message: "Alvo R3", src: '/images/Home/home-05.webp' },
+    { id: 12, name: "Fluxo V6", message: "Fluxo V6", src: '/images/Home/home-06.webp' },
 
 ];
 
@@ -28,7 +36,7 @@ export default function ImageAccordion() {
                     Comece Agora e Transforme sua Carreira!
                 </p>
             </div>
-            <div className='pb-16 mx-auto max-w-6xl'>
+            <div className='pb-16 '>
                 <Swiper
                     spaceBetween={20}
                     loop={true}
@@ -36,7 +44,7 @@ export default function ImageAccordion() {
                         delay: 0,
                         disableOnInteraction: false,
                     }}
-                    speed={3000}
+                    speed={5000}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                     breakpoints={{
@@ -53,22 +61,22 @@ export default function ImageAccordion() {
                             slidesPerView: 2.3,
                         },
                         1280: {
-                            slidesPerView: 4,
+                            slidesPerView: 6,
                         },
                         1536: {
-                            slidesPerView: 4,
+                            slidesPerView: 6,
                         },
                     }}
                 >
                     {testimonials.map((testimonial) => (
                         <SwiperSlide key={testimonial.id}>
-                            <div className="relative  bg-primary-100 rounded-md overflow-hidden border shadow-inner">
+                            <div className="relative rounded-md overflow-hidden border shadow-inner">
                                 <Image
-                                    width={273}
-                                    height={481}
+                                    width={270}
+                                    height={478}
                                     src={testimonial.src}
                                     alt={testimonial.message}
-                                    className="transition-all ease-linear h-full brightness-75 hover:brightness-100"
+                                    className="transition-all ease-linear w-full h-full brightness-75 hover:brightness-100"
                                 />
                             </div>
                         </SwiperSlide>
