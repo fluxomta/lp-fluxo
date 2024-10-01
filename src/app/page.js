@@ -8,6 +8,7 @@ import ImageAccordion from '@/components/Home/ImageAccordion';
 import AboutSection from '@/components/Home/AboutSection';
 import TextBlockFinal from '@/components/Home/TextBlockFinal';
 import VideoSection from '@/components/Mentoria/VideoSection';
+import BgGlobe from '@/components/Home/BgGlobe';
 
 export const metadata = {
 	robots: 'index, follow',
@@ -49,6 +50,7 @@ export default function Home() {
 			<TextBlock />
 			<TextBlockTwo />
 			<ImageAccordion />
+			<BgGlobe />
 			<ProductList />
 			<AboutSection />
 			<TextBlockFinal />

@@ -8,7 +8,7 @@ export default function AboutSection() {
                 {/* Conteúdo principal */}
                 <div className='grid max-w-6xl grid-cols-1 mx-auto md:space-x-6 md:grid-cols-2 '>
                     <div className="col-span-1">
-                        <h1 className="mb-4 text-4xl font-bold md:text-5xl">Quem faz o Fluxo?</h1>
+                        <p className="mb-4 text-4xl font-bold md:text-5xl">Quem faz o Fluxo?</p>
                         <p className="mb-8 text-2xl font-semibold yellow">
                             Victor Garcia | Tony do Call
                         </p>

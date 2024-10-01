@@ -19,7 +19,7 @@ const modulos = [
     { id: 7, name: "img 7", message: "Módulo 7!", src: '/images/mentoria/thumb-7.webp' },
     { id: 8, name: "img 8", message: "Módulo 8!", src: '/images/mentoria/thumb-8.webp' },
     { id: 9, name: "img 9", message: "Módulo 9!", src: '/images/mentoria/thumb-9.webp' },
-    { id: 10, name: "img 10", message: "Módulo 10!", src: '/images/mentoria/thu10b-5.webp' },
+    { id: 10, name: "img 10", message: "Módulo 10!", src: '/images/mentoria/thumb-10.webp' },
     { id: 11, name: "img 11", message: "Módulo 11!", src: '/images/mentoria/thumb-6.webp' },
     { id: 12, name: "img 12", message: "Módulo 12!", src: '/images/mentoria/thumb-7.webp' },
     { id: 13, name: "img 13", message: "Módulo 13!", src: '/images/mentoria/thumb-8.webp' },
