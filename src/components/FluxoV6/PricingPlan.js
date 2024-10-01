@@ -20,7 +20,7 @@ const PricingPlan = () => {
                                 <p className='text-3xl font-bold md:text-5xl'>Fluxo V6 <span className='block text-2xl font-bold yellow'>O Rastreador de Fluxo</span></p>
                                 <div className='flex items-center justify-center'>
                                     <p className=" text-center black-gradient p-2 rounded-lg">
-                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 99</span>
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 69</span>
                                         <span className="text-lg font-base text-secondary-300"> /mensal</span>
                                     </p>
                                 </div>
@@ -42,7 +42,7 @@ const PricingPlan = () => {
                                 <p className='text-3xl font-bold md:text-5xl'>Pacote Flow <span className='block text-2xl font-bold yellow'>Os 4 Indicadores</span></p>
                                 <div className='flex items-center justify-center'>
                                     <p className=" text-center black-gradient p-2 rounded-lg">
-                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 229</span>
+                                        <span className="text-7xl font-bold text-secondary-500 tracking-tighter">R$ 159</span>
                                         <span className="text-lg font-base text-secondary-300"> /mensal *</span>
                                     </p>
                                 </div>
