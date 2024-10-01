@@ -38,7 +38,7 @@ export default function ImageAccordion() {
             </div>
             <div className='pb-16 '>
                 <Swiper
-                    spaceBetween={20}
+                    spaceBetween={30}
                     loop={true}
                     autoplay={{
                         delay: 0,

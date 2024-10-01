@@ -45,7 +45,7 @@ export default function Home() {
 	return (
 		<>
 			<HeroSection />
-			<VideoSection />
+			{/* <VideoSection /> */}
 			<TextBlock />
 			<TextBlockTwo />
 			<ProductList />
