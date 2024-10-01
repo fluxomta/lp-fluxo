@@ -14,31 +14,31 @@ import YouTubeSwiper from '@/components/Mentoria/YouTubeSwiper';
 
 export const metadata = {
     robots: 'index, follow',
-    title: 'Mentoria',
-    description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
-    keywords: ['Fluxo', 'Escola de Traders', 'Indicadores Profit', 'Indicadores Nelógica', 'Mercado financeiro'],
+    title: 'Mentoria - Método Fluxo simplificado 3.0',
+    description: 'O campeão das mesas vai te ensinar a ser um mestre no Mercado. Entenda definitivamente como o mercado funciona e lucre com isso.',
+    keywords: ['Mentoria', 'Mentoria Mercado financeiro', 'Fluxo simplificado', 'Fluxo', 'Indicadores Profit', 'Indicadores Nelógica', 'Daytrade'],
     openGraph: {
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        title: 'Mentoria - Método Fluxo simplificado 3.0',
+        description: 'O campeão das mesas vai te ensinar a ser um mestre no Mercado. Entenda definitivamente como o mercado funciona e lucre com isso.',
         type: 'website',
-        url: 'https://fluxomta.com',
+        url: 'https://fluxomta.com/mentoria',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: '/images/social/thumb-mentoria.png',
                 width: 1917,
                 height: 1024,
-                alt: 'Fluxo MTA - A sua escola de Traders',
+                alt: 'Mentoria - Método Fluxo simplificado 3.0',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Fluxo MTA - A sua escola de Traders',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        title: 'Mentoria - Método Fluxo simplificado 3.0',
+        description: 'O campeão das mesas vai te ensinar a ser um mestre no Mercado. Entenda definitivamente como o mercado funciona e lucre com isso.',
         images: [
             {
                 url: '/images/social/social-share.webp',
-                alt: 'Fluxo MTA - A sua escola de Traders',
+                alt: 'Mentoria - Método Fluxo simplificado 3.0',
             },
         ],
     },
