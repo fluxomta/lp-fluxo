@@ -24,11 +24,11 @@ export default function TextBlockFinal() {
                 <div className=" md:text-lg grid md:grid-cols-8 gap-8 mt-4">
                     {/* SEMESTRAL */}
                     <div className="bg-primary-500 border-2 col-span-4  border-primary-300/25 rounded-lg shadow-lg md:scale-100 md:hover:scale-105 transition-all">
-                        <div className="p-8 text-white">
+                        <div className="p-4 md:p-8 text-white">
                             <p className='text-3xl font-bold md:text-5xl mt-0.5'>Mentoria <span className='block text-3xl font-bold yellow'>Fluxo Simplificado 3.0</span><span className='block text-2xl font-bold'>Plano Anual</span></p>
                             <div className='flex items-center justify-center'>
                                 <p className=" text-left p-2 rounded-lg w-full">
-                                    <span className="text-7xl font-bold text-secondary-500 tracking-tighter"><span className='!text-[20px] !font-base text-white mr-2'>12 x</span>R$ 299,90 *</span>
+                                    <span className="text-5xl md:text-7xl font-bold text-secondary-500 tracking-tighter"><span className='!text-[12px] md:!text-[20px] !font-base text-white mr-2'>12 x</span>R$ 299,90 <small>*</small></span>
                                     <span className="text-2xl font-bold text-white block mt-2"> Ou R$2.997 à Vista</span>
                                 </p>
                             </div>

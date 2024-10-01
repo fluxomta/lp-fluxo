@@ -33,7 +33,7 @@ export default function HeroSection() {
                 <div className="relative z-10 flex mx-auto">
                     <Link href="#inscreva-se">
                         <button className="flex items-center justify-center w-full group btn md:btn-large">
-                            Quero Ganhar no mercado <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1' />
+                            Quero Ganhar no mercado <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1 rotate-90 md:rotate-0' />
                         </button>
                     </Link>
                 </div>

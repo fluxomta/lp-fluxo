@@ -48,15 +48,15 @@ export default function Boxes() {
                 <div className="flex flex-col gap-8 mt-4 md:mt-8">
                     {/* Item01 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Estudo organizado</span> da teoria: <br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">Estudo organizado</span> da teoria: <br className='hidden md:block' />
                                 Aprenda no seu tempo
                             </h2>
                             <p>Conhecimento dividido por camadas para você fazer dinheiro desde os níveis mais baixos. <strong>Aulas práticas e objetivas para otimizar seu tempo e ter controle total do seu processo.</strong>
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref1}
                                 initial={{ opacity: 0, x: 100 }}
@@ -69,15 +69,15 @@ export default function Boxes() {
                     </div>
                     {/* Item02 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden ">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-2">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">15 INDICADORES</span> Exclusivos: <br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center order-2">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">15 INDICADORES</span> Exclusivos: <br className='hidden md:block' />
                                 o poder nas suas mãos
                             </h2>
                             <p>No método você conta com ferramentas poderosas de análise do fluxo real, são mais de <strong>15 indicadores exclusivos e uma plataforma essencial para leitura refinada O Macroflow.</strong>
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref2}
                                 initial={{ opacity: 0, x: -100 }}
@@ -90,15 +90,15 @@ export default function Boxes() {
                     </div>
                     {/* Item03 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Plataforma</span> Otimizada: <br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">Plataforma</span> Otimizada: <br className='hidden md:block' />
                                 acesso em qualquer hora e lugar
                             </h2>
                             <p>Plataforma online de ponta com recursos essenciais e  acessível pelo celular. Evolua rapidamente com <strong>um sistema integrado entre a prática e a execução</strong>.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref3}
                                 initial={{ opacity: 0, x: 100 }}
@@ -111,15 +111,15 @@ export default function Boxes() {
                     </div>
                     {/* Item04 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Aulas práticas</span> ao vivo: <br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">Aulas práticas</span> ao vivo: <br className='hidden md:block' />
                                 evolua mais rápido
                             </h2>
                             <p><strong>Aula ao vivo com a comunidade</strong>, revisando o mercado e mostrando a execução de forma prática para você evoluir mais rápido.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref4}
                                 initial={{ opacity: 0, x: -100 }}
@@ -132,15 +132,15 @@ export default function Boxes() {
                     </div>
                     {/* Item05 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">Backtesting</span> e análise dinâmica: <br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">Backtesting</span> e análise dinâmica: <br className='hidden md:block' />
                                 evolua mais rápido
                             </h2>
                             <p><strong>Backtesting focado em minimizar suas perdas</strong>, para você poder ganhar de forma consistente no mercado enfrentando as oscilações e lucrando de forma eficiente.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref5}
                                 initial={{ opacity: 0, x: 100 }}
@@ -153,15 +153,15 @@ export default function Boxes() {
                     </div>
                     {/* Item06 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
-                            <h2 className="text-3xl font-semibold">
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Estratégia</span> de foco em true points:
                                 evolua mais rápido
                             </h2>
                             <p>Estratégias simplificadas conforme cada região e Desafios do Mercado. <strong>Uma receita de análise de contexto onde o movimento realmente importa</strong>, para você explorar o mercado e tirar vantagem disso.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref6}
                                 initial={{ opacity: 0, x: -100 }}
@@ -174,15 +174,15 @@ export default function Boxes() {
                     </div>
                     {/* Item07 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center">
-                            <h2 className="text-3xl font-semibold">
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
                                 <span className="gradient-yellow-text font-bold">Comunidade:</span>
                                 aprenda com quem vive do mercado
                             </h2>
                             <p>O melhor <strong>ambiente para se conectar com profissionais, compartilhar e evoluir mais rápido.</strong> Quase 500 traders com o mesmo objetivo, operando e trocando experiências todos os dias.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref7}
                                 initial={{ opacity: 0, x: 100 }}
@@ -195,15 +195,15 @@ export default function Boxes() {
                     </div>
                     {/* Item08 */}
                     <div className="rounded-md border border-primary-300/35 w-full md:grid grid-cols-2 overflow-hidden">
-                        <div className="bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
-                            <h2 className="text-3xl font-semibold">
-                                <span className="gradient-yellow-text font-bold">+ de 150 aulas </span><br />
+                        <div className="bg-primary-700 md:bg-primary-500 p-8 flex flex-wrap items-center content-center order-1">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
+                                <span className="gradient-yellow-text font-bold">+ de 150 aulas </span><br className='hidden md:block' />
                                 e conteúdos extra
                             </h2>
                             <p>São <strong>centenas de horas de material para você avançar</strong> de forma consistente na sua jornada com o Fluxo Simplificado.
                             </p>
                         </div>
-                        <div className="bg-primary-700 p-8">
+                        <div className="bg-primary-700 p-0 md:p-8">
                             <motion.div
                                 ref={ref8}
                                 initial={{ opacity: 0, x: -100 }} // Começa fora da tela à esquerda (x negativo)

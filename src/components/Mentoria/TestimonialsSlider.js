@@ -40,11 +40,13 @@ export default function TestimonialsSlider() {
                     spaceBetween={20}
                     navigation={true}
                     loop={true}
+                    autoplay={{ delay: 5000, disableOnInteraction: false }}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
+                    centeredSlides={true}
                     breakpoints={{
                         320: {
-                            slidesPerView: 1.2,
+                            slidesPerView: 1.5,
                         },
                         480: {
                             slidesPerView: 2.3,

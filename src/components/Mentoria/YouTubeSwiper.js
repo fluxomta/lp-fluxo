@@ -21,7 +21,7 @@ export default function YouTubeSwiper() {
 
     return (
         <section
-            className="relative min-h-[80vh] text-white"
+            className="relative  text-white"
             style={{
                 backgroundImage: 'url(/images/bg/bg-03.webp)',
                 backgroundSize: 'cover',
