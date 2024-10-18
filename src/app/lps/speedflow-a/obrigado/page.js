@@ -7,7 +7,7 @@ export const metadata = {
     description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'Indicadores - Fluxo MTA',
+        title: 'Obrigado por se inscrever!',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
         url: 'https://fluxomta.com/indicadores',
@@ -37,16 +37,11 @@ export default function Home() {
     return (
         <section className="relative text-white border-t-2 border-secondary-700 black-gradient md:min-h-[75vh] flex items-center">
             <div className="max-w-6xl px-6 py-12 mx-auto text-center relative z-10">
-                <h1 className="text-3xl md:text-4xl font-bold mb-6">
-                    Obrigado por se inscrever no <span className="yellow block">Curso Gratuito de Fluxo - SpeedFlow!</span>
-                </h1>
-                <p className="text-lg md:text-xl mb-8">
-                    📧 <strong>Verifique seu email:</strong><br />  Em alguns minutos você vai receber um email com seu acesso. Fique de olho no Spam.
+                <p className="text-3xl md:text-4xl font-bold mb-6">
+                    📧 Um e-mail com acesso ao Curso foi enviado,
                 </p>
-                <p className="text-lg md:text-xl mb-4">
-                    📲 Canal onde ensino todos os dias minhas estratégias.
-                    <br />
-                    Receba análises diárias e tudo sobre Day Trade.
+                <p className="text-3xl md:text-4xl font-bold mb-6">
+                    <span className="yellow block">verifique sua caixa de entrada ou Spam e aproveite.</span>
                 </p>
                 <Link
                     href="https://t.me/tonydaytrade"
@@ -54,10 +49,6 @@ export default function Home() {
                     <Icons.Telegram className="w-12 mr-4" />
                     Clique aqui para entrar no Telegram
                 </Link>
-
-                <p className="text-lg md:text-2xl">
-                    Estamos animados para te acompanhar nessa jornada! 🚀
-                </p>
             </div>
         </section>
     );
