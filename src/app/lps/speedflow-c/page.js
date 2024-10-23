@@ -1,6 +1,6 @@
 'use client';
 
-import Form from '@/components/Forms/Form';
+import FormHubspot from '@/components/Forms/FormHubspot';
 import Link from 'next/link';
 import Icons from '@/components/Global/Icons';
 import Parceria from '@/components/Global/Parceria';
@@ -34,7 +34,7 @@ export default function Home() {
                     <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
                         Cadastre-se seu email para <span className='yellow'>aprender o método exclusivo</span>
                     </h2>
-                    <Form label="Quero meu curso de fluxo" />
+                    <FormHubspot label="Quero meu curso de fluxo" />
                 </div>
             </section>
             <Parceria />
