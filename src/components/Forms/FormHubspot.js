@@ -1,7 +1,7 @@
-// components/forms/Form.js
+// components/forms/FormHubSpot.js
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import TextInput from '@components/Forms/TextInput';
 import PhoneInput from '@components/Forms/PhoneInput';
@@ -19,8 +19,16 @@ const FormHubspot = ({ label = "Enviar", origem = "Origem Padrão" }) => {
         phoneNumber: '',
         email: '',
         dayTrade: '',
-        formularioDeOrigem: origem,
+        formularioDeOrigem: '',
     });
+
+    // Atualiza o estado com a prop `origem` assim que o componente é montado.
+    useEffect(() => {
+        setFormData((prevState) => ({
+            ...prevState,
+            formularioDeOrigem: origem,
+        }));
+    }, [origem]);
 
     const [statusMessage, setStatusMessage] = useState('');
     const [messageType, setMessageType] = useState('');
@@ -116,6 +124,7 @@ const FormHubspot = ({ label = "Enviar", origem = "Origem Padrão" }) => {
                         required
                     />
                 </div>
+                {/* Campo Hidden para Formulário de Origem */}
                 <input
                     type="hidden"
                     name="formularioDeOrigem"
