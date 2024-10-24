@@ -43,7 +43,7 @@ const FormMentoria = ({ label = "Enviar", origem = "Origem Padrão" }) => {
         setMessageType('success');
 
         try {
-            const response = await fetch('/api/hubspot', {
+            const response = await fetch('/api/mentoria', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
