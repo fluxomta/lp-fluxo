@@ -10,7 +10,7 @@ import SubmitButton from '@components/Forms/SubmitButton';
 import Message from '@components/Forms/Message';
 import LgpdText from '@components/Forms/LgpdText';
 
-const FormHubspot = ({ label = "Enviar" }) => {
+const FormHubspot = ({ label = "Enviar", origem = "Origem Padrão" }) => {
     const router = useRouter();
     const pathname = usePathname();
 
@@ -19,6 +19,7 @@ const FormHubspot = ({ label = "Enviar" }) => {
         phoneNumber: '',
         email: '',
         dayTrade: '',
+        formularioDeOrigem: origem,
     });
 
     const [statusMessage, setStatusMessage] = useState('');
@@ -49,6 +50,7 @@ const FormHubspot = ({ label = "Enviar" }) => {
                     phoneNumber: '',
                     email: '',
                     dayTrade: '',
+                    formularioDeOrigem: origem,
                 });
 
                 const currentPath = window.location.origin + pathname;
@@ -114,6 +116,11 @@ const FormHubspot = ({ label = "Enviar" }) => {
                         required
                     />
                 </div>
+                <input
+                    type="hidden"
+                    name="formularioDeOrigem"
+                    value={formData.formularioDeOrigem}
+                />
                 <div className='col-span-5 text-center max-w-2xl mx-auto'>
                     <SubmitButton label={label} />
                 </div>

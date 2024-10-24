@@ -6,7 +6,7 @@ import Icons from "@/components/Global/Icons";
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Form from "../Forms/Form";
+import FormHubSpot from "../Forms/FormHubspot";
 
 const aulas = [
     { id: 1, name: "Aula 1", message: "Miniatura da Aula 1!", src: '/images/aulas/thumb-curso-01.png' },
@@ -60,7 +60,7 @@ export default function FormInscricao() {
                     </Swiper>
                 </div>
                 <div className="relative z-10 flex items-center justify-center mx-auto">
-                    <Form label="Aprenda grátis agora" />
+                    <FormHubSpot label="Aprenda grátis agora" origem="indicadores/speedflow" />
                 </div>
             </div>
         </section >

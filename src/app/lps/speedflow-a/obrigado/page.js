@@ -38,16 +38,16 @@ export default function Home() {
         <section className="relative text-white border-t-2 border-secondary-700 black-gradient md:min-h-[75vh] flex items-center">
             <div className="max-w-6xl px-6 py-12 mx-auto text-center relative z-10">
                 <p className="text-3xl md:text-4xl font-bold mb-6">
-                    📧 Um e-mail com acesso ao Curso foi enviado,
+                    📧 Um e-mail com acesso ao curso foi enviado.
                 </p>
                 <p className="text-3xl md:text-4xl font-bold mb-6">
-                    <span className="yellow block">verifique sua caixa de entrada ou Spam e aproveite.</span>
+                    <span className="yellow block">Solicite seus indicadores de forma gratuita no nosso Canal abaixo</span>
                 </p>
                 <Link
                     href="https://t.me/tonydaytrade"
                     className="mb-2 flex items-center justify-center rounded bg-gradient-to-r from-[#1c92d2] via-[#1c92d2] to-[#7dc5d3] px-6 py-2.5 text-lg font-bold  leading-normal text-white shadow-md scale-90 hover:scale-105 transition-all duration-400">
                     <Icons.Telegram className="w-12 mr-4" />
-                    Clique aqui para entrar no Telegram
+                    Acesse nosso canal exclusivo do Telegram
                 </Link>
             </div>
         </section>

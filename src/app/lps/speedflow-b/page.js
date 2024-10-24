@@ -1,6 +1,6 @@
 'use client';
 
-import Form from '@/components/Forms/Form';
+import FormHubspot from '@/components/Forms/FormHubspot';
 import Parceria from '@/components/Global/Parceria';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -65,7 +65,7 @@ export default function Home() {
                     <h2 className="mb-8  md:text-center mx-auto text-2xl md:text-3xl md:mt-12">
                         Cadastre-se agora e <span className='yellow'>vire sua chave no mercado financeiro</span>
                     </h2>
-                    <Form label="Aprenda grátis agora" />
+                    <FormHubspot label="Aprenda grátis agora" origem="lps/speedflow-b" />
                 </div>
             </section>
             <Parceria />

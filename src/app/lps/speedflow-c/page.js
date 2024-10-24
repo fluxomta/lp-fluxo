@@ -34,7 +34,7 @@ export default function Home() {
                     <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
                         Cadastre-se seu email para <span className='yellow'>aprender o método exclusivo</span>
                     </h2>
-                    <FormHubspot label="Quero meu curso de fluxo" />
+                    <FormHubspot label="Quero meu curso de fluxo" origem="lps/speedflow-c" />
                 </div>
             </section>
             <Parceria />

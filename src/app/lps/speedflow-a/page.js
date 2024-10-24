@@ -1,6 +1,6 @@
 'use client';
 
-import Form from '@/components/Forms/Form';
+import FormHubspot from '@/components/Forms/FormHubspot';
 import Link from 'next/link';
 import Icons from '@/components/Global/Icons';
 import Parceria from '@/components/Global/Parceria';
@@ -65,7 +65,7 @@ export default function Home() {
                 <h2 className="mb-8 md:text-center mx-auto text-2xl md:text-3xl md:mt-12">
                     Vire sua chave no mercado gratuitamente.
                 </h2>
-                <Form label="Quero meu curso de fluxo" />
+                <FormHubspot label="Quero meu curso de fluxo" origem="lps/speedflow-a" />
             </div>
         </>
 
