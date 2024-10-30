@@ -13,7 +13,7 @@ export const metadata = {
         url: 'https://fluxomta.com/lps/presente-xp',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: '/images/social/presente-xp.webp',
                 width: 1917,
                 height: 1024,
                 alt: 'Presente XP',
@@ -26,7 +26,7 @@ export const metadata = {
         description: ' 3 indicadores que vão te fazer lucrar no Mercado.',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: '/images/social/presente-xp.webp',
                 alt: 'Presente XP',
             },
         ],

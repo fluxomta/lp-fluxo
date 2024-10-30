@@ -24,7 +24,7 @@ export const metadata = {
         url: 'https://fluxomta.com/mentoria',
         images: [
             {
-                url: '/images/social/thumb-mentoria.png',
+                url: '/images/social/mentoria.webp',
                 width: 1917,
                 height: 1024,
                 alt: 'Mentoria - Método Fluxo simplificado 3.0',
@@ -37,7 +37,7 @@ export const metadata = {
         description: 'O campeão das mesas vai te ensinar a ser um mestre no Mercado. Entenda definitivamente como o mercado funciona e lucre com isso.',
         images: [
             {
-                url: '/images/social/social-share.webp',
+                url: '/images/social/mentoria.webp',
                 alt: 'Mentoria - Método Fluxo simplificado 3.0',
             },
         ],

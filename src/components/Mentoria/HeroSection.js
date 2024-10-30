@@ -17,7 +17,7 @@ export default function HeroSection() {
             <div className="flex flex-col justify-between items-center h-full max-w-7xl px-4 py-12 mx-auto relative z-10">
                 <div className="max-w-5xl mx-auto text-center">
                     <p className="mb-4 text-4xl font-bold md:text-7xl">Feito para você ganhar</p>
-                    <h1 className='mb-4 text-4xl'>Método <span className='yellow font-bold uppercase'>Fluxo simplificado 3.0</span></h1>
+                    <h1 className='mb-4 text-4xl'>Mentoria <span className='yellow font-bold uppercase'>Fluxo simplificado 3.0</span></h1>
 
                 </div>
                 <div className="w-full max-w-4xl p-1 mx-auto mb-8 mt-8">
