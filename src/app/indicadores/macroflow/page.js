@@ -19,7 +19,7 @@ export const metadata = {
         title: 'MacroFlow - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores/alvo-R3',
+        url: 'https://fluxomta.com/indicadores/macroflow',
         images: [
             {
                 url: 'images/social/social-share.webp',

@@ -17,7 +17,7 @@ export const metadata = {
         title: 'SpeedFlow - O Rastreador de Alvos - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores/alvo-R3',
+        url: 'https://fluxomta.com/indicadores/speedflow',
         images: [
             {
                 url: 'images/social/speedflow.webp',

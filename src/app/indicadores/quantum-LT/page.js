@@ -17,7 +17,7 @@ export const metadata = {
         title: 'Quantum LT | O Rastreador de Liquidez - Fluxo MTA',
         description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
         type: 'website',
-        url: 'https://fluxomta.com/indicadores/rastreador-de-liquidez',
+        url: 'https://fluxomta.com/indicadores/quantum-LT',
         images: [
             {
                 url: 'images/social/social-share.webp',
