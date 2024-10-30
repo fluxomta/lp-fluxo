@@ -1,5 +1,3 @@
-'use client';
-
 import FormHubspot from '@/components/Forms/FormHubspot';
 import Parceria from '@/components/Global/Parceria';
 
@@ -57,7 +55,6 @@ export default function Home() {
                             </h1>
                             <p className="mb-4 max-w-5xl mx-auto text-4xl font-bold text-left md:text-5xl text-white">
                                 Esse é o Presente da XP para você.
-
                             </p>
 
                         </div>
