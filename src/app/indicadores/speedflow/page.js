@@ -11,11 +11,11 @@ import FAQAccordion from '@/components/Global/FAQAccordion';
 export const metadata = {
     robots: 'index, follow',
     title: 'SpeedFlow - Fluxo MTA',
-    description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+    description: 'Este método revolucionário simplifica sua análise de mercado e garante que você alcance um novo patamar de leitura',
     keywords: ['Fluxo', 'Indicadores', 'Indicadores Profit', 'Indicadores Nelógica'],
     openGraph: {
-        title: 'SpeedFlow - O Rastreador de Alvos - Fluxo MTA',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        title: 'SpeedFlow - Aprenda a operar como os grandes tubarões com o fluxo real',
+        description: 'Este método revolucionário simplifica sua análise de mercado e garante que você alcance um novo patamar de leitura',
         type: 'website',
         url: 'https://fluxomta.com/indicadores/speedflow',
         images: [
@@ -29,8 +29,8 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'SpeedFlow - O Rastreador de Alvos - Fluxo MTA',
-        description: 'Nós acreditamos que o sucesso no mercado financeiro começa com uma base sólida de conhecimento e as ferramentas certas.',
+        title: 'SpeedFlow - Aprenda a operar como os grandes tubarões com o fluxo real',
+        description: 'Este método revolucionário simplifica sua análise de mercado e garante que você alcance um novo patamar de leitura',
         images: [
             {
                 url: 'images/social/speedflow.webp',
