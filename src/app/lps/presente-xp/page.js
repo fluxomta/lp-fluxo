@@ -1,4 +1,4 @@
-import FormHubspot from '@/components/Forms/FormHubspot';
+import FormXP from '@/components/Forms/FormXP';
 import Parceria from '@/components/Global/Parceria';
 
 export const metadata = {
@@ -62,7 +62,7 @@ export default function Home() {
                     <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
                         Se Inscreve Agora e Ganhe também o  <span className='font-bold'>Curso ABC do Fluxo!</span>
                     </h2>
-                    <FormHubspot label="Quero meu presente" origem="lps/presente-xp" />
+                    <FormXP label="Quero meu presente" origem="lps/presente-xp" />
                 </div>
             </section>
             <Parceria />

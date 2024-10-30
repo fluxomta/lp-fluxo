@@ -10,7 +10,7 @@ import SubmitButton from '@components/Forms/SubmitButton';
 import Message from '@components/Forms/Message';
 import LgpdText from '@components/Forms/LgpdText';
 
-const FormHubspot = ({ label = "Enviar", origem = "Origem Padrão" }) => {
+const FormXP = ({ label = "Enviar", origem = "Origem Padrão" }) => {
     const router = useRouter();
     const pathname = usePathname();
 
@@ -142,4 +142,4 @@ const FormHubspot = ({ label = "Enviar", origem = "Origem Padrão" }) => {
     );
 };
 
-export default FormHubspot;
+export default FormXP;
