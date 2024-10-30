@@ -1,4 +1,4 @@
-// src/app/api/hubspot/route.js
+// src/app/api/hubspotXP/route.js
 
 export async function POST(req) {
     try {
