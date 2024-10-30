@@ -60,7 +60,7 @@ export default function Home() {
                         </div>
                     </div>
                     <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
-                        Se Inscreve Agora e Ganhe também o  <span className='font-bold'>Curso ABC do Fluxo!</span>
+                        Se Inscreva Agora e Ganhe também o  <span className='font-bold'>Curso ABC do Fluxo!</span>
                     </h2>
                     <FormXP label="Quero meu presente" origem="lps/presente-xp" />
                 </div>
