@@ -48,7 +48,7 @@ export default function Home() {
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="relative z-10 flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
                     <div className="relative z-10 flex items-center ">
-                        <div className="w-full hidden md:block">
+                        <div className="w-full ">
                             <h1 className="mb-4 max-w-5xl mx-auto text-4xl font-bold text-left md:text-5xl text-secondary-500">
                                 3 indicadores que vão te fazer<br className='hidden md:block' /> lucrar no mercado.
 

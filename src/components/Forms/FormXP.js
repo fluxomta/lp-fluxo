@@ -130,7 +130,7 @@ const FormXP = ({ label = "Enviar", origem = "Origem Padrão" }) => {
                     name="formularioDeOrigem"
                     value={formData.formularioDeOrigem}
                 />
-                <div className='col-span-5 text-center max-w-2xl mx-auto'>
+                <div className='col-span-5 text-center max-w-3xl mx-auto'>
                     <SubmitButton label={label} />
                 </div>
             </form>
