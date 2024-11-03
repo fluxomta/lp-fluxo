@@ -47,21 +47,18 @@ export default function Home() {
             >
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="relative z-10 flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
-                    <div className="relative z-10 flex items-center ">
-                        <div className="w-full ">
-                            <h1 className="mb-4 max-w-5xl mx-auto text-4xl font-bold text-left md:text-5xl text-secondary-500">
-                                3 indicadores que vão te fazer<br className='hidden md:block' /> lucrar no mercado.
-
+                    <div className="relative z-10 flex items-center mb-6">
+                        <div className="w-full text-center">
+                            <h1 className="mb-8 max-w-5xl mx-auto text-4xl font-bold md:text-5xl text-white">
+                                <span className='yellow'>Curso ABC do Fluxo + 3 Indicadores</span> <br className='hidden md:block' /> que vai te fazer lucrar no mercado!
                             </h1>
-                            <p className="mb-4 max-w-5xl mx-auto text-4xl font-bold text-left md:text-5xl text-white">
+                            <p className="max-w-5xl mx-auto text-4xl font-bold md:text-5xl text-white">
                                 Esse é o Presente da XP para você.
                             </p>
 
                         </div>
                     </div>
-                    <h2 className="mb-8  md:text-center mx-auto text-3xl md:text-3xl md:mt-12">
-                        Se Inscreva Agora e Ganhe também o  <span className='font-bold'>Curso ABC do Fluxo!</span>
-                    </h2>
+
                     <FormXP label="Quero meu presente" origem="lps/presente-xp" />
                 </div>
             </section>
