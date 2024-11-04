@@ -48,11 +48,11 @@ export default function Home() {
                 <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-20 bg-primary-500'></div>
                 <div className="relative z-10 flex flex-col justify-between h-full max-w-6xl px-4 py-16 mx-auto">
                     <div className="relative z-10 flex items-center mb-6">
-                        <div className="w-full text-center">
-                            <h1 className="mb-8 max-w-5xl mx-auto text-4xl font-bold md:text-5xl text-white">
-                                <span className='yellow'>Curso ABC do Fluxo + 3 Indicadores</span> <br className='hidden md:block' /> que vai te fazer lucrar no mercado!
+                        <div className="w-full text-left">
+                            <h1 className="mb-8  mx-auto text-4xl font-bold md:text-5xl text-white">
+                                <span className='yellow'>Curso ABC do Fluxo + 3 Indicadores</span> que vão te fazer lucrar no mercado!
                             </h1>
-                            <p className="max-w-5xl mx-auto text-4xl font-bold md:text-5xl text-white">
+                            <p className=" mx-auto text-4xl font-bold md:text-5xl text-white">
                                 Esse é o Presente da XP para você.
                             </p>
 
