@@ -10,6 +10,7 @@ import Boxes from '@/components/Mentoria/Boxes';
 import BgGlobe from '@/components/Mentoria/BgGlobe';
 import AboutSection from '@/components/Mentoria/AboutSection';
 import TestimonialsSlider from '@/components/Mentoria/TestimonialsSlider';
+import Bonus from '@/components/Mentoria/Bonus';
 import YouTubeSwiper from '@/components/Mentoria/YouTubeSwiper';
 
 export const metadata = {
@@ -57,6 +58,7 @@ export default function Mentoria() {
             <AboutSection />
             <TestimonialsSlider />
             <YouTubeSwiper />
+            <Bonus />
             <TextBlockFinal />
             {/* <FAQAccordion /> */}
         </>
