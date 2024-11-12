@@ -41,7 +41,7 @@ export default function Boxes() {
     return (
         <section className="text-white bg-primary-700">
             <div className='relative z-10 max-w-6xl px-4 pt-16 pb-12 mx-auto'>
-                <h2 className="mb-4 text-xl font-semibold text-white md:text-center md:text-3xl">
+                <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 text-center md:text-5xl">
                     Tudo que você precisa para ser um Trader Profissional
                 </h2>
 

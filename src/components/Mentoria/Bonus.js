@@ -5,7 +5,7 @@ export default function Bonus() {
     return (
         <section className="relative text-white bg-black">
             <div className="max-w-6xl px-4 py-16 mx-auto md:text-lg">
-                <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 md:text-center md:text-5xl"><span className="yellow">Bônus Exclusivos</span> da Mentoria</h2>
+                <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 text-center md:text-5xl"><span className="yellow">Bônus Exclusivos</span> da Mentoria</h2>
                 <p className="md:text-center text-xl">Aproveite o suporte e as vantagens essenciais para o sucesso!</p>
 
                 <div className="md:grid md:grid-cols-2 gap-8 mt-12">

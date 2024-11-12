@@ -7,6 +7,8 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { Autoplay, FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import Link from 'next/link';
+import Icons from '@/components/Global/Icons';
 
 const videos = [
     { id: 'video1', url: 'https://www.youtube.com/embed/URhHFfAm2r4', thumb: 'https://img.youtube.com/vi/URhHFfAm2r4/maxresdefault.jpg' },
@@ -82,6 +84,13 @@ export default function YouTubeSwiper() {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+                <div className="relative z-10 flex mx-auto w-full justify-center mt-8">
+                    <Link href="#inscreva-se">
+                        <button className="flex items-center justify-center w-full group btn md:btn-large">
+                            Quero ganhar no mercado <Icons.AngleRight className='w-6 ml-2 transition-transform duration-300 transform group-hover:translate-x-1 rotate-90 md:rotate-0' />
+                        </button>
+                    </Link>
+                </div>
             </div>
         </section>
     );
