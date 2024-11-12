@@ -32,11 +32,11 @@ const PricingPlan = () => {
                                 <li className='flex items-center border-b py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full" />Acesso Imediato</li>
                                 <li className='flex items-center  py-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                             </ul>
-                            <Link href="https://assine.fluxomta.com/?add-to-cart=93"
-                                className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
+                            <Link href="https://fluxomta.com/mentoria#inscreva-se"
+                                className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero conhecer Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
+                            <p className='text-sm font-base text-gray-700 italic'>*Os indicadores fazem parte da Mentoria do Fluxo Simplificado 3.0</p>
                         </div>
                     </div>
 
@@ -65,11 +65,11 @@ const PricingPlan = () => {
                                     <li className='flex items-center border-b p-2'><Icons.Check className="w-7 mr-1 text-primary-700 rounded-full " />Suporte exclusivo</li>
                                 </ul>
                             </div>
-                            <Link href="https://assine.fluxomta.com/?add-to-cart=89"
-                                className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero Assinar Agora!</Link>
+                            <Link href="https://fluxomta.com/mentoria#inscreva-se"
+                                className="mt-4 block w-full bg-green-700 rounded-md  uppercase py-4 text-lg font-semibold text-white text-center">Quero conhecer Agora!</Link>
                         </div>
                         <div className="pb-8 px-6">
-                            <p className='text-sm font-base text-gray-700 italic'>*A assinatura é renovada automaticamente no seu cartão de crédito a cada mês. Antes de cada renovação, você pode solicitar o cancelamento da assinatura.</p>
+                            <p className='text-sm font-base text-gray-700 italic'>*Os indicadores fazem parte da Mentoria do Fluxo Simplificado 3.0</p>
                         </div>
                     </div>
 

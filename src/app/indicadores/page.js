@@ -52,7 +52,7 @@ export default function Indicadores() {
             <SpeedFlow />
             <TestimonialsSlider />
             <TextBlockTwo />
-            <FAQAccordion />
+            {/* <FAQAccordion /> */}
         </>
     );
 }

@@ -50,7 +50,7 @@ export default function Indicadores() {
             <TextBlockThree />
             <ZDSection />
             <PricingPlan />
-            <FAQAccordion />
+            {/* <FAQAccordion /> */}
         </>
     );
 }
