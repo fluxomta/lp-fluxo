@@ -15,8 +15,8 @@ export default function HeroSection() {
         >
             <div className='absolute top-0 left-0 z-0 w-full h-full bg-opacity-80 bg-primary-700'></div>
             <div className="flex flex-col justify-between items-center h-full max-w-7xl px-4 py-12 mx-auto relative z-10">
-                <div className="max-w-5xl mx-auto text-center">
-                    <p className="mb-4 text-4xl font-bold md:text-7xl">Feito para você ganhar</p>
+                <div className="max-w-6xl mx-auto text-center">
+                    <p className="mb-4 text-4xl font-bold md:text-7xl">O Método definitivo para lucrar no <span className='yellow'>Mercado Financeiro</span></p>
                     <h1 className='mb-4 text-4xl'>Mentoria <span className='yellow font-bold uppercase'>Fluxo simplificado 3.0</span></h1>
 
                 </div>
