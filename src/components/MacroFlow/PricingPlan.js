@@ -10,7 +10,7 @@ const PricingPlan = () => {
             <div className='absolute w-full  bg-secondary-500 h-[45%] md:h-[55%] z-0 top-0'></div>
             <div className="max-w-7xl px-4 py-12 mx-auto md:text-lg relative z-10">
                 <div className="p-2 text-4xl font-bold text-center  rounded-md md:text-5xl text-primary-500  border-secondary-700">
-                    <h2 className='text-4xl font-bold text-center md:text-5xl '>Assine agora</h2>
+                    <h2 className='text-4xl font-bold text-center md:text-5xl '>Conheça agora</h2>
                     <p className=' text-2xl font-base text-center md:text-4xl'>e acesse o método e indicadores imediatamente</p>
                 </div>
                 <div className="grid grid-cols-2 md:gap-8 mt-4">
