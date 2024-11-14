@@ -7,7 +7,7 @@ export default function BgGlobe() {
     return (
         <section className="relative text-white bg-black">
             <div className="max-w-6xl px-4 py-16 mx-auto md:text-lg">
-                <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 text-center md:text-5xl">Mentoria<span className="yellow uppercase">Fluxo Simplificado 3.0</span></h2>
+                <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 text-center md:text-xl">Mentoria <span className="yellow uppercase">Fluxo Simplificado 3.0</span></h2>
                 <p className="text-center text-xl">Eu criei uma <span className=" font-bold">mentoria estruturada em uma estratégia única e exclusiva</span>, para você ter resultados de verdade!</p>
 
                 <div className="md:grid md:grid-cols-3 gap-4 mt-12">
