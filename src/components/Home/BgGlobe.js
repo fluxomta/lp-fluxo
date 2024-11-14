@@ -7,12 +7,6 @@ export default function BgGlobe() {
     return (
         <section
             className="relative text-white bg-black"
-            style={{
-                backgroundImage: 'url(/images/bg/bg-cards.webp)',
-                backgroundSize: 'auto',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-            }}
         >
             <div className="max-w-6xl px-4 py-16 mx-auto md:text-lg ">
                 <h2 className="max-w-5xl mx-auto mb-4 text-2xl font-bold md:mb-8 md:text-center md:text-5xl">Método <span className="yellow">Fluxo simplificado 3.0</span></h2>
