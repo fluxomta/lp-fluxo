@@ -47,15 +47,6 @@ export default function Header() {
                         </button>
 
                         <nav className="items-center hidden space-x-6 font-medium lg:flex text-md">
-
-                            <Link href="/indicadores"
-                                className="relative"
-                                onMouseEnter={() => setShowSubmenu(true)}
-                            >
-                                <button className="hover:text-secondary-600 focus:outline-none">
-                                    Indicadores
-                                </button>
-                            </Link>
                             <Link href="/mentoria" className="block px-4 py-2 hover:text-secondary-400">
                                 Mentoria
                             </Link>
