@@ -76,22 +76,6 @@ export default function Header() {
                             <span className="block font-semibold text-secondary-400">Indicadores</span>
                         </Link>
 
-                        <Link href="/indicadores/quantum-LT" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Quantum LT</span>
-                        </Link>
-                        <Link href="/indicadores/alvo-R3" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Alvo R3 </span>
-                        </Link>
-                        <Link href="/indicadores/fluxo-V6" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Fluxo V6</span>
-                        </Link>
-                        <Link href="/indicadores/macroflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">Macroflow </span>
-                        </Link>
-                        <Link href="/indicadores/speedflow" onClick={() => setIsDrawerOpen(false)} className="block px-4 py-2 hover:text-secondary-400">
-                            <span className="block font-semibold">SpeedFlow </span>
-                        </Link>
-
                     </div>
                     <Link href="/mentoria" className="block px-4 py-2 hover:text-secondary-400">
                         <span className="block font-semibold text-secondary-400">Mentoria</span>
