@@ -68,12 +68,7 @@ export default function Header() {
                     <Link href="/" className="hover:text-secondary-400" onClick={() => setIsDrawerOpen(false)}>
                         Inicio
                     </Link>
-                    <div className="space-y-2">
-                        <Link href="/indicadores" onClick={() => setIsDrawerOpen(false)}>
-                            <span className="block font-semibold text-secondary-400">Indicadores</span>
-                        </Link>
-
-                    </div>
+                    
                     <Link href="/mentoria" className="block px-4 py-2 hover:text-secondary-400">
                         <span className="block font-semibold text-secondary-400">Mentoria</span>
                     </Link>
